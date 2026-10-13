@@ -1,0 +1,71 @@
+{
+  "threeaims": {
+    "source": "https://threeaims-support.u-kitazume.chatgpt.site/",
+    "sourceCommit": "6684fc15a6fdfad474a1bb502124d2a4d3ad034c",
+    "date": "2026-09-25",
+    "ja": {
+      "intro": "目標の記録、振り返り、通知について。",
+      "contact": "iOSのバージョンと状況をお知らせください。目標に含まれる機密情報は送らないでください。",
+      "support": "<section><h2>目標を記録する</h2><p>TODAYで目標を入力し、達成したらDONEを押します。過去の記録はCALENDARで確認できます。</p></section><section><h2>通知について</h2><p>通知は任意です。その日の通知を設定するため、毎日アプリを開いてください。端末の「設定」で通知を許可してください。</p></section><section><h2>記録について</h2><p>目標や記録は端末内に保存されます。アプリを削除すると記録が失われる場合があります。</p></section>",
+      "privacy": "<p>適用日：2026年9月25日</p><p>目標の文章・達成状況・昼夜のチェック状況・通知時刻・表示状態は端末内に保存します。開発者はこれらのデータを収集・受信しません。アカウント登録、広告、アクセス解析、追跡用SDKはありません。</p><p>通知は端末内で設定します。写真ライブラリ・カメラ・マイク・連絡先・位置情報にはアクセスしません。表示する写真は開発者が提供したものです。</p><p>Appleのバックアップ設定によってはアプリのデータがバックアップに含まれます。これはAppleの方針に従います。メールでお問い合わせいただいた場合は、メールアドレスと送信内容を回答のために使用し、利用するメールサービスでも取り扱われます。</p><p>プライバシーについてのご質問は <a href=\"mailto:support@mtk.sh\">support@mtk.sh</a> へお寄せください。取り扱いを変更する場合は本ページを更新します。</p>"
+    },
+    "en": {
+      "intro": "Help with daily aims, check-ins, and reminders.",
+      "contact": "Include your iOS version and a description of the issue. Please avoid sending sensitive aim text.",
+      "support": "<section><h2>Recording your aims</h2><p>Write your three aims on TODAY and tap DONE as you finish them. Use CALENDAR to view your recorded days.</p></section><section><h2>Reminders</h2><p>Midday and night reminders use local notifications. Allow notifications in iOS Settings and open the app each day to schedule that day’s reminders.</p></section><section><h2>Your records</h2><p>Your entries are stored on your device. Deleting the app may remove its records.</p></section>",
+      "privacy": "<p>Effective September 25, 2026.</p><p>3AIMS stores aim text, completion status, checkpoint status, reminder times and visual state locally on your device using iOS storage. The developer does not collect or receive this app data. The app does not require an account and does not include advertising, analytics or tracking SDKs.</p><p>Notification permission is optional. Reminders are scheduled locally on your device. The app does not access your photo library, camera, microphone, contacts or location. Its included photographs were supplied by the developer.</p><p>Device backups may include app data according to your Apple backup settings. Apple processes such backups under its own policies. If you contact support by email, your email address and the information you choose to send are used to respond to your request and are handled by the email providers involved.</p><p>For privacy questions, contact <a href=\"mailto:support@mtk.sh\">support@mtk.sh</a>. This policy will be updated if the app's data handling changes.</p>"
+    },
+    "zh-Hans": {
+      "intro": "有关每日目标、回顾和提醒的帮助。",
+      "contact": "请说明 iOS 版本和问题情况。请勿发送目标中的敏感信息。",
+      "support": "<section><h2>记录目标</h2><p>在 TODAY 中输入三个目标，完成后点击 DONE。在 CALENDAR 中查看过去的记录。</p></section><section><h2>提醒</h2><p>午间与晚间提醒使用设备本地通知。在 iOS 设置中允许通知，并每天打开应用以设置当天的提醒。</p></section><section><h2>你的记录</h2><p>目标和记录保存在设备上。删除应用可能会移除这些记录。</p></section>",
+      "privacy": "<p>生效日期：2026年9月25日</p><p>3AIMS 使用 iOS 存储，将目标文字、完成状态、回顾状态、提醒时间和显示状态保存在设备本地。开发者不会收集或接收这些应用数据。应用无需账户，不包含广告、分析或追踪 SDK。</p><p>通知权限为可选项，提醒在设备本地安排。应用不会访问照片图库、相机、麦克风、通讯录或位置信息。应用内照片由开发者提供。</p><p>根据你的 Apple 备份设置，设备备份可能包含应用数据。Apple 按照其政策处理这些备份。如果你通过电子邮件联系支持，我们会使用你的邮件地址和你选择发送的信息来回复请求，相关邮件服务提供商也会处理这些信息。</p><p>如有隐私问题，请联系 <a href=\"mailto:support@mtk.sh\">support@mtk.sh</a>。应用的数据处理方式发生变化时，我们会更新此政策。</p>"
+    }
+  },
+  "dayslice": {
+    "source": "https://dayslice-support.u-kitazume.chatgpt.site/",
+    "sourceCommit": "77634fddd1908bce7dd3b3484e445c54059ecb3f",
+    "date": "2026-09-25",
+    "ja": {
+      "intro": "日々の記録と天気表示について。",
+      "contact": "問題の内容、端末の機種、iOSのバージョンをお知らせください。パスワードや正確な住所など、不要な個人情報は送らないでください。",
+      "support": "<h2>毎日の記録</h2><p>アプリを開いた日を、その端末のカレンダーに自動で記録します。記録は端末内に保存されます。アカウント登録は必要ありません。</p><h2>天気について</h2><p>Apple Weatherの実際の気象データを表示します。初期表示は東京です。「現在地」を押すと、許可した場合に現在地の天気を取得します。位置情報を許可しなくても、東京の天気とその他の機能を利用できます。天気の取得にはインターネット接続が必要です。</p><p>天気が表示されない場合は、通信接続を確認して「再試行」を押してください。現在地を使うには、端末の「設定」でDaySliceの位置情報の利用を許可してください。</p>",
+      "privacy": "<p class=\"muted\">更新日：2026年9月25日</p><h3>端末内の記録</h3><p>DaySliceは、アプリを開いた日付を端末内に保存し、カレンダー表示に使用します。開発者のサーバーに記録を送信することはありません。独自のアカウント、広告、行動追跡、アクセス解析SDKは使用しません。</p><h3>位置情報と天気</h3><p>「現在地」を選び、OSの許可を与えた場合にのみ位置情報を取得します。取得した位置情報はApple WeatherKitを通じた天気の取得に使用します。開発者のサーバーには送信せず、アプリが位置情報の履歴を保存することもありません。バックグラウンドでの位置追跡は行いません。位置情報の許可は端末の設定でいつでも取り消せます。東京を選ぶ場合は、あらかじめ設定された東京の座標を使用します。</p><p>気象サービスの提供に関するAppleの取り扱いは<a href=\"https://www.apple.com/legal/privacy/\">Appleのプライバシーポリシー</a>をご確認ください。</p><h3>保存期間・削除</h3><p>チェックイン記録は端末内に保持されます。端末の「設定」からアプリを削除すると、アプリのローカルデータも削除されます。「Appを取り除く」はデータを残す操作です。OSによるバックアップは端末・iCloudの設定に従います。</p><h3>お問い合わせ情報</h3><p>サポート宛てにメールを送った場合、メールアドレスと問い合わせ内容を問題への対応に使用します。お問い合わせ先は<a href=\"mailto:support@mtk.sh\">support@mtk.sh</a>です。</p><h3>このWebサイト</h3><p>このサイトに独自の追跡タグやアクセス解析スクリプトは設置していません。ホスティング提供元が、サイトの配信・安全性の確保に必要な通信情報を処理する場合があります。</p><h3>変更</h3><p>機能やデータの取り扱いを変更する場合、このページを更新します。</p>"
+    },
+    "en": {
+      "intro": "Help with daily check-ins and weather.",
+      "contact": "Include a description of the issue, your device model, and your iOS version. Do not send passwords, your precise address, or other unnecessary personal information.",
+      "support": "<section><h2>Daily check-ins</h2><p>Opening the app automatically records the day in the app’s calendar on that device. Records stay on your device. No account is required.</p></section><section><h2>Weather and location</h2><p>DaySlice shows real weather data from Apple Weather. Tokyo is the default. Choosing Current Location retrieves local weather if you grant permission. Without location permission, Tokyo weather and the other features remain available. Weather requires an internet connection.</p></section><section><h2>Weather is unavailable</h2><p>Check your internet connection and tap Retry. To use your current location, allow DaySlice to access location in your device’s Settings.</p></section>",
+      "privacy": "<p class=\"muted\">Updated September 25, 2026</p><p>DaySlice stores the dates on which you open the app locally on your device to display your check-in calendar. These records are not sent to a developer-operated server. The app does not require an account and contains no advertising, tracking, or analytics SDKs.</p><p>Weather is provided by Apple WeatherKit. Tokyo is the default location. Only when you choose the current-location option and grant system permission does the app request your location for weather retrieval through Apple WeatherKit. The app does not store a location history or track you in the background. You may revoke location permission in Settings and continue using Tokyo weather and the other features. See <a href=\"https://www.apple.com/legal/privacy/\">Apple’s Privacy Policy</a> for Apple’s data practices.</p><p>Local check-in records remain on your device until the app and its data are deleted. Offloading the app retains its data. System backups follow your device and iCloud settings.</p><p>If you email support, your email address and message are used to respond to your inquiry. This website does not add analytics or tracking scripts; its hosting provider may process connection information necessary to serve and secure the site.</p><p>For questions, contact <a href=\"mailto:support@mtk.sh\">support@mtk.sh</a>. We will update this page when the app’s data practices change.</p>"
+    },
+    "zh-Hans": {
+      "intro": "有关每日打卡和天气显示的帮助。",
+      "contact": "请说明问题情况、设备型号和 iOS 版本。请勿发送密码、精确地址等不必要的个人信息。",
+      "support": "<section><h2>每日记录</h2><p>打开应用时，当天日期会自动记录在该设备的应用日历中。记录保存在设备本地，无需注册账户。</p></section><section><h2>天气与位置</h2><p>DaySlice 显示 Apple Weather 的真实天气数据，默认地点为东京。点击“当前位置”并授权后，应用会获取当地天气。即使不授权位置，仍可使用东京天气和其他功能。获取天气需要网络连接。</p></section><section><h2>天气无法显示</h2><p>请检查网络连接并点击“重试”。如需使用当前位置，请在设备“设置”中允许 DaySlice 访问位置信息。</p></section>",
+      "privacy": "<p>更新日期：2026年9月25日</p><section><h2>设备内的记录</h2><p>DaySlice 将打开应用的日期保存在设备本地，用于显示打卡日历。记录不会发送到开发者的服务器。应用不使用独立账户、广告、行为追踪或分析 SDK。</p></section><section><h2>位置信息与天气</h2><p>只有选择“当前位置”并授予系统权限后，应用才会获取位置，用于通过 Apple WeatherKit 获取天气。位置不会发送到开发者的服务器，应用不会保存位置历史，也不会在后台追踪位置。你可随时在设备设置中撤销位置权限。选择东京时，应用使用预设的东京坐标。有关 Apple 的数据处理，请参阅 <a href=\"https://www.apple.com/legal/privacy/\">Apple 隐私政策</a>。</p></section><section><h2>保存与删除</h2><p>打卡记录保留在设备中。在设备设置中删除应用也会删除本地应用数据；卸载应用（Offload App）会保留数据。系统备份遵循设备与 iCloud 设置。</p></section><section><h2>联系信息</h2><p>如果你向支持邮箱发送邮件，你的邮件地址和内容将用于处理问题。联系方式：<a href=\"mailto:support@mtk.sh\">support@mtk.sh</a>。</p></section><section><h2>本网站</h2><p>本网站未添加独立追踪标签或分析脚本。托管服务提供商可能会处理提供网站和保障安全所需的连接信息。</p></section><section><h2>变更</h2><p>功能或数据处理方式发生变化时，我们会更新本页面。</p></section>"
+    }
+  },
+  "v-type": {
+    "source": "https://vtype-game.u-kitazume.chatgpt.site/",
+    "sourceCommit": "ebeaaf8444cc6b5934bd971b1021eca623d24380",
+    "date": "2026-09-27",
+    "ja": {
+      "intro": "操作方法と、ゲーム中に困ったときの対処。",
+      "contact": "使用機種・iOSバージョン・発生したSCALEと問題の内容をお知らせください。",
+      "support": "<section><h2>基本操作</h2><p>画面をドラッグして水滴を動かし、敵とビームの軌道を読みます。外殻の敵をすべて倒すと入口が開き、標的をタップして侵入できます。</p></section><section><h2>操作できない</h2><p>タイトル画面の「開始 / START」をタップしてください。プレイ中は水滴そのものではなく、画面の空いている場所からでもドラッグできます。</p></section><section><h2>敵を倒したのに進めない</h2><p>殲滅率が99.999%になると短時間だけ突破口が開きます。中央の標的をタップしてください。</p></section><section><h2>ENERGYが少ない</h2><p>画面上端まで移動して少し長押しすると撤離します。ひとつ前の尺度から再開し、ENERGYを1回復します。</p></section><section><h2>音が出ない</h2><p>iPhoneの音量と消音設定をご確認ください。Bluetooth機器へ音声が出力されていないかも確認してください。</p></section>",
+      "privacy": "<p>V-Typeは、個人情報、位置情報、連絡先、利用履歴、広告識別子を収集しません。アカウント登録、広告、アプリ内課金、第三者解析SDKはありません。ゲームはダウンロード後、ネットワーク接続なしでプレイできます。</p><p class=\"muted\">Privacy policy effective: September 27, 2026. This policy applies to V-Type for iPhone.</p>"
+    },
+    "en": {
+      "intro": "Controls and troubleshooting for V-Type.",
+      "contact": "Include your device model, iOS version, the SCALE where the issue occurred, and a description of the problem.",
+      "support": "<section><h2>Basic controls</h2><p>Drag anywhere on the screen to move the droplet and read enemy and beam trajectories. After defeating the outer-shell enemies, tap the target to enter the breach.</p></section><section><h2>Controls do not respond</h2><p>Tap 開始 / START on the title screen. During play, you can begin dragging from empty space on the screen; you do not need to touch the droplet itself.</p></section><section><h2>I defeated the enemies but cannot advance</h2><p>When the destruction rate reaches 99.999%, the breach opens briefly. Tap the target in the center.</p></section><section><h2>Low ENERGY</h2><p>Move to the top edge of the screen and hold briefly to retreat. Resume from the previous scale and recover 1 ENERGY.</p></section><section><h2>No sound</h2><p>Check your iPhone’s volume and silent-mode settings, and whether audio is being routed to a Bluetooth device.</p></section>",
+      "privacy": "<p>V-Type does not collect personal information, location, contacts, usage history, or advertising identifiers. There are no accounts, ads, in-app purchases, or third-party analytics SDKs. After downloading, you can play without a network connection.</p><p>Privacy policy effective: September 27, 2026. This policy applies to V-Type for iPhone.</p>"
+    },
+    "zh-Hans": {
+      "intro": "V-Type 的操作方法和问题排查。",
+      "contact": "请提供设备型号、iOS 版本、出现问题的 SCALE 和问题描述。",
+      "support": "<section><h2>基本操作</h2><p>拖动屏幕移动水滴，观察敌人和光束的轨迹。消灭外壳的敌人后入口会开启，点击目标即可进入。</p></section><section><h2>无法操作</h2><p>请在标题画面点击“開始 / START”。游戏中可以从屏幕空白处开始拖动，无需直接触碰水滴。</p></section><section><h2>消灭敌人后无法前进</h2><p>歼灭率达到 99.999% 时，突破口会短暂开启。请点击中央目标。</p></section><section><h2>ENERGY 不足</h2><p>移动至屏幕顶端并短暂长按即可撤离。你将从上一尺度继续，并恢复 1 点 ENERGY。</p></section><section><h2>没有声音</h2><p>请检查 iPhone 的音量和静音设置，并确认音频是否输出到了蓝牙设备。</p></section>",
+      "privacy": "<p>V-Type 不收集个人信息、位置信息、通讯录、使用历史或广告标识符。游戏无需账户，没有广告、应用内购买或第三方分析 SDK。下载后无需网络连接即可游玩。</p><p>隐私政策生效日期：2026年9月27日。本政策适用于 iPhone 版 V-Type。</p>"
+    }
+  }
+}

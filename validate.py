@@ -35,4 +35,4 @@ for f in root.rglob('*.html'):
 for node in ET.parse(root/'sitemap.xml').getroot():
  url=node.find('{*}loc').text
  assert (root/urlsplit(url).path.lstrip('/')/'index.html').exists(),url
-print(f'PASS: {count} HTML pages, {links} internal links/assets, 12 sitemap entries, canonical/hreflang and JSON-LD.')
+print(f'PASS: {count} HTML pages, {links} internal links/assets, {len(ET.parse(root/"sitemap.xml").getroot())} sitemap entries, canonical/hreflang and JSON-LD.')
