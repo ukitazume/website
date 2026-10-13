@@ -6,3 +6,10 @@
 @media(max-width:390px){.hero h1{font-size:49px}.hero-mark{font-size:76px;right:5%;top:205px}.hero-intro{max-width:85%;font-size:11px}.wordmark{font-size:20px}nav{gap:15px}.collection-head{display:block}.filters{margin-top:15px;justify-content:flex-start}.detail-heading h1{font-size:42px}.detail-sheet .wordmark{font-size:19px}.detail-tag{font-size:18px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
 @media(max-width:760px){html[lang=ja] .hero h1,html[lang=zh-Hans] .hero h1{font-size:clamp(32px,10.2vw,57px);letter-spacing:-1.5px}.hero-mark{top:228px;font-size:70px}.hero-intro{max-width:81%}.hero{min-height:455px}}
+
+/* A restrained portfolio introduction, shared by all language editions. */
+.hero{min-height:0;padding:82px 4% 86px}
+.hero-copy{display:grid;grid-template-columns:1.5fr 1fr;align-items:end;gap:60px}
+html[lang] .hero h1{font-family:var(--sans);font-size:clamp(54px,6.2vw,88px);font-weight:400;letter-spacing:-.055em;line-height:1.08;margin:0}
+.hero-intro{font-size:13px;line-height:1.95;margin:0 0 8px;max-width:none;color:#676960}
+@media(max-width:760px){.hero{min-height:0;padding:56px 6% 54px}.hero-copy{display:block}html[lang] .hero h1{font-size:clamp(45px,11.6vw,70px);letter-spacing:-.055em;line-height:1.1}.hero-intro{margin:25px 0 0;font-size:11px;max-width:none}.collection{padding-top:0}}
