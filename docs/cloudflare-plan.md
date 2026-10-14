@@ -66,7 +66,7 @@ languageは `ja`、`en`、`zh-Hans`。slugは `threeaims`、`dayslice`、`v-type
 
 1. 旧サポートサイトから新しい本番URLへ転送する。旧URLの `#privacy` や `#privacy-en` からも適切な言語のポリシーへ到達できるようにする。
 2. App Store ConnectのサポートURL、マーケティングURL、プライバシーポリシーURLを、新しい一般公開URLへ変更する。アプリの審査・バージョン状態を確認してから更新する。
-3. Search Consoleの所有権確認とサイトマップ登録を行う。計測を追加する場合は、既存の「独自の解析スクリプトを設置していない」という案内との整合も更新する。
+3. Search ConsoleのURLプレフィックスプロパティ `https://mtk.sh/` はHTMLタグで所有権を確認し、`https://mtk.sh/sitemap.xml` を送信済み。ドメインプロパティ `mtk.sh` はDNS確認待ち。計測を追加する場合は、既存の「独自の解析スクリプトを設置していない」という案内との整合も更新する。
 
 ## 移行対象
 
