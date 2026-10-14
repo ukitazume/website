@@ -2,17 +2,30 @@
 
 更新日 2026年10月14日
 
-現在はSitesで本人限定プレビューを運用する。正式公開はCloudflareを予定しており、独自ドメイン・DNS・App Store Connectの登録URL・旧サポートサイトの転送は、正式公開時に切り替える。
+## 現在の公開状態
+
+2026年10月14日、Cloudflare Pagesへ公開し、`https://mtk.sh` を本番ドメインに設定した。Sitesの本人限定プレビューは確認用として残す。トップ・アプリ詳細・カスタム404はHTTPSで応答し、全ページのcanonicalとSNSメタデータは `mtk.sh` を参照する。
+
+| 設定 | 現在値 |
+| --- | --- |
+| Pagesプロジェクト | `mtk-sh` |
+| Pages URL | `https://mtk-sh.pages.dev` |
+| カスタムドメイン | `https://mtk.sh` |
+| DNS | `mtk.sh` のプロキシ済みCNAME → `mtk-sh.pages.dev` |
+| ビルド | `SITE_ORIGIN=https://mtk.sh node build.mjs` |
+| 配信 | `npx wrangler pages deploy dist --project-name=mtk-sh --branch main` |
+
+DNSの既存MX・TXT・Stripe確認レコードと他のサブドメインは維持している。現在のPagesプロジェクトはGit連携なしの直接アップロードで公開する。Cloudflare側のビルド設定にも `node build.mjs` と `dist` を登録したが、Git連携を追加するまでは上記Wranglerコマンドで配信する。
 
 ## 配信方式
 
 このサイトはNode.jsでHTMLを事前生成する静的サイト。閲覧時のサーバー処理、データベース、Sites専用APIに依存しない。生成済みの `dist/` が配信対象となる。Cloudflare Pagesは静的HTMLを配信できるため、今回の構成をそのまま載せられる。[Cloudflare公式の静的HTMLガイド](https://developers.cloudflare.com/pages/framework-guides/deploy-anything/)
 
-Cloudflare Pagesを使う場合の設定案は次のとおり。まだCloudflareへのデプロイは行っていない。
+Cloudflare Pagesの設定は次のとおり。
 
 | 設定 | 値 |
 | --- | --- |
-| プロジェクトルート | `app-collection/`。このフォルダを単独リポジトリにした場合はルート |
+| プロジェクトルート | `app-collection/` |
 | フレームワーク | なし |
 | ビルドコマンド | `node build.mjs` |
 | 公開ディレクトリ | `dist` |
@@ -20,7 +33,7 @@ Cloudflare Pagesを使う場合の設定案は次のとおり。まだCloudflare
 
 ビルドコマンド、公開ディレクトリ、環境変数はCloudflare側で設定する。[Cloudflareのビルド設定](https://developers.cloudflare.com/pages/configuration/build-configuration/)
 
-`SITE_ORIGIN` を省略すると現在のSites URLを使用する。指定する場合は `https://example.com` のようなoriginだけを渡し、パス、クエリ、認証情報を含めない。canonical、hreflang、OG URL、構造化データ、サイトマップに同じoriginを使う。
+`SITE_ORIGIN` を省略するとSitesプレビューURLを使用する。正式版を生成するときは `https://mtk.sh` を渡す。canonical、hreflang、Open Graph/Twitterカード、構造化データ、サイトマップに同じoriginを使う。
 
 ## ソースの管理
 
@@ -48,15 +61,12 @@ Cloudflare Pagesを使う場合の設定案は次のとおり。まだCloudflare
 
 languageは `ja`、`en`、`zh-Hans`。slugは `threeaims`、`dayslice`、`v-type`。ルート `/` は現在、日本語一覧を表示し、canonicalを `/ja/` に向けている。英語SEOを主経路とする正式公開時には、ルートの言語とx-defaultの方針を最終決定する。
 
-## 公開の順序
+## 公開後に残っている作業
 
-1. 本番ドメインとCloudflareの配信方式を確定し、ソースを本番用リポジトリへ配置する。
-2. `SITE_ORIGIN` を設定して生成し、トップ・詳細・サポート・ポリシーが直接URLで開けることを確認する。
-3. Cloudflareで独自ドメインを関連付け、DNSとHTTPSを確認する。Pagesでは管理画面のCustom domainsから関連付ける。[Cloudflareの独自ドメイン設定](https://developers.cloudflare.com/pages/configuration/custom-domains/)
-4. ログイン不要の状態で全言語のページ、メールリンク、App Storeリンク、404を確認する。robots・canonical・hreflang・サイトマップのホストを確認する。
-5. 旧サポートサイトから新しい本番URLへ転送する。旧URLの `#privacy` や `#privacy-en` からも、適切な言語のポリシーへ到達できるようにする。
-6. App Store ConnectのサポートURL、マーケティングURL、プライバシーポリシーURLを、新しい一般公開URLへ変更する。更新可否はアプリの審査・バージョン状態を確認する。
-7. Search Consoleの所有権確認とサイトマップ登録を行う。計測を追加する場合は、既存の「独自の解析スクリプトを設置していない」という案内との整合も更新する。
+1. 旧サポートサイトから新しい本番URLへ転送する。旧URLの `#privacy` や `#privacy-en` からも適切な言語のポリシーへ到達できるようにする。
+2. App Store ConnectのサポートURL、マーケティングURL、プライバシーポリシーURLを、新しい一般公開URLへ変更する。アプリの審査・バージョン状態を確認してから更新する。
+3. Search Consoleの所有権確認とサイトマップ登録を行う。計測を追加する場合は、既存の「独自の解析スクリプトを設置していない」という案内との整合も更新する。
+4. リポジトリにGit remoteを設定し、変更をcommit・pushして継続的に管理する。
 
 ## 移行対象
 
@@ -70,11 +80,12 @@ languageは `ja`、`en`、`zh-Hans`。slugは `threeaims`、`dayslice`、`v-type
 
 ## リリース前確認
 
-- [ ] 本番ドメインを確定した
-- [ ] 全ページの表示と内部リンクを確認した
+- [x] 本番ドメインを `mtk.sh` に確定した
+- [x] 全言語のページ、内部リンク、404、HTTPSを確認した
+- [x] canonical、hreflang、Open Graph/Twitterカード、favicon、Apple touch iconを確認した
 - [ ] 390px幅とデスクトップ幅で横はみ出しがない
 - [ ] 各アプリの公開バージョンと対応言語を再確認した
 - [ ] ポリシーの内容とデータ処理が一致している
-- [ ] ログイン不要でサポートとポリシーを読める
+- [x] ログイン不要でサポートとポリシーを読める
 - [ ] 旧URLから新URLへ移行できる
-- [ ] canonicalとサイトマップにプレビューURLが残っていない
+- [x] canonicalとサイトマップにプレビューURLが残っていない

@@ -21,6 +21,15 @@ for f in root.rglob('*.html'):
   assert len([1 for t,a in tags if t=='link' and a.get('rel')=='alternate'])==4,f
   assert any(t=='meta' and a.get('name')=='description' and a.get('content') for t,a in tags),f
   assert p.schemas,f
+ meta={(a.get('property') or a.get('name')):a.get('content') for t,a in tags if t=='meta'}
+ for key in ['og:title','og:description','og:url','og:image','og:image:alt','twitter:card','twitter:title','twitter:description','twitter:image','twitter:image:alt']:
+  assert meta.get(key), (f,key)
+ assert meta['og:image']==meta['twitter:image'],f
+ assert meta['og:image'].startswith('https://mtk.sh/'),(f,meta['og:image'])
+ image_file=root/urlsplit(meta['og:image']).path.lstrip('/')
+ assert image_file.exists(),(f,meta['og:image'])
+ assert any(t=='link' and a.get('rel')=='icon' and a.get('type')=='image/svg+xml' for t,a in tags),f
+ assert any(t=='link' and a.get('rel')=='apple-touch-icon' for t,a in tags),f
  for t,a in tags:
   for key in ['src','href']:
    target=a.get(key,'')

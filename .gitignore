@@ -1,4 +1,5 @@
 .DS_Store
 .openai/local/
+.wrangler/
 *.tar.gz
 *.zip
