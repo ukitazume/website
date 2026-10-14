@@ -14,8 +14,9 @@
 | DNS | `mtk.sh` のプロキシ済みCNAME → `mtk-sh.pages.dev` |
 | ビルド | `SITE_ORIGIN=https://mtk.sh node build.mjs` |
 | 配信 | `npx wrangler pages deploy dist --project-name=mtk-sh --branch main` |
+| ソース | `https://github.com/ukitazume/website` の `main` ブランチ |
 
-DNSの既存MX・TXT・Stripe確認レコードと他のサブドメインは維持している。現在のPagesプロジェクトはGit連携なしの直接アップロードで公開する。Cloudflare側のビルド設定にも `node build.mjs` と `dist` を登録したが、Git連携を追加するまでは上記Wranglerコマンドで配信する。
+DNSの既存MX・TXT・Stripe確認レコードと他のサブドメインは維持している。ソースはGitHubの `main` にpush済み。現在のPagesプロジェクトはGit連携なしの直接アップロードで公開する。Cloudflare側のビルド設定にも `node build.mjs` と `dist` を登録したが、Git連携を設定するまでは上記Wranglerコマンドで配信する。
 
 ## 配信方式
 
@@ -66,7 +67,6 @@ languageは `ja`、`en`、`zh-Hans`。slugは `threeaims`、`dayslice`、`v-type
 1. 旧サポートサイトから新しい本番URLへ転送する。旧URLの `#privacy` や `#privacy-en` からも適切な言語のポリシーへ到達できるようにする。
 2. App Store ConnectのサポートURL、マーケティングURL、プライバシーポリシーURLを、新しい一般公開URLへ変更する。アプリの審査・バージョン状態を確認してから更新する。
 3. Search Consoleの所有権確認とサイトマップ登録を行う。計測を追加する場合は、既存の「独自の解析スクリプトを設置していない」という案内との整合も更新する。
-4. リポジトリにGit remoteを設定し、変更をcommit・pushして継続的に管理する。
 
 ## 移行対象
 
