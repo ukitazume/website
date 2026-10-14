@@ -39,3 +39,12 @@ html[lang] .hero h1{font-size:var(--title-home);font-weight:400;line-height:1.3;
 .help-title h1{font-size:var(--title-policy);line-height:1.4;letter-spacing:-.025em}
 .support-main{padding-top:48px}.support-title{margin-bottom:40px}.help-title{padding-top:36px;padding-bottom:28px}
 @media(max-width:760px){:root{--title-home:28px;--title-detail:34px;--title-support:28px;--title-policy:26px}.header,.detail-sheet .header{height:72px}.wordmark,.detail-sheet .wordmark{font-size:18px}.hero{padding:34px 6% 36px}.hero-copy{display:block}.hero-intro{margin-top:18px;font-size:12px}.detail-help-links{grid-column:1/-1}.support-main{padding-top:34px}}
+
+/* Independent detail and App Store actions on each collection card. */
+.app-card{display:flex;flex-direction:column}
+.card-main{display:block;padding-bottom:8px}
+.card-actions{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:4px 16px;margin-top:auto;padding-top:14px;border-bottom:1px solid var(--line)}
+.card-actions .card-link{margin:0;padding:10px 0;min-height:44px;border:0;gap:8px}
+.card-actions .card-link>span{font-size:15px}
+.card-actions .card-link:hover{color:var(--accent)}
+.card-store-link{white-space:nowrap}
