@@ -6,35 +6,35 @@ Website languages: Japanese (ja), English (en), Simplified Chinese (zh-Hans). We
 
 ## Apps
 
-- [ThreeAims](https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/threeaims/): 一个微习惯助手。每天选择三个小目标，用5、10或25分钟的专注，积累小小的进步。 Status: released.
-- [DaySlice](https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/dayslice/): 把一天看作地球的一次转动。用温柔的时间可视化、每日打卡、小组件和天气，感受今天。 Status: released.
-- [V-Type](https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/v-type/): 以一滴水，突破覆盖世界的巨大舰队。用拖动与点击掌握惯性，抓住转瞬即逝的突破机会。 Status: released.
-- [Frames](https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/frames/): 用SWOT、优先级、复盘等67种思考框架与引导问题，整理想法，记录重要发现与下一步行动。 Status: in-review.
-- [What I Wanted to Say (WIWS)](https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/wiws/): 从日语日记开始，自己尝试写英语，再通过AI批改、日语讲解和最多3张短语卡片回顾学习。 Status: in-review.
+- [ThreeAims](https://mtk.sh/zh-Hans/apps/threeaims/): 一个微习惯助手。每天选择三个小目标，用5、10或25分钟的专注，积累小小的进步。 Status: released.
+- [DaySlice](https://mtk.sh/zh-Hans/apps/dayslice/): 把一天看作地球的一次转动。用温柔的时间可视化、每日打卡、小组件和天气，感受今天。 Status: released.
+- [V-Type](https://mtk.sh/zh-Hans/apps/v-type/): 以一滴水，突破覆盖世界的巨大舰队。用拖动与点击掌握惯性，抓住转瞬即逝的突破机会。 Status: released.
+- [Frames](https://mtk.sh/zh-Hans/apps/frames/): 用SWOT、优先级、复盘等67种思考框架与引导问题，整理想法，记录重要发现与下一步行动。 Status: in-review.
+- [What I Wanted to Say (WIWS)](https://mtk.sh/zh-Hans/apps/wiws/): 从日语日记开始，自己尝试写英语，再通过AI批改、日语讲解和最多3张短语卡片回顾学习。 Status: in-review.
 
 ## Support and privacy
 
-- [ThreeAims support](https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/threeaims/support/): Usage guides and troubleshooting.
-- [ThreeAims privacy](https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/threeaims/privacy/): Data handling and contact information.
-- [DaySlice support](https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/dayslice/support/): Usage guides and troubleshooting.
-- [DaySlice privacy](https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/dayslice/privacy/): Data handling and contact information.
-- [V-Type support](https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/v-type/support/): Usage guides and troubleshooting.
-- [V-Type privacy](https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/v-type/privacy/): Data handling and contact information.
-- [Frames support](https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/frames/support/): Usage guides and troubleshooting.
-- [Frames privacy](https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/frames/privacy/): Data handling and contact information.
-- [What I Wanted to Say (WIWS) support](https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/wiws/support/): Usage guides and troubleshooting.
-- [What I Wanted to Say (WIWS) privacy](https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/wiws/privacy/): Data handling and contact information.
+- [ThreeAims support](https://mtk.sh/zh-Hans/apps/threeaims/support/): Usage guides and troubleshooting.
+- [ThreeAims privacy](https://mtk.sh/zh-Hans/apps/threeaims/privacy/): Data handling and contact information.
+- [DaySlice support](https://mtk.sh/zh-Hans/apps/dayslice/support/): Usage guides and troubleshooting.
+- [DaySlice privacy](https://mtk.sh/zh-Hans/apps/dayslice/privacy/): Data handling and contact information.
+- [V-Type support](https://mtk.sh/zh-Hans/apps/v-type/support/): Usage guides and troubleshooting.
+- [V-Type privacy](https://mtk.sh/zh-Hans/apps/v-type/privacy/): Data handling and contact information.
+- [Frames support](https://mtk.sh/zh-Hans/apps/frames/support/): Usage guides and troubleshooting.
+- [Frames privacy](https://mtk.sh/zh-Hans/apps/frames/privacy/): Data handling and contact information.
+- [What I Wanted to Say (WIWS) support](https://mtk.sh/zh-Hans/apps/wiws/support/): Usage guides and troubleshooting.
+- [What I Wanted to Say (WIWS) privacy](https://mtk.sh/zh-Hans/apps/wiws/privacy/): Data handling and contact information.
 
 ## Machine-readable resources
 
-- [App catalog](https://yu-kitazume-apps.u-kitazume.chatgpt.site/assets/app-catalog.json): Localized descriptions, release status, languages, and official links.
-- [Expanded app information](https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/llms-full.txt): Features, FAQs, support, and privacy content.
+- [App catalog](https://mtk.sh/assets/app-catalog.json): Localized descriptions, release status, languages, and official links.
+- [Expanded app information](https://mtk.sh/zh-Hans/llms-full.txt): Features, FAQs, support, and privacy content.
 
 ## Other languages
 
-- [ja](https://yu-kitazume-apps.u-kitazume.chatgpt.site/ja/llms.txt): App index in ja.
-- [en](https://yu-kitazume-apps.u-kitazume.chatgpt.site/en/llms.txt): App index in en.
-- [zh-Hans](https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/llms.txt): App index in zh-Hans.
+- [ja](https://mtk.sh/ja/llms.txt): App index in ja.
+- [en](https://mtk.sh/en/llms.txt): App index in en.
+- [zh-Hans](https://mtk.sh/zh-Hans/llms.txt): App index in zh-Hans.
 
 ## App information
 
@@ -65,7 +65,7 @@ FAQ:
 需要注册账户吗？
 不需要。目标和历史记录仅保存在你的设备上，没有广告或分析追踪。
 
-Support: https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/threeaims/support/
+Support: https://mtk.sh/zh-Hans/apps/threeaims/support/
 记录目标
 在 TODAY 中输入三个目标，完成后点击 DONE。在 CALENDAR 中查看过去的记录。
 提醒
@@ -73,7 +73,7 @@ Support: https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/threeaims
 你的记录
 目标和记录保存在设备上。删除应用可能会移除这些记录。
 
-Privacy: https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/threeaims/privacy/
+Privacy: https://mtk.sh/zh-Hans/apps/threeaims/privacy/
 生效日期：2026年9月25日
 3AIMS 使用 iOS 存储，将目标文字、完成状态、回顾状态、提醒时间和显示状态保存在设备本地。开发者不会收集或接收这些应用数据。应用无需账户，不包含广告、分析或追踪 SDK。
 通知权限为可选项，提醒在设备本地安排。应用不会访问照片图库、相机、麦克风、通讯录或位置信息。应用内照片由开发者提供。
@@ -107,7 +107,7 @@ FAQ:
 地球转动次数代表什么？
 它将自公元1年1月1日起的日历天数表示为地球转动次数，是基于日历的可视化，并非对地球实际自转的测量。
 
-Support: https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/dayslice/support/
+Support: https://mtk.sh/zh-Hans/apps/dayslice/support/
 每日记录
 打开应用时，当天日期会自动记录在该设备的应用日历中。记录保存在设备本地，无需注册账户。
 天气与位置
@@ -115,7 +115,7 @@ DaySlice 显示 Apple Weather 的真实天气数据，默认地点为东京。�
 天气无法显示
 请检查网络连接并点击“重试”。如需使用当前位置，请在设备“设置”中允许 DaySlice 访问位置信息。
 
-Privacy: https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/dayslice/privacy/
+Privacy: https://mtk.sh/zh-Hans/apps/dayslice/privacy/
 更新日期：2026年9月25日
 设备内的记录
 DaySlice 将打开应用的日期保存在设备本地，用于显示打卡日历。记录不会发送到开发者的服务器。应用不使用独立账户、广告、行为追踪或分析 SDK。
@@ -157,7 +157,7 @@ FAQ:
 有广告或应用内购买吗？
 没有。当前商店说明明确标注无广告、无应用内购买，也不收集个人数据。
 
-Support: https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/v-type/support/
+Support: https://mtk.sh/zh-Hans/apps/v-type/support/
 基本操作
 拖动屏幕移动水滴，观察敌人和光束的轨迹。消灭外壳的敌人后入口会开启，点击目标即可进入。
 无法操作
@@ -169,7 +169,7 @@ ENERGY 不足
 没有声音
 请检查 iPhone 的音量和静音设置，并确认音频是否输出到了蓝牙设备。
 
-Privacy: https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/v-type/privacy/
+Privacy: https://mtk.sh/zh-Hans/apps/v-type/privacy/
 V-Type 不收集个人信息、位置信息、通讯录、使用历史或广告标识符。游戏无需账户，没有广告、应用内购买或第三方分析 SDK。下载后无需网络连接即可游玩。
 隐私政策生效日期：2026年9月27日。本政策适用于 iPhone 版 V-Type。
 
@@ -203,7 +203,7 @@ Frames目前正在接受App Store审核，发布日期尚未确定。
 可以离线使用吗？
 主要功能与内置翻译可离线使用。参考链接与分享目标服务可能需要网络连接。
 
-Support: https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/frames/support/
+Support: https://mtk.sh/zh-Hans/apps/frames/support/
 发布状态
 Frames目前正在接受App Store审核，发布日期尚未确定。以下说明针对提交审核的版本。
 从框架或示例开始
@@ -215,7 +215,7 @@ Frames目前正在接受App Store审核，发布日期尚未确定。以下说�
 离线使用
 主要笔记功能与内置翻译可离线使用。参考链接与分享目标可能会使用外部服务或需要网络连接。
 
-Privacy: https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/frames/privacy/
+Privacy: https://mtk.sh/zh-Hans/apps/frames/privacy/
 原政策更新于2026年10月7日，于2026年10月15日刊登在本网站。
 Frames将笔记保存在你的设备上，无需注册账户。应用不会将笔记发送给开发者。导出或分享笔记时，所选目标服务将根据其自身隐私规则处理相关内容。
 如果你联系支持，我们会使用你的电子邮件地址与提供的信息回复请求。请勿提供说明问题所不需要的敏感信息。
@@ -253,7 +253,7 @@ AI会替我写完整的英语吗？
 日记会发送到云端吗？
 日记保存在设备上，或保存在你选择使用的iCloud Drive中。AI处理可能将日记或英文发送给云端AI。支持的设备也可使用Apple的端侧AI处理部分功能，具体取决于设备、网络和套餐。
 
-Support: https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/wiws/support/
+Support: https://mtk.sh/zh-Hans/apps/wiws/support/
 目前正在接受App Store审核
 这是发布前的使用介绍，正式发布后会添加下载链接。功能和套餐条件请以发布时的应用内说明为准。
 五步学习流程
@@ -269,7 +269,7 @@ AI不可用时
 提醒与应用锁
 提醒可自行开启。Face ID、Touch ID或密码锁限制打开应用，但不会保护保存在iCloud中的日记文件。
 
-Privacy: https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/wiws/privacy/
+Privacy: https://mtk.sh/zh-Hans/apps/wiws/privacy/
 更新日期：2026年10月15日。本页说明正在接受App Store审核的WIWS如何处理数据。
 日记保存
 日记、英文、批改和短语默认保存在设备上。选择开启后，也会保存在你本人的iCloud Drive并同步。iCloud处理遵循Apple的服务规则和你的设置。

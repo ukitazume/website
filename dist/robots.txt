@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://yu-kitazume-apps.u-kitazume.chatgpt.site/sitemap.xml
+Sitemap: https://mtk.sh/sitemap.xml
