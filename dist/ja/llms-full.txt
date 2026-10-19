@@ -6,35 +6,35 @@ Website languages: Japanese (ja), English (en), Simplified Chinese (zh-Hans). We
 
 ## Apps
 
-- [ThreeAims](https://mtk.sh/ja/apps/threeaims/): 今日やることは、ちょうど3つだけ。5分・10分・25分の集中時間で、小さな一歩を積み重ねる習慣アシスタント。 Status: released.
-- [DaySlice](https://mtk.sh/ja/apps/dayslice/): 一日を、地球のひと回りとして眺める。時間の流れ、日々のチェックイン、天気をひとつにまとめた可視化アプリ。 Status: released.
-- [V-Type](https://mtk.sh/ja/apps/v-type/): たった一滴の水で、巨大艦隊を突破する。ドラッグとタップで尺度を越えていく、片手縦持ちSFアクション。 Status: released.
-- [Frames](https://mtk.sh/ja/apps/frames/): SWOT、優先順位、振り返り。67種類のフレームと問いで考えを整理し、次の一歩を残すノートアプリ。 Status: in-review.
-- [What I Wanted to Say (WIWS)](https://mtk.sh/ja/apps/wiws/): 日本語の日記から始める英語学習。自分で書いた英文をAIが添削し、日本語の解説と最大3つのフレーズで振り返ります。 Status: in-review.
+- [ThreeAims](https://yu-kitazume-apps.u-kitazume.chatgpt.site/ja/apps/threeaims/): 今日やることは、ちょうど3つだけ。5分・10分・25分の集中時間で、小さな一歩を積み重ねる習慣アシスタント。 Status: released.
+- [DaySlice](https://yu-kitazume-apps.u-kitazume.chatgpt.site/ja/apps/dayslice/): 一日を、地球のひと回りとして眺める。時間の流れ、日々のチェックイン、天気をひとつにまとめた可視化アプリ。 Status: released.
+- [V-Type](https://yu-kitazume-apps.u-kitazume.chatgpt.site/ja/apps/v-type/): たった一滴の水で、巨大艦隊を突破する。ドラッグとタップで尺度を越えていく、片手縦持ちSFアクション。 Status: released.
+- [Frames](https://yu-kitazume-apps.u-kitazume.chatgpt.site/ja/apps/frames/): SWOT、優先順位、振り返り。67種類のフレームと問いで考えを整理し、次の一歩を残すノートアプリ。 Status: in-review.
+- [What I Wanted to Say (WIWS)](https://yu-kitazume-apps.u-kitazume.chatgpt.site/ja/apps/wiws/): 日本語の日記から始める英語学習。自分で書いた英文をAIが添削し、日本語の解説と最大3つのフレーズで振り返ります。 Status: in-review.
 
 ## Support and privacy
 
-- [ThreeAims support](https://mtk.sh/ja/apps/threeaims/support/): Usage guides and troubleshooting.
-- [ThreeAims privacy](https://mtk.sh/ja/apps/threeaims/privacy/): Data handling and contact information.
-- [DaySlice support](https://mtk.sh/ja/apps/dayslice/support/): Usage guides and troubleshooting.
-- [DaySlice privacy](https://mtk.sh/ja/apps/dayslice/privacy/): Data handling and contact information.
-- [V-Type support](https://mtk.sh/ja/apps/v-type/support/): Usage guides and troubleshooting.
-- [V-Type privacy](https://mtk.sh/ja/apps/v-type/privacy/): Data handling and contact information.
-- [Frames support](https://mtk.sh/ja/apps/frames/support/): Usage guides and troubleshooting.
-- [Frames privacy](https://mtk.sh/ja/apps/frames/privacy/): Data handling and contact information.
-- [What I Wanted to Say (WIWS) support](https://mtk.sh/ja/apps/wiws/support/): Usage guides and troubleshooting.
-- [What I Wanted to Say (WIWS) privacy](https://mtk.sh/ja/apps/wiws/privacy/): Data handling and contact information.
+- [ThreeAims support](https://yu-kitazume-apps.u-kitazume.chatgpt.site/ja/apps/threeaims/support/): Usage guides and troubleshooting.
+- [ThreeAims privacy](https://yu-kitazume-apps.u-kitazume.chatgpt.site/ja/apps/threeaims/privacy/): Data handling and contact information.
+- [DaySlice support](https://yu-kitazume-apps.u-kitazume.chatgpt.site/ja/apps/dayslice/support/): Usage guides and troubleshooting.
+- [DaySlice privacy](https://yu-kitazume-apps.u-kitazume.chatgpt.site/ja/apps/dayslice/privacy/): Data handling and contact information.
+- [V-Type support](https://yu-kitazume-apps.u-kitazume.chatgpt.site/ja/apps/v-type/support/): Usage guides and troubleshooting.
+- [V-Type privacy](https://yu-kitazume-apps.u-kitazume.chatgpt.site/ja/apps/v-type/privacy/): Data handling and contact information.
+- [Frames support](https://yu-kitazume-apps.u-kitazume.chatgpt.site/ja/apps/frames/support/): Usage guides and troubleshooting.
+- [Frames privacy](https://yu-kitazume-apps.u-kitazume.chatgpt.site/ja/apps/frames/privacy/): Data handling and contact information.
+- [What I Wanted to Say (WIWS) support](https://yu-kitazume-apps.u-kitazume.chatgpt.site/ja/apps/wiws/support/): Usage guides and troubleshooting.
+- [What I Wanted to Say (WIWS) privacy](https://yu-kitazume-apps.u-kitazume.chatgpt.site/ja/apps/wiws/privacy/): Data handling and contact information.
 
 ## Machine-readable resources
 
-- [App catalog](https://mtk.sh/assets/app-catalog.json): Localized descriptions, release status, languages, and official links.
-- [Expanded app information](https://mtk.sh/ja/llms-full.txt): Features, FAQs, support, and privacy content.
+- [App catalog](https://yu-kitazume-apps.u-kitazume.chatgpt.site/assets/app-catalog.json): Localized descriptions, release status, languages, and official links.
+- [Expanded app information](https://yu-kitazume-apps.u-kitazume.chatgpt.site/ja/llms-full.txt): Features, FAQs, support, and privacy content.
 
 ## Other languages
 
-- [ja](https://mtk.sh/ja/llms.txt): App index in ja.
-- [en](https://mtk.sh/en/llms.txt): App index in en.
-- [zh-Hans](https://mtk.sh/zh-Hans/llms.txt): App index in zh-Hans.
+- [ja](https://yu-kitazume-apps.u-kitazume.chatgpt.site/ja/llms.txt): App index in ja.
+- [en](https://yu-kitazume-apps.u-kitazume.chatgpt.site/en/llms.txt): App index in en.
+- [zh-Hans](https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/llms.txt): App index in zh-Hans.
 
 ## App information
 
@@ -65,7 +65,7 @@ FAQ:
 アカウント登録は必要ですか？
 必要ありません。目標と履歴は端末内に保存され、広告やアクセス解析もありません。
 
-Support: https://mtk.sh/ja/apps/threeaims/support/
+Support: https://yu-kitazume-apps.u-kitazume.chatgpt.site/ja/apps/threeaims/support/
 目標を記録する
 TODAYで目標を入力し、達成したらDONEを押します。過去の記録はCALENDARで確認できます。
 通知について
@@ -73,7 +73,7 @@ TODAYで目標を入力し、達成したらDONEを押します。過去の記�
 記録について
 目標や記録は端末内に保存されます。アプリを削除すると記録が失われる場合があります。
 
-Privacy: https://mtk.sh/ja/apps/threeaims/privacy/
+Privacy: https://yu-kitazume-apps.u-kitazume.chatgpt.site/ja/apps/threeaims/privacy/
 適用日：2026年9月25日
 目標の文章・達成状況・昼夜のチェック状況・通知時刻・表示状態は端末内に保存します。開発者はこれらのデータを収集・受信しません。アカウント登録、広告、アクセス解析、追跡用SDKはありません。
 通知は端末内で設定します。写真ライブラリ・カメラ・マイク・連絡先・位置情報にはアクセスしません。表示する写真は開発者が提供したものです。
@@ -107,14 +107,14 @@ FAQ:
 「地球が回った回数」は何を表しますか？
 西暦1年1月1日からの暦上の日数を、地球の回転として表現しています。地球の回転を実測した数値ではありません。
 
-Support: https://mtk.sh/ja/apps/dayslice/support/
+Support: https://yu-kitazume-apps.u-kitazume.chatgpt.site/ja/apps/dayslice/support/
 毎日の記録
 アプリを開いた日を、その端末のカレンダーに自動で記録します。記録は端末内に保存されます。アカウント登録は必要ありません。
 天気について
 Apple Weatherの実際の気象データを表示します。初期表示は東京です。「現在地」を押すと、許可した場合に現在地の天気を取得します。位置情報を許可しなくても、東京の天気とその他の機能を利用できます。天気の取得にはインターネット接続が必要です。
 天気が表示されない場合は、通信接続を確認して「再試行」を押してください。現在地を使うには、端末の「設定」でDaySliceの位置情報の利用を許可してください。
 
-Privacy: https://mtk.sh/ja/apps/dayslice/privacy/
+Privacy: https://yu-kitazume-apps.u-kitazume.chatgpt.site/ja/apps/dayslice/privacy/
 更新日：2026年9月25日
 端末内の記録
 DaySliceは、アプリを開いた日付を端末内に保存し、カレンダー表示に使用します。開発者のサーバーに記録を送信することはありません。独自のアカウント、広告、行動追跡、アクセス解析SDKは使用しません。
@@ -157,7 +157,7 @@ FAQ:
 広告や追加の課金はありますか？
 ありません。公開中のストア説明では、広告・アプリ内課金・個人データの収集なしと案内されています。
 
-Support: https://mtk.sh/ja/apps/v-type/support/
+Support: https://yu-kitazume-apps.u-kitazume.chatgpt.site/ja/apps/v-type/support/
 基本操作
 画面をドラッグして水滴を動かし、敵とビームの軌道を読みます。外殻の敵をすべて倒すと入口が開き、標的をタップして侵入できます。
 操作できない
@@ -169,7 +169,7 @@ ENERGYが少ない
 音が出ない
 iPhoneの音量と消音設定をご確認ください。Bluetooth機器へ音声が出力されていないかも確認してください。
 
-Privacy: https://mtk.sh/ja/apps/v-type/privacy/
+Privacy: https://yu-kitazume-apps.u-kitazume.chatgpt.site/ja/apps/v-type/privacy/
 V-Typeは、個人情報、位置情報、連絡先、利用履歴、広告識別子を収集しません。アカウント登録、広告、アプリ内課金、第三者解析SDKはありません。ゲームはダウンロード後、ネットワーク接続なしでプレイできます。
 Privacy policy effective: September 27, 2026. This policy applies to V-Type for iPhone.
 
@@ -203,7 +203,7 @@ FAQ:
 オフラインで使えますか？
 基本機能と同梱の翻訳はオフラインで利用できます。参考リンクや共有先のサービスには通信が必要になる場合があります。
 
-Support: https://mtk.sh/ja/apps/frames/support/
+Support: https://yu-kitazume-apps.u-kitazume.chatgpt.site/ja/apps/frames/support/
 配信状況
 Framesは現在、App Storeの審査中です。配信開始日は未定です。以下は審査提出版の使い方です。
 フレームと記入例から始める
@@ -215,7 +215,7 @@ PDFを書き出す
 オフラインで使う
 基本のノート機能と同梱の翻訳は、オフラインで使えます。参考リンクの閲覧や共有先には、外部のサービスや通信が必要になる場合があります。
 
-Privacy: https://mtk.sh/ja/apps/frames/privacy/
+Privacy: https://yu-kitazume-apps.u-kitazume.chatgpt.site/ja/apps/frames/privacy/
 元のポリシー更新日：2026年10月7日。2026年10月15日に本サイトへ掲載。
 Framesはノートを端末内に保存し、アカウント登録を必要としません。ノートはアプリから開発者へ送信されません。共有・書き出しを行った場合、その内容には選んだ共有先のプライバシー方針が適用されます。
 サポートにお問い合わせいただいた場合、メールアドレスと送信した情報は、お問い合わせへの対応に使用します。問題の説明に不要な機密情報は含めないでください。
@@ -253,7 +253,7 @@ AIが英語を全部書いてくれますか？
 日記はクラウドに送られますか？
 保存先は端末内、または任意のiCloud Driveです。AI処理では日記や英文がクラウドAIに送られる場合があります。対応端末ではAppleのAIで端末内処理を使える機能もあり、利用できる機能は端末・通信状況・プランによって異なります。
 
-Support: https://mtk.sh/ja/apps/wiws/support/
+Support: https://yu-kitazume-apps.u-kitazume.chatgpt.site/ja/apps/wiws/support/
 App Store審査中です
 現在は公開前のご案内です。配信開始後にダウンロードリンクを追加します。公開時の機能とプランは、アプリ内の案内をご確認ください。
 日記から英語を学ぶ
@@ -269,7 +269,7 @@ AIが使えないとき
 通知とアプリロック
 リマインダーは任意で設定できます。Face ID・Touch ID・パスコードによるロックは、アプリを開く操作を保護します。iCloudに保存した日記ファイル自体を保護する機能ではありません。
 
-Privacy: https://mtk.sh/ja/apps/wiws/privacy/
+Privacy: https://yu-kitazume-apps.u-kitazume.chatgpt.site/ja/apps/wiws/privacy/
 更新日：2026年10月15日。App Store審査中のWIWSのデータの取り扱いを説明します。
 日記の保存
 日記、英文、添削、フレーズは標準では端末内に保存します。利用者が選択した場合は、本人のiCloud Driveにも保存・同期します。iCloudの処理はAppleのサービスと設定に従います。

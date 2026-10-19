@@ -15,9 +15,9 @@
       "operatingSystem": "iOS 17.0+",
       "appLanguages": "英語",
       "languageNote": "現在の公開版1.0のアプリ内表示は英語です。この日本語ページはアプリの紹介です。",
-      "url": "https://mtk.sh/ja/apps/threeaims/",
-      "supportUrl": "https://mtk.sh/ja/apps/threeaims/support/",
-      "privacyUrl": "https://mtk.sh/ja/apps/threeaims/privacy/",
+      "url": "https://yu-kitazume-apps.u-kitazume.chatgpt.site/ja/apps/threeaims/",
+      "supportUrl": "https://yu-kitazume-apps.u-kitazume.chatgpt.site/ja/apps/threeaims/support/",
+      "privacyUrl": "https://yu-kitazume-apps.u-kitazume.chatgpt.site/ja/apps/threeaims/privacy/",
       "appStoreUrl": "https://apps.apple.com/jp/app/threeaims/id6760964181"
     },
     {
@@ -35,9 +35,9 @@
       "operatingSystem": "iOS 17.0+",
       "appLanguages": "日本語・英語・中国語など",
       "languageNote": "App Storeに記載されたアプリの対応言語です。サイトの紹介ページは日本語・英語・簡体字中国語に対応しています。",
-      "url": "https://mtk.sh/ja/apps/dayslice/",
-      "supportUrl": "https://mtk.sh/ja/apps/dayslice/support/",
-      "privacyUrl": "https://mtk.sh/ja/apps/dayslice/privacy/",
+      "url": "https://yu-kitazume-apps.u-kitazume.chatgpt.site/ja/apps/dayslice/",
+      "supportUrl": "https://yu-kitazume-apps.u-kitazume.chatgpt.site/ja/apps/dayslice/support/",
+      "privacyUrl": "https://yu-kitazume-apps.u-kitazume.chatgpt.site/ja/apps/dayslice/privacy/",
       "appStoreUrl": "https://apps.apple.com/jp/app/dayslice/id6760980409"
     },
     {
@@ -55,9 +55,9 @@
       "operatingSystem": "iOS 18.0+",
       "appLanguages": "簡体字中国語＋英語を同時表示",
       "languageNote": "中国語のコマンドと短い英語字幕を併記する演出です。言語の切り替え機能ではありません。ストアの言語欄は「英語」と記載されています。",
-      "url": "https://mtk.sh/ja/apps/v-type/",
-      "supportUrl": "https://mtk.sh/ja/apps/v-type/support/",
-      "privacyUrl": "https://mtk.sh/ja/apps/v-type/privacy/",
+      "url": "https://yu-kitazume-apps.u-kitazume.chatgpt.site/ja/apps/v-type/",
+      "supportUrl": "https://yu-kitazume-apps.u-kitazume.chatgpt.site/ja/apps/v-type/support/",
+      "privacyUrl": "https://yu-kitazume-apps.u-kitazume.chatgpt.site/ja/apps/v-type/privacy/",
       "appStoreUrl": "https://apps.apple.com/jp/app/v-type/id6816557016"
     },
     {
@@ -75,9 +75,9 @@
       "operatingSystem": "iOS 18.0+",
       "appLanguages": "日本語・英語・中国語など12言語",
       "languageNote": "審査提出版は、日本語・英語を含む12言語に対応しています。端末またはアプリの優先言語を使用し、対応していない言語では英語を表示します。",
-      "url": "https://mtk.sh/ja/apps/frames/",
-      "supportUrl": "https://mtk.sh/ja/apps/frames/support/",
-      "privacyUrl": "https://mtk.sh/ja/apps/frames/privacy/"
+      "url": "https://yu-kitazume-apps.u-kitazume.chatgpt.site/ja/apps/frames/",
+      "supportUrl": "https://yu-kitazume-apps.u-kitazume.chatgpt.site/ja/apps/frames/support/",
+      "privacyUrl": "https://yu-kitazume-apps.u-kitazume.chatgpt.site/ja/apps/frames/privacy/"
     },
     {
       "slug": "wiws",
@@ -95,9 +95,9 @@
       "operatingSystem": "iOS 17.0+",
       "appLanguages": "日本語（学習対象は英語）",
       "languageNote": "アプリの案内と添削の解説は日本語です。英語・中国語の紹介ページは、アプリ内の対応言語を示すものではありません。",
-      "url": "https://mtk.sh/ja/apps/wiws/",
-      "supportUrl": "https://mtk.sh/ja/apps/wiws/support/",
-      "privacyUrl": "https://mtk.sh/ja/apps/wiws/privacy/"
+      "url": "https://yu-kitazume-apps.u-kitazume.chatgpt.site/ja/apps/wiws/",
+      "supportUrl": "https://yu-kitazume-apps.u-kitazume.chatgpt.site/ja/apps/wiws/support/",
+      "privacyUrl": "https://yu-kitazume-apps.u-kitazume.chatgpt.site/ja/apps/wiws/privacy/"
     }
   ],
   "en": [
@@ -116,9 +116,9 @@
       "operatingSystem": "iOS 17.0+",
       "appLanguages": "English",
       "languageNote": "The current public version, 1.0, has an English interface.",
-      "url": "https://mtk.sh/en/apps/threeaims/",
-      "supportUrl": "https://mtk.sh/en/apps/threeaims/support/",
-      "privacyUrl": "https://mtk.sh/en/apps/threeaims/privacy/",
+      "url": "https://yu-kitazume-apps.u-kitazume.chatgpt.site/en/apps/threeaims/",
+      "supportUrl": "https://yu-kitazume-apps.u-kitazume.chatgpt.site/en/apps/threeaims/support/",
+      "privacyUrl": "https://yu-kitazume-apps.u-kitazume.chatgpt.site/en/apps/threeaims/privacy/",
       "appStoreUrl": "https://apps.apple.com/us/app/threeaims/id6760964181"
     },
     {
@@ -136,9 +136,9 @@
       "operatingSystem": "iOS 17.0+",
       "appLanguages": "Japanese, English, Chinese & more",
       "languageNote": "These are the app languages listed on the App Store. This website has Japanese, English, and Simplified Chinese editions.",
-      "url": "https://mtk.sh/en/apps/dayslice/",
-      "supportUrl": "https://mtk.sh/en/apps/dayslice/support/",
-      "privacyUrl": "https://mtk.sh/en/apps/dayslice/privacy/",
+      "url": "https://yu-kitazume-apps.u-kitazume.chatgpt.site/en/apps/dayslice/",
+      "supportUrl": "https://yu-kitazume-apps.u-kitazume.chatgpt.site/en/apps/dayslice/support/",
+      "privacyUrl": "https://yu-kitazume-apps.u-kitazume.chatgpt.site/en/apps/dayslice/privacy/",
       "appStoreUrl": "https://apps.apple.com/us/app/dayslice/id6760980409"
     },
     {
@@ -156,9 +156,9 @@
       "operatingSystem": "iOS 18.0+",
       "appLanguages": "Simplified Chinese + English together",
       "languageNote": "Chinese commands appear alongside compact English subtitles. This is the game’s visual language, not a language switch. The store language field lists English.",
-      "url": "https://mtk.sh/en/apps/v-type/",
-      "supportUrl": "https://mtk.sh/en/apps/v-type/support/",
-      "privacyUrl": "https://mtk.sh/en/apps/v-type/privacy/",
+      "url": "https://yu-kitazume-apps.u-kitazume.chatgpt.site/en/apps/v-type/",
+      "supportUrl": "https://yu-kitazume-apps.u-kitazume.chatgpt.site/en/apps/v-type/support/",
+      "privacyUrl": "https://yu-kitazume-apps.u-kitazume.chatgpt.site/en/apps/v-type/privacy/",
       "appStoreUrl": "https://apps.apple.com/us/app/v-type/id6816557016"
     },
     {
@@ -176,9 +176,9 @@
       "operatingSystem": "iOS 18.0+",
       "appLanguages": "12 languages, including English, Japanese & Chinese",
       "languageNote": "The submitted version supports 12 languages. It follows your device or app language preference and falls back to English for unsupported languages.",
-      "url": "https://mtk.sh/en/apps/frames/",
-      "supportUrl": "https://mtk.sh/en/apps/frames/support/",
-      "privacyUrl": "https://mtk.sh/en/apps/frames/privacy/"
+      "url": "https://yu-kitazume-apps.u-kitazume.chatgpt.site/en/apps/frames/",
+      "supportUrl": "https://yu-kitazume-apps.u-kitazume.chatgpt.site/en/apps/frames/support/",
+      "privacyUrl": "https://yu-kitazume-apps.u-kitazume.chatgpt.site/en/apps/frames/privacy/"
     },
     {
       "slug": "wiws",
@@ -196,9 +196,9 @@
       "operatingSystem": "iOS 17.0+",
       "appLanguages": "Japanese interface; English learning",
       "languageNote": "The app’s guidance and correction explanations are in Japanese. English and Chinese website editions do not indicate in-app language support.",
-      "url": "https://mtk.sh/en/apps/wiws/",
-      "supportUrl": "https://mtk.sh/en/apps/wiws/support/",
-      "privacyUrl": "https://mtk.sh/en/apps/wiws/privacy/"
+      "url": "https://yu-kitazume-apps.u-kitazume.chatgpt.site/en/apps/wiws/",
+      "supportUrl": "https://yu-kitazume-apps.u-kitazume.chatgpt.site/en/apps/wiws/support/",
+      "privacyUrl": "https://yu-kitazume-apps.u-kitazume.chatgpt.site/en/apps/wiws/privacy/"
     }
   ],
   "zh-Hans": [
@@ -217,9 +217,9 @@
       "operatingSystem": "iOS 17.0+",
       "appLanguages": "英语",
       "languageNote": "当前公开版本1.0的应用内界面为英语。本页为中文介绍。",
-      "url": "https://mtk.sh/zh-Hans/apps/threeaims/",
-      "supportUrl": "https://mtk.sh/zh-Hans/apps/threeaims/support/",
-      "privacyUrl": "https://mtk.sh/zh-Hans/apps/threeaims/privacy/",
+      "url": "https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/threeaims/",
+      "supportUrl": "https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/threeaims/support/",
+      "privacyUrl": "https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/threeaims/privacy/",
       "appStoreUrl": "https://apps.apple.com/cn/app/threeaims/id6760964181"
     },
     {
@@ -237,9 +237,9 @@
       "operatingSystem": "iOS 17.0+",
       "appLanguages": "日语、英语、中文等",
       "languageNote": "此处列出的是 App Store 标注的应用支持语言。本网站提供日语、英语和简体中文介绍。",
-      "url": "https://mtk.sh/zh-Hans/apps/dayslice/",
-      "supportUrl": "https://mtk.sh/zh-Hans/apps/dayslice/support/",
-      "privacyUrl": "https://mtk.sh/zh-Hans/apps/dayslice/privacy/",
+      "url": "https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/dayslice/",
+      "supportUrl": "https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/dayslice/support/",
+      "privacyUrl": "https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/dayslice/privacy/",
       "appStoreUrl": "https://apps.apple.com/cn/app/dayslice/id6760980409"
     },
     {
@@ -257,9 +257,9 @@
       "operatingSystem": "iOS 18.0+",
       "appLanguages": "简体中文与英语同时显示",
       "languageNote": "中文指令与简短英文字幕同时呈现，这是游戏的视觉风格，并非语言切换功能。商店语言栏标注为英语。中文页面不代表应用在中国大陆商店上架。",
-      "url": "https://mtk.sh/zh-Hans/apps/v-type/",
-      "supportUrl": "https://mtk.sh/zh-Hans/apps/v-type/support/",
-      "privacyUrl": "https://mtk.sh/zh-Hans/apps/v-type/privacy/",
+      "url": "https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/v-type/",
+      "supportUrl": "https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/v-type/support/",
+      "privacyUrl": "https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/v-type/privacy/",
       "appStoreUrl": "https://apps.apple.com/us/app/v-type/id6816557016"
     },
     {
@@ -277,9 +277,9 @@
       "operatingSystem": "iOS 18.0+",
       "appLanguages": "中文、英语、日语等12种语言",
       "languageNote": "提交审核的版本支持12种语言。应用使用设备或应用的首选语言；不支持的语言会回退为英语。",
-      "url": "https://mtk.sh/zh-Hans/apps/frames/",
-      "supportUrl": "https://mtk.sh/zh-Hans/apps/frames/support/",
-      "privacyUrl": "https://mtk.sh/zh-Hans/apps/frames/privacy/"
+      "url": "https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/frames/",
+      "supportUrl": "https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/frames/support/",
+      "privacyUrl": "https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/frames/privacy/"
     },
     {
       "slug": "wiws",
@@ -297,9 +297,9 @@
       "operatingSystem": "iOS 17.0+",
       "appLanguages": "日语界面，学习目标为英语",
       "languageNote": "应用内的说明和批改讲解为日语。网站提供英语和中文介绍，并不表示应用支持这些界面语言。",
-      "url": "https://mtk.sh/zh-Hans/apps/wiws/",
-      "supportUrl": "https://mtk.sh/zh-Hans/apps/wiws/support/",
-      "privacyUrl": "https://mtk.sh/zh-Hans/apps/wiws/privacy/"
+      "url": "https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/wiws/",
+      "supportUrl": "https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/wiws/support/",
+      "privacyUrl": "https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/wiws/privacy/"
     }
   ]
 }

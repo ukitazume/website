@@ -6,32 +6,32 @@ Website languages: Japanese (ja), English (en), Simplified Chinese (zh-Hans). We
 
 ## Apps
 
-- [ThreeAims](https://mtk.sh/zh-Hans/apps/threeaims/): 一个微习惯助手。每天选择三个小目标，用5、10或25分钟的专注，积累小小的进步。 Status: released.
-- [DaySlice](https://mtk.sh/zh-Hans/apps/dayslice/): 把一天看作地球的一次转动。用温柔的时间可视化、每日打卡、小组件和天气，感受今天。 Status: released.
-- [V-Type](https://mtk.sh/zh-Hans/apps/v-type/): 以一滴水，突破覆盖世界的巨大舰队。用拖动与点击掌握惯性，抓住转瞬即逝的突破机会。 Status: released.
-- [Frames](https://mtk.sh/zh-Hans/apps/frames/): 用SWOT、优先级、复盘等67种思考框架与引导问题，整理想法，记录重要发现与下一步行动。 Status: in-review.
-- [What I Wanted to Say (WIWS)](https://mtk.sh/zh-Hans/apps/wiws/): 从日语日记开始，自己尝试写英语，再通过AI批改、日语讲解和最多3张短语卡片回顾学习。 Status: in-review.
+- [ThreeAims](https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/threeaims/): 一个微习惯助手。每天选择三个小目标，用5、10或25分钟的专注，积累小小的进步。 Status: released.
+- [DaySlice](https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/dayslice/): 把一天看作地球的一次转动。用温柔的时间可视化、每日打卡、小组件和天气，感受今天。 Status: released.
+- [V-Type](https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/v-type/): 以一滴水，突破覆盖世界的巨大舰队。用拖动与点击掌握惯性，抓住转瞬即逝的突破机会。 Status: released.
+- [Frames](https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/frames/): 用SWOT、优先级、复盘等67种思考框架与引导问题，整理想法，记录重要发现与下一步行动。 Status: in-review.
+- [What I Wanted to Say (WIWS)](https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/wiws/): 从日语日记开始，自己尝试写英语，再通过AI批改、日语讲解和最多3张短语卡片回顾学习。 Status: in-review.
 
 ## Support and privacy
 
-- [ThreeAims support](https://mtk.sh/zh-Hans/apps/threeaims/support/): Usage guides and troubleshooting.
-- [ThreeAims privacy](https://mtk.sh/zh-Hans/apps/threeaims/privacy/): Data handling and contact information.
-- [DaySlice support](https://mtk.sh/zh-Hans/apps/dayslice/support/): Usage guides and troubleshooting.
-- [DaySlice privacy](https://mtk.sh/zh-Hans/apps/dayslice/privacy/): Data handling and contact information.
-- [V-Type support](https://mtk.sh/zh-Hans/apps/v-type/support/): Usage guides and troubleshooting.
-- [V-Type privacy](https://mtk.sh/zh-Hans/apps/v-type/privacy/): Data handling and contact information.
-- [Frames support](https://mtk.sh/zh-Hans/apps/frames/support/): Usage guides and troubleshooting.
-- [Frames privacy](https://mtk.sh/zh-Hans/apps/frames/privacy/): Data handling and contact information.
-- [What I Wanted to Say (WIWS) support](https://mtk.sh/zh-Hans/apps/wiws/support/): Usage guides and troubleshooting.
-- [What I Wanted to Say (WIWS) privacy](https://mtk.sh/zh-Hans/apps/wiws/privacy/): Data handling and contact information.
+- [ThreeAims support](https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/threeaims/support/): Usage guides and troubleshooting.
+- [ThreeAims privacy](https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/threeaims/privacy/): Data handling and contact information.
+- [DaySlice support](https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/dayslice/support/): Usage guides and troubleshooting.
+- [DaySlice privacy](https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/dayslice/privacy/): Data handling and contact information.
+- [V-Type support](https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/v-type/support/): Usage guides and troubleshooting.
+- [V-Type privacy](https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/v-type/privacy/): Data handling and contact information.
+- [Frames support](https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/frames/support/): Usage guides and troubleshooting.
+- [Frames privacy](https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/frames/privacy/): Data handling and contact information.
+- [What I Wanted to Say (WIWS) support](https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/wiws/support/): Usage guides and troubleshooting.
+- [What I Wanted to Say (WIWS) privacy](https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/apps/wiws/privacy/): Data handling and contact information.
 
 ## Machine-readable resources
 
-- [App catalog](https://mtk.sh/assets/app-catalog.json): Localized descriptions, release status, languages, and official links.
-- [Expanded app information](https://mtk.sh/zh-Hans/llms-full.txt): Features, FAQs, support, and privacy content.
+- [App catalog](https://yu-kitazume-apps.u-kitazume.chatgpt.site/assets/app-catalog.json): Localized descriptions, release status, languages, and official links.
+- [Expanded app information](https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/llms-full.txt): Features, FAQs, support, and privacy content.
 
 ## Other languages
 
-- [ja](https://mtk.sh/ja/llms.txt): App index in ja.
-- [en](https://mtk.sh/en/llms.txt): App index in en.
-- [zh-Hans](https://mtk.sh/zh-Hans/llms.txt): App index in zh-Hans.
+- [ja](https://yu-kitazume-apps.u-kitazume.chatgpt.site/ja/llms.txt): App index in ja.
+- [en](https://yu-kitazume-apps.u-kitazume.chatgpt.site/en/llms.txt): App index in en.
+- [zh-Hans](https://yu-kitazume-apps.u-kitazume.chatgpt.site/zh-Hans/llms.txt): App index in zh-Hans.
