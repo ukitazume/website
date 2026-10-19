@@ -47,6 +47,7 @@ html[lang] .hero h1{font-size:var(--title-home);font-weight:400;line-height:1.3;
 /* App details, support and privacy switch in place on the app detail page. */
 .detail-hero[hidden],.detail-tabpanel[hidden]{display:none!important}
 .detail-tabs{display:flex;gap:28px;overflow-x:auto;border-bottom:1px solid var(--line);font-size:13px;white-space:nowrap}
+.detail-page-title{font-family:var(--serif);font-size:var(--title-detail);letter-spacing:-.035em;line-height:1.2}
 .detail-tab{appearance:none;background:transparent;border:0;border-bottom:2px solid transparent;color:inherit;cursor:pointer;font:inherit;margin:0 0 -1px;padding:14px 0}
 .detail-tab[aria-selected=true]{border-bottom-color:var(--ink)}
 .detail-tab:focus-visible{outline:2px solid #555;outline-offset:4px}
@@ -64,7 +65,8 @@ html[lang] .hero h1{font-size:var(--title-home);font-weight:400;line-height:1.3;
 .detail-tabpanel .contact-address{font-size:16px}
 .detail-tabpanel .contact-button{font-size:12px}
 .resource-links button{appearance:none;background:none;border:0;border-bottom:1px solid var(--ink);color:inherit;cursor:pointer;font:inherit;padding:0 0 4px}
-@media(max-width:760px){.detail-tabs{gap:22px;font-size:12px}.detail-tabpanel{padding-top:25px}.detail-tabpanel .help-body section{grid-template-columns:1fr;gap:12px;padding:22px 0}.detail-tabpanel .help-body section h2{font-size:13px}.detail-tabpanel .contact-panel h2{font-size:14px}}
+@media(max-width:760px){.detail-tabs{gap:22px;font-size:12px}.detail-page-title{font-size:var(--title-detail)}.detail-tabpanel{padding-top:25px}.detail-tabpanel .help-body section{grid-template-columns:1fr;gap:12px;padding:22px 0}.detail-tabpanel .help-body section h2{font-size:13px}.detail-tabpanel .contact-panel h2{font-size:14px}}
+@media(max-width:390px){.detail-page-title{font-size:42px}}
 
 /* Independent detail and App Store actions on each collection card. */
 .app-card{display:flex;flex-direction:column}
@@ -74,3 +76,48 @@ html[lang] .hero h1{font-size:var(--title-home);font-weight:400;line-height:1.3;
 .card-actions .card-link>span{font-size:15px}
 .card-actions .card-link:hover{color:var(--accent)}
 .card-store-link{white-space:nowrap}
+
+/* ThreeAims widget and focus stories. */
+.threeaims-experience{border-top:1px solid var(--line);padding:34px 0 42px}.threeaims-experience>.section-title{align-items:baseline}.threeaims-experience>.section-title h2{max-width:26ch;font-size:21px;line-height:1.55;letter-spacing:-.025em}.threeaims-experience>.section-title span{font-size:9px;letter-spacing:.12em;color:var(--muted)}.experience-intro{max-width:62ch;margin:16px 0 26px;color:var(--muted);font-size:13px;line-height:1.9}.experience-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.experience-card{background:#f0f0ea;padding:25px 27px}.experience-card>.eyebrow{font-size:9px;letter-spacing:.11em;color:var(--muted)}.experience-card h3{font-family:var(--serif);font-size:22px;line-height:1.45;font-weight:400;margin:18px 0 12px}.experience-card>p:not(.eyebrow):not(.note){font-size:12px;line-height:1.9;color:#555951;margin:0}.widget-types{list-style:none;padding:0;margin:22px 0 15px;border-top:1px solid #d6d6cf}.widget-types li{display:grid;grid-template-columns:28px 1fr auto;align-items:center;gap:10px;border-bottom:1px solid #d6d6cf;padding:14px 0}.widget-types li>span,.focus-steps li>span{font-size:10px;color:#d46e56}.widget-types li strong{display:block;font-size:10px;letter-spacing:.09em}.widget-types li small{display:block;color:var(--muted);font-size:10px;line-height:1.6;margin-top:4px}.widget-types li>b{font-size:8px;letter-spacing:.06em;font-weight:500;white-space:nowrap}.experience-card .note{font-size:10px;margin:10px 0 0;color:var(--muted);line-height:1.8}.focus-steps{list-style:none;padding:0;margin:19px 0 15px}.focus-steps li{display:flex;gap:13px;border-top:1px solid #d6d6cf;padding:11px 0;font-size:11px;line-height:1.65}.focus-shot{margin:18px 0 0;background:#f0f0ea;padding:16px}.focus-shot img{display:block;width:100%;height:auto;max-height:420px;object-fit:cover;object-position:center 55%}.focus-shot figcaption{padding:11px 2px 0;font-size:9px;color:var(--muted)}
+@media(max-width:760px){.threeaims-experience{padding:28px 0}.threeaims-experience>.section-title h2{font-size:17px}.threeaims-experience>.section-title span{font-size:8px}.experience-intro{font-size:12px}.experience-grid{grid-template-columns:1fr;gap:12px}.experience-card{padding:22px}.experience-card h3{font-size:20px}.widget-types li{grid-template-columns:25px 1fr auto;gap:7px}.widget-types li>b{font-size:7px}.focus-shot{padding:10px}.focus-shot img{max-height:350px}}
+
+/* Frames uses its original artwork and a clear pre-release status. */
+.art-frames{background:#dce9e5;color:#365e59}
+.art-frames .art-icon{border-radius:22%;width:43%;transform:rotate(-5deg)}
+.art-frames .art-orbit{position:absolute;width:66%;height:66%;border:1px solid #afcac2;transform:rotate(12deg);box-shadow:20px 20px 0 -1px #dce9e5,20px 20px 0 #bbd2cb}
+.detail-icon-panel.art-frames img{border-radius:22%}
+.release-status{display:inline-flex;align-items:center;gap:8px;color:#745425;font-size:11px;line-height:1.6;padding:8px 0}
+.release-status:before{content:'';width:6px;height:6px;border-radius:50%;background:#9b742e;flex-shrink:0}
+.release-notice{margin-top:24px;padding:12px 16px;background:#f1eee5;border-left:2px solid #a6884e}
+.release-notice .release-status{font-size:12px;padding:0}
+.release-notice p{font-size:11px;color:#656052;line-height:1.8;margin-top:6px}
+@media(max-width:760px){.release-notice{grid-column:1/-1;margin-top:9px}.filters{flex-wrap:wrap}.card-actions .release-status{min-height:44px}}
+
+/* WIWS carries its paper-and-ink identity into the shared collection. */
+.art-wiws{background:#e7e1d8;color:#35445d}
+.art-wiws .art-icon{border-radius:20%;width:42%;transform:rotate(6deg)}
+.art-wiws .art-orbit{position:absolute;width:72%;height:76%;background:#f5f2ec;transform:rotate(-11deg);box-shadow:0 1px 0 #cfc7ba,14px 14px 0 -1px #eae5dc,14px 14px 0 #cfc7ba}
+.detail-icon-panel.art-wiws img{border-radius:20%}
+.app-promo{margin:0;padding:28px 0 34px;border-top:1px solid var(--line)}
+.app-promo img{width:100%;height:auto}
+.app-promo figcaption{font-size:11px;color:#63665e;line-height:1.8;margin-top:12px}
+.card-title h3{min-width:0}.card-title>span{flex-shrink:0}
+
+/* Captions and full-resolution links for WIWS app screenshots. */
+.screens-captioned figure{flex-direction:column;align-items:center;gap:16px;min-width:0}
+.screens-captioned figure>a{display:block;max-width:230px}
+.screens-captioned figcaption{align-self:stretch;font-size:12px;line-height:1.7;color:#555951}
+.screens-captioned figcaption span{font-size:10px;color:#8a6b46;display:block;margin-bottom:5px}
+@media(max-width:760px){.screens-captioned{grid-template-columns:repeat(3,minmax(245px,1fr))}.screens-captioned img,.screens-captioned figure>a{max-width:245px}}
+
+.art-lifestyle{isolation:isolate;color:#fff;background:#243430}
+.wiws-card-photo{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:39% center;z-index:-2}
+.art-lifestyle:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.35),transparent 40%,rgba(0,0,0,.62));z-index:-1}
+.art-lifestyle .art-index,.art-lifestyle .art-caption{color:#fff}
+.wiws-daily{margin:28px 0 64px}.wiws-daily figure{margin:0}
+.wiws-daily figure img{display:block;width:100%;height:auto;aspect-ratio:7/4;object-fit:cover}
+.wiws-daily figcaption{font-size:11px;line-height:1.7;color:#626259;margin-top:10px}
+.wiws-daily-copy{max-width:680px;padding:30px 0 0}
+.wiws-daily-copy h2{font-size:clamp(24px,3vw,34px);line-height:1.5;margin:12px 0 18px;font-weight:500}
+.wiws-daily-copy>p:not(.eyebrow){font-size:16px;line-height:1.95;color:#53574d}
+@media(max-width:760px){.wiws-daily{margin:18px 0 42px}.wiws-daily figure img{aspect-ratio:4/3;object-position:40% center}.wiws-daily-copy{padding-top:22px}}

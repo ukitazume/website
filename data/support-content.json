@@ -67,5 +67,28 @@
       "support": "<section><h2>基本操作</h2><p>拖动屏幕移动水滴，观察敌人和光束的轨迹。消灭外壳的敌人后入口会开启，点击目标即可进入。</p></section><section><h2>无法操作</h2><p>请在标题画面点击“開始 / START”。游戏中可以从屏幕空白处开始拖动，无需直接触碰水滴。</p></section><section><h2>消灭敌人后无法前进</h2><p>歼灭率达到 99.999% 时，突破口会短暂开启。请点击中央目标。</p></section><section><h2>ENERGY 不足</h2><p>移动至屏幕顶端并短暂长按即可撤离。你将从上一尺度继续，并恢复 1 点 ENERGY。</p></section><section><h2>没有声音</h2><p>请检查 iPhone 的音量和静音设置，并确认音频是否输出到了蓝牙设备。</p></section>",
       "privacy": "<p>V-Type 不收集个人信息、位置信息、通讯录、使用历史或广告标识符。游戏无需账户，没有广告、应用内购买或第三方分析 SDK。下载后无需网络连接即可游玩。</p><p>隐私政策生效日期：2026年9月27日。本政策适用于 iPhone 版 V-Type。</p>"
     }
+  },
+  "frames": {
+    "source": "https://frames-support.u-kitazume.chatgpt.site/",
+    "date": "2026-10-07",
+    "migrated": "2026-10-15",
+    "ja": {
+      "intro": "思考フレーム、ノートの保存、PDFワークシートについて。",
+      "contact": "アプリのバージョン、iPhone機種、iOSバージョンと、問題が起きる手順をお知らせください。ノートや画像は、共有してもよい内容だけを添付してください。",
+      "support": "<section><h2>配信状況</h2><p>Framesは現在、App Storeの審査中です。配信開始日は未定です。以下は審査提出版の使い方です。</p></section><section><h2>フレームと記入例から始める</h2><p>カタログでフレームを選び、記入例を開くか、白紙のノートを作成します。問いを手がかりに考えを追加し、大切な気づきと次の一歩をまとめます。</p></section><section><h2>ノートの保存</h2><p>ノートは端末内に保存され、アカウント登録は不要です。端末間同期には対応していません。アプリを削除する前に、大切なノートを書き出してください。</p></section><section><h2>PDFを書き出す</h2><p>ノートを開き、共有ボタンからPDF書き出しを選びます。ノートとまとめをA4一枚に収めるため、内容が多い場合は文字が小さくなります。フレームの説明画面からは、白紙のワークシートも出力できます。</p></section><section><h2>オフラインで使う</h2><p>基本のノート機能と同梱の翻訳は、オフラインで使えます。参考リンクの閲覧や共有先には、外部のサービスや通信が必要になる場合があります。</p></section>",
+      "privacy": "<p>元のポリシー更新日：2026年10月7日。2026年10月15日に本サイトへ掲載。</p><p>Framesはノートを端末内に保存し、アカウント登録を必要としません。ノートはアプリから開発者へ送信されません。共有・書き出しを行った場合、その内容には選んだ共有先のプライバシー方針が適用されます。</p><p>サポートにお問い合わせいただいた場合、メールアドレスと送信した情報は、お問い合わせへの対応に使用します。問題の説明に不要な機密情報は含めないでください。</p><p>本ページの配信にあたり、ホスティング事業者が技術的なリクエスト情報を処理する場合があります。</p><p>ご質問は <a href=\"mailto:support@mtk.sh\">support@mtk.sh</a> へお寄せください。</p>"
+    },
+    "en": {
+      "intro": "Help with thinking frameworks, saved notes, and PDF worksheets.",
+      "contact": "Include your app version, iPhone model, iOS version, and the steps that led to the issue. Only attach notes or screenshots you are comfortable sharing.",
+      "support": "<section><h2>Availability</h2><p>Frames is currently in App Store review. A release date has not been announced. These guides describe the submitted version.</p></section><section><h2>Start with a framework or example</h2><p>Choose a framework from the catalog and open its worked example, or create a blank note. Add thoughts using the prompts and record your key insights and next steps.</p></section><section><h2>Saving your notes</h2><p>Notes are saved on your device. No account is required. Device-to-device synchronization is not included. Export important notes before removing the app.</p></section><section><h2>Exporting a PDF</h2><p>Open a note and choose the share button, then the PDF export option. A note and its summary fit onto one A4 page; dense notes use smaller text. You can also export a blank worksheet from a framework’s detail screen.</p></section><section><h2>Working offline</h2><p>Core note features and bundled translations work offline. Reference links and destinations you choose when sharing may use external services.</p></section>",
+      "privacy": "<p>Original policy updated October 7, 2026. Published on this site October 15, 2026.</p><p>Frames stores your notes on your device and does not require an account. Notes are not sent to the developer by the app. When you export or share a note, the destination you choose handles that content under its own privacy practices.</p><p>If you contact support, your email and the information you provide are used to respond to your request. Avoid including sensitive information that is not needed to explain the issue.</p><p>The hosting provider may process technical request information to serve this page.</p><p>For questions, contact <a href=\"mailto:support@mtk.sh\">support@mtk.sh</a>.</p>"
+    },
+    "zh-Hans": {
+      "intro": "有关思考框架、笔记保存与PDF练习表的帮助。",
+      "contact": "请提供应用版本、iPhone型号、iOS版本及问题发生的步骤。仅附上你愿意分享的笔记或截图。",
+      "support": "<section><h2>发布状态</h2><p>Frames目前正在接受App Store审核，发布日期尚未确定。以下说明针对提交审核的版本。</p></section><section><h2>从框架或示例开始</h2><p>从目录选择框架，打开填写示例或创建空白笔记。按照引导问题添加想法，记录重要发现与下一步行动。</p></section><section><h2>保存笔记</h2><p>笔记保存在设备上，无需注册账户。不支持设备间同步。删除应用前，请先导出重要笔记。</p></section><section><h2>导出PDF</h2><p>打开笔记，点击分享按钮并选择导出PDF。笔记与总结会排入一张A4纸；内容较多时，字号会缩小。也可从框架说明页面导出空白练习表。</p></section><section><h2>离线使用</h2><p>主要笔记功能与内置翻译可离线使用。参考链接与分享目标可能会使用外部服务或需要网络连接。</p></section>",
+      "privacy": "<p>原政策更新于2026年10月7日，于2026年10月15日刊登在本网站。</p><p>Frames将笔记保存在你的设备上，无需注册账户。应用不会将笔记发送给开发者。导出或分享笔记时，所选目标服务将根据其自身隐私规则处理相关内容。</p><p>如果你联系支持，我们会使用你的电子邮件地址与提供的信息回复请求。请勿提供说明问题所不需要的敏感信息。</p><p>托管服务提供商可能会处理技术请求信息，以提供本页面。</p><p>如有疑问，请联系 <a href=\"mailto:support@mtk.sh\">support@mtk.sh</a>。</p>"
+    }
   }
 }

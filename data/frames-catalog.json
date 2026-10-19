@@ -1,0 +1,1666 @@
+{
+  "source": {
+    "files": [
+      "Frames/Resources/templates.json",
+      "Frames/Resources/explanations.json"
+    ],
+    "checked": "2026-10-15",
+    "sha256": {
+      "templates.json": "4ed89b8e53eb81ee083e0ef5056199391390850a1930645298d00af4b3d8ff70",
+      "explanations.json": "5315799d7a4b1f7ba8c0de86d8950e2d2d0e707e93704aa6e40fc8e4e0adc4f8"
+    }
+  },
+  "groups": [
+    {
+      "id": "priorities",
+      "name": {
+        "ja": "優先順位",
+        "en": "Priorities",
+        "zh-Hans": "优先级"
+      },
+      "frames": [
+        {
+          "id": "urgent",
+          "locales": {
+            "ja": {
+              "name": "重要度 × 緊急度",
+              "about": "目的にとって重要か、期限が近いか、の2つの問いで仕事を分けます。アイゼンハワー・マトリクスとも呼ばれます。重要だが急がない枠に、本当の前進が隠れています。",
+              "when": "すべてが急ぎに見えて、やる・予定する・任せる・やめるを決めたいとき。",
+              "example": "今日届いた12件の依頼のうち、どれから手をつけるか"
+            },
+            "en": {
+              "name": "Importance × Urgency",
+              "about": "Sort tasks by two questions: does it matter to my goals, and is the deadline close? Known as the Eisenhower Matrix. The important-but-not-urgent box is where real progress hides.",
+              "when": "When everything feels urgent and you need to decide what to do, schedule, hand off, or drop.",
+              "example": "Which of today’s twelve requests do I handle first?"
+            },
+            "zh-Hans": {
+              "name": "重要性 × 紧急性",
+              "about": "用两个问题给任务分类：它对我的目标重要吗？截止日期临近吗？也称艾森豪威尔矩阵。重要但不紧急的格子里，藏着真正的进展。",
+              "when": "事事都显得紧急，需要决定马上做、安排时间、交给别人还是放弃时。",
+              "example": "今天收到的十二个请求，先处理哪个？"
+            }
+          }
+        },
+        {
+          "id": "impact",
+          "locales": {
+            "ja": {
+              "name": "効果 × 工数",
+              "about": "アイデアを「効果」と「工数」の地図に置きます。効果が大きく工数が少ないものから始め、効果が小さく工数が大きいものは後回しにします。",
+              "when": "時間よりアイデアのほうが多く、いくつかに絞りたいとき。",
+              "example": "来期に取り組む改善をどれにするか"
+            },
+            "en": {
+              "name": "Impact × Effort",
+              "about": "Place ideas on a map of expected effect versus effort. High effect with low effort is where to start; low effect with high effort can usually wait.",
+              "when": "When you have more ideas than time and need to pick a few.",
+              "example": "Which product improvements go into next quarter?"
+            },
+            "zh-Hans": {
+              "name": "效果 × 工作量",
+              "about": "把想法放在“预期效果 × 投入”的地图上。从效果大、投入小的开始；效果小、投入大的通常可以等等。",
+              "when": "想法比时间多，需要挑出少数几个时。",
+              "example": "下个季度做哪些产品改进？"
+            }
+          }
+        },
+        {
+          "id": "moscow",
+          "locales": {
+            "ja": {
+              "name": "MoSCoW",
+              "about": "対象の期間と目的を先に決めます。Mustを増やしすぎず、Won’tは永久に不要という意味ではなく今回の対象外とします。",
+              "when": "今回やることと、やらないことを決める。",
+              "example": "読書会の初回を準備する"
+            },
+            "en": {
+              "name": "MoSCoW",
+              "about": "Set the time frame and purpose first. Avoid making everything a Must. Won’t means outside this delivery, not never needed.",
+              "when": "Decide the scope of the current delivery.",
+              "example": "Prepare the first book club meeting"
+            },
+            "zh-Hans": {
+              "name": "MoSCoW",
+              "about": "首先设置时间框架和目的. 避免做一切一个必须. 不意味着在这个交付,从来不需要。",
+              "when": "决定当前交付的范围。",
+              "example": "准备第一届书俱乐部会议"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "decisions",
+      "name": {
+        "ja": "比較して決める",
+        "en": "Compare and decide",
+        "zh-Hans": "比较决策"
+      },
+      "frames": [
+        {
+          "id": "weighted",
+          "locales": {
+            "ja": {
+              "name": "重み付き比較",
+              "about": "選択肢と大切な基準を並べ、基準に重みをつけて採点します。合計点は答えではなく、自分が何を重視しているかを映す材料です。",
+              "when": "複数の選択肢を、いくつもの観点で比べたいとき。",
+              "example": "3つの内定のうち、どれが自分に合うか"
+            },
+            "en": {
+              "name": "Weighted comparison",
+              "about": "List your options, choose the criteria that matter, weight them, and score each option. The total is not the answer — it shows what drives your preference.",
+              "when": "When comparing several options across more than one factor.",
+              "example": "Which of three job offers fits me best?"
+            },
+            "zh-Hans": {
+              "name": "加权比较",
+              "about": "列出选项，选定重要的标准并赋予权重，再给每个选项打分。总分不是答案，而是揭示你真正看重什么。",
+              "when": "需要从多个维度比较几个选项时。",
+              "example": "三个工作机会中哪个最适合我？"
+            }
+          }
+        },
+        {
+          "id": "pros-cons",
+          "locales": {
+            "ja": {
+              "name": "メリット・デメリット",
+              "about": "ひとつの選択のメリットとデメリットを書き出します。数を比べるだけでなく、自分にとって重い項目に星をつけます。",
+              "when": "ひとつの案について、するか・しないかを決めるとき。",
+              "example": "海外への異動を受けるか"
+            },
+            "en": {
+              "name": "Pros and cons",
+              "about": "List the advantages and disadvantages of one option. Counting is not enough — star the items that weigh most for you.",
+              "when": "When facing a yes-or-no choice about a single option.",
+              "example": "Should I accept the transfer abroad?"
+            },
+            "zh-Hans": {
+              "name": "利弊分析",
+              "about": "列出一个选项的优点和缺点。只数数量不够——给对你分量最重的项目标上星号。",
+              "when": "面对一个选项“做还是不做”的抉择时。",
+              "example": "要不要接受外派到海外？"
+            }
+          }
+        },
+        {
+          "id": "force-field",
+          "locales": {
+            "ja": {
+              "name": "フォースフィールド分析",
+              "about": "変化を進める力と、妨げる力を書き出します。強く押すより、妨げる力を弱めるほうが簡単なことがよくあります。",
+              "when": "変化を計画していて、抵抗が予想されるとき。",
+              "example": "新しいツールを反発なく導入するには"
+            },
+            "en": {
+              "name": "Force field analysis",
+              "about": "List the forces driving a change and the forces resisting it. Often it is easier to weaken a resisting force than to push harder.",
+              "when": "When planning a change and you expect resistance.",
+              "example": "How can we roll out a new tool without pushback?"
+            },
+            "zh-Hans": {
+              "name": "力场分析",
+              "about": "列出推动变革的力量和阻碍变革的力量。很多时候，削弱阻力比用力推更容易。",
+              "when": "计划一项变革、并预料会遇到阻力时。",
+              "example": "如何在没有抵触的情况下推行新工具？"
+            }
+          }
+        },
+        {
+          "id": "pmi",
+          "locales": {
+            "ja": {
+              "name": "PMI",
+              "about": "各視点を順に検討し、最初の賛否だけで決めないようにします。興味深いことには未検証の可能性や問いを書き、件数の多さで結論を出さないでください。",
+              "when": "良い・悪いに加え、気になる可能性を見る。",
+              "example": "週に一度、別の場所で働く"
+            },
+            "en": {
+              "name": "PMI",
+              "about": "Consider each perspective before deciding. Use Interesting for possibilities or questions, and do not decide by counting entries.",
+              "when": "Explore benefits, drawbacks, and interesting possibilities.",
+              "example": "Work somewhere different once a week"
+            },
+            "zh-Hans": {
+              "name": "PMI",
+              "about": "使用有趣的可能性或问题,不要通过计算输入来决定。",
+              "when": "探索好处、缺点和有趣的机会。",
+              "example": "每周工作一次在不同的地方"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "reflection",
+      "name": {
+        "ja": "振り返る",
+        "en": "Reflect",
+        "zh-Hans": "回顾"
+      },
+      "frames": [
+        {
+          "id": "ssc",
+          "locales": {
+            "ja": {
+              "name": "Start / Stop / Continue",
+              "about": "「始める・やめる・続ける」の3つの欄に分けます。漠然とした不満が、具体的な行動の変化に変わります。",
+              "when": "プロジェクトや習慣をしばらく続けたあと、見直したいとき。",
+              "example": "チームの会議の進め方をどう変えるか"
+            },
+            "en": {
+              "name": "Start / Stop / Continue",
+              "about": "Three columns: what to start, what to stop, what to continue. It turns vague dissatisfaction into concrete changes in behavior.",
+              "when": "After a project, a month, or a habit has run for a while and you want to adjust it.",
+              "example": "How do we change the way our team runs meetings?"
+            },
+            "zh-Hans": {
+              "name": "Start / Stop / Continue",
+              "about": "三栏：开始做什么、停止做什么、继续做什么。把模糊的不满转化为具体的行动改变。",
+              "when": "项目、一个月或某个习惯持续一段时间后，想要调整时。",
+              "example": "团队开会的方式该怎么改？"
+            }
+          }
+        },
+        {
+          "id": "fourls",
+          "locales": {
+            "ja": {
+              "name": "4Ls",
+              "about": "よかったこと・つらかったこと・学んだこと・欲しかったことの4つで振り返ります。気持ちから学びへ、そして次への願いへと進みます。",
+              "when": "経験を、問題の一覧ではなく学びに変えたいとき。",
+              "example": "次のスプリントで何を変えるか"
+            },
+            "en": {
+              "name": "4Ls",
+              "about": "Reflect with four prompts: what you loved, loathed, learned, and longed for. Feelings come first, then lessons, then wishes for next time.",
+              "when": "When you want to turn an experience into learning, not just a list of problems.",
+              "example": "What should our next sprint do differently?"
+            },
+            "zh-Hans": {
+              "name": "4Ls",
+              "about": "用四个问题复盘：喜欢的、讨厌的、学到的、期待的。先谈感受，再谈收获，最后谈对下一次的愿望。",
+              "when": "想把经历变成学习，而不只是一张问题清单时。",
+              "example": "下一个迭代应该有什么不同？"
+            }
+          }
+        },
+        {
+          "id": "kpt",
+          "locales": {
+            "ja": {
+              "name": "KPT",
+              "about": "続けたいこと（Keep）、困ったこと（Problem）、次に試すこと（Try）に分けます。Tryには、対応するProblemを添えます。",
+              "when": "チームや自分で、短く定期的に振り返るとき。",
+              "example": "次のリリースまでに何を変えるか"
+            },
+            "en": {
+              "name": "KPT",
+              "about": "Keep what worked, name the Problems, and choose something to Try. Link each Try to the Problem it addresses.",
+              "when": "For a short, regular retrospective with a team or yourself.",
+              "example": "What do we change before the next release?"
+            },
+            "zh-Hans": {
+              "name": "KPT",
+              "about": "保留做得好的（Keep），指出问题（Problem），选择要尝试的（Try）。把每个 Try 与它要解决的 Problem 对应起来。",
+              "when": "团队或个人做简短、定期的回顾时。",
+              "example": "下次发布前要改变什么？"
+            }
+          }
+        },
+        {
+          "id": "sailboat",
+          "locales": {
+            "ja": {
+              "name": "帆船の振り返り",
+              "about": "チームは島をめざす帆船。風は進む力、錨は足止め、岩は行く手のリスクです。比喩があることで、率直に話しやすくなります。",
+              "when": "チームの振り返りや、共通の目標に向けた計画のとき。",
+              "example": "プロジェクトを遅らせているものは何か"
+            },
+            "en": {
+              "name": "Sailboat retrospective",
+              "about": "Your team is a boat heading to an island. Wind pushes you forward, anchors hold you back, rocks are risks ahead. The metaphor makes it easy to talk openly.",
+              "when": "For a team retrospective or when planning toward a shared goal.",
+              "example": "What is slowing our project down?"
+            },
+            "zh-Hans": {
+              "name": "帆船回顾",
+              "about": "团队是一艘驶向小岛的帆船。风是推动力，锚是阻力，礁石是前方的风险。借助比喻，更容易坦诚交流。",
+              "when": "团队回顾，或朝着共同目标做规划时。",
+              "example": "是什么拖慢了我们的项目？"
+            }
+          }
+        },
+        {
+          "id": "w3",
+          "locales": {
+            "ja": {
+              "name": "What / So What / Now What",
+              "about": "起きた事実、その意味、次の行動を分けて考えます。グループで共有・対話する手法を個人の記録用に簡略化しています。",
+              "when": "経験を振り返り、観察と解釈を混ぜずに次の行動を決めたいとき。",
+              "example": "勉強会で実際に起きたことから何がわかる？"
+            },
+            "en": {
+              "name": "What / So What / Now What",
+              "about": "Separate what happened, what it means, and what to do next. This is an individual note-taking adaptation of a group reflection and dialogue method.",
+              "when": "When reviewing an experience and choosing a next action without mixing observations and interpretations.",
+              "example": "What can we learn from what actually happened at a workshop?"
+            },
+            "zh-Hans": {
+              "name": "What / So What / Now What",
+              "about": "分开思考发生的事实、其意义和下一步行动。这是将团体反思与对话方法简化为个人记录的版本。",
+              "when": "回顾经历，想区分观察与解读并决定下一步行动时。",
+              "example": "从研讨会中实际发生的事能学到什么？"
+            }
+          }
+        },
+        {
+          "id": "gibbs",
+          "locales": {
+            "ja": {
+              "name": "Gibbsの振り返り",
+              "about": "一つの経験を選び、事実・感情・評価・分析を区別します。結論を次の行動に結び、次の経験でまた見直す循環として使います。",
+              "when": "一つの経験を、感情も含めて振り返る。",
+              "example": "初めて進行した勉強会"
+            },
+            "en": {
+              "name": "Gibbs Reflective Cycle",
+              "about": "Choose one experience and distinguish facts, feelings, evaluation, and analysis. Turn conclusions into action and revisit them after the next experience.",
+              "when": "Reflect on one experience, including your feelings.",
+              "example": "Reflect on facilitating a workshop"
+            },
+            "zh-Hans": {
+              "name": "Gibbs Reflective Cycle",
+              "about": "选择一个体验,并区分事实、情绪、评估和分析;将结论转化为行动,然后在下一个体验后重新审查。",
+              "when": "反映一个体验,包括你的感受。",
+              "example": "关于促进研讨会的思考"
+            }
+          }
+        },
+        {
+          "id": "learning-card",
+          "locales": {
+            "ja": {
+              "name": "Learning Card",
+              "about": "Test Cardと組み合わせ、観察と解釈を分けます。少数の結果だけで一般化せず、次の検証や判断を具体的に残します。",
+              "when": "実験の結果を、学びと次の判断にする。",
+              "example": "昼の読書会を試した結果"
+            },
+            "en": {
+              "name": "Learning Card",
+              "about": "Use this after a Test Card and distinguish observations from interpretations. Avoid generalizing from a small sample and record the next test or decision.",
+              "when": "Turn an experiment into learning and a next decision.",
+              "example": "Learn from a lunchtime book club trial"
+            },
+            "zh-Hans": {
+              "name": "Learning Card",
+              "about": "在测试卡后使用此,并将观察与解释区分开来,避免从一个小样本中进行普遍化,并记录下一次测试或决定。",
+              "when": "将实验转化为学习和下一个决定。",
+              "example": "从午餐书俱乐部考试中学到"
+            }
+          }
+        },
+        {
+          "id": "creative-destruction",
+          "locales": {
+            "ja": {
+              "name": "Creative Destruction〈LS版TRIZ〉",
+              "about": "Liberating Structuresの対話手法を個人用に整理したものです。工学の発明原理・矛盾マトリクスを扱うTRIZとは区別します。人を責めず、自分たちが変えられる行動に注目します。",
+              "when": "逆効果な習慣を見つけ、やめる一歩を決める。",
+              "example": "会議で誰も話さなくなる行動をなくす"
+            },
+            "en": {
+              "name": "Creative Destruction (LS TRIZ)",
+              "about": "This adapts the Liberating Structures dialogue method for individual notes. It is distinct from engineering TRIZ and its inventive principles. Focus on changeable behavior, not blame.",
+              "when": "Find counterproductive habits and decide what to stop.",
+              "example": "Stop behavior that silences a meeting"
+            },
+            "zh-Hans": {
+              "name": "Creative Destruction (LS TRIZ)",
+              "about": "它与工程TRIZ和其发明原则不同,重点是可变的行为,而不是错误。",
+              "when": "寻找反生产的习惯,决定什么要停止。",
+              "example": "停止沉默会话的行为"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "situation",
+      "name": {
+        "ja": "状況を整理",
+        "en": "Understand a situation",
+        "zh-Hans": "梳理现状"
+      },
+      "frames": [
+        {
+          "id": "swot",
+          "locales": {
+            "ja": {
+              "name": "SWOT",
+              "about": "状況を4つの視点で見ます。内側の「強み・弱み」と、外側の「機会・脅威」。大切なのは組み合わせで、どの強みでどの機会をつかむかを考えます。",
+              "when": "方向を決める前に、自分の現在地を正直に把握したいとき。",
+              "example": "新しく募集が出たポジションに応募するか"
+            },
+            "en": {
+              "name": "SWOT",
+              "about": "Look at a situation through four lenses: strengths and weaknesses inside you, opportunities and threats around you. The value comes from pairing them — which strength can catch which opportunity?",
+              "when": "When you need an honest picture of where you stand before choosing a direction.",
+              "example": "Should I apply for the new role that just opened?"
+            },
+            "zh-Hans": {
+              "name": "SWOT",
+              "about": "从四个角度看待处境：内部的优势与劣势，外部的机会与威胁。关键在于组合——用哪项优势去抓住哪个机会？",
+              "when": "在选择方向之前，想诚实地看清自己所处的位置时。",
+              "example": "要不要申请刚开放的新职位？"
+            }
+          }
+        },
+        {
+          "id": "3c",
+          "locales": {
+            "ja": {
+              "name": "3C分析",
+              "about": "顧客・競合・自社を並べて見ます。顧客のニーズと自社の強みが重なり、競合が弱いところに、選ばれる理由があります。",
+              "when": "製品やサービス、自分自身の立ち位置を決めたいとき。",
+              "example": "カフェはリモートワーカー向けに絞るべきか"
+            },
+            "en": {
+              "name": "3C analysis",
+              "about": "Look at the Customer, the Competitor, and your own Company side by side. A good strategy sits where customers’ needs meet your strengths and competitors are weak.",
+              "when": "When choosing how to position a product, service, or yourself.",
+              "example": "Should our café focus on remote workers?"
+            },
+            "zh-Hans": {
+              "name": "3C分析",
+              "about": "把顾客、竞争对手和自家公司放在一起看。好的策略位于顾客需求与自身优势重合、而竞争对手薄弱的地方。",
+              "when": "为产品、服务或自己选择定位时。",
+              "example": "我们的咖啡馆该专注于远程办公人群吗？"
+            }
+          }
+        },
+        {
+          "id": "pest",
+          "locales": {
+            "ja": {
+              "name": "PEST分析",
+              "about": "政治・経済・社会・技術の4つの視点で、外の世界の変化を見渡します。自分では変えられないけれど、備えるべき流れが見えてきます。",
+              "when": "長期的な判断が、周りの環境の変化に左右されるとき。",
+              "example": "いまこの市場に参入してよいか"
+            },
+            "en": {
+              "name": "PEST analysis",
+              "about": "Scan the outside world through four lenses: Political, Economic, Social, and Technological. It reveals trends you cannot control but must prepare for.",
+              "when": "When a long-term decision depends on changes in the wider environment.",
+              "example": "Is it a good time to enter this market?"
+            },
+            "zh-Hans": {
+              "name": "PEST分析",
+              "about": "从政治、经济、社会、技术四个角度扫描外部环境。它揭示你无法控制、却必须为之准备的趋势。",
+              "when": "长期决定取决于大环境变化时。",
+              "example": "现在是进入这个市场的好时机吗？"
+            }
+          }
+        },
+        {
+          "id": "bcg",
+          "locales": {
+            "ja": {
+              "name": "BCGマトリクス",
+              "about": "製品や事業を、市場の成長率と相対的なシェアで配置します。花形・問題児・金のなる木・低成長かつ低シェアの4つ。どこに投資するかのバランスを考えます。",
+              "when": "限られた資源を、複数の製品やプロジェクトに配分するとき。",
+              "example": "どの製品ラインにもっと投資するか"
+            },
+            "en": {
+              "name": "BCG matrix",
+              "about": "Place products or activities by market growth and relative market share: stars, question marks, cash cows, and low-growth, low-share items. It helps balance where to invest.",
+              "when": "When allocating limited resources across several products or projects.",
+              "example": "Which product line deserves more investment?"
+            },
+            "zh-Hans": {
+              "name": "BCG矩阵",
+              "about": "按市场增长率和相对市场份额来摆放产品或业务：明星、问题、现金牛，以及低增长低份额。帮助平衡投资方向。",
+              "when": "在多个产品或项目之间分配有限资源时。",
+              "example": "哪条产品线值得加大投入？"
+            }
+          }
+        },
+        {
+          "id": "sipoc",
+          "locales": {
+            "ja": {
+              "name": "SIPOC",
+              "about": "供給者、入力、主要工程、出力、受け手で業務の全体像を整理します。5要素の簡略版で、制約・測定の追加欄は含みません。",
+              "when": "業務の範囲や受け渡しを確認してから、改善箇所を探したいとき。",
+              "example": "参加受付は誰から何を受け取り、誰に何を渡す？"
+            },
+            "en": {
+              "name": "SIPOC",
+              "about": "Map Suppliers, Inputs, Process, Outputs, and Customers to see a process at a high level. This five-part version omits the additional Constraints and Measures fields.",
+              "when": "When you need to clarify process boundaries and handoffs before improving the work.",
+              "example": "Who supplies what for registration, and who receives the result?"
+            },
+            "zh-Hans": {
+              "name": "SIPOC",
+              "about": "用供应者、输入、主要过程、输出和接收者整理流程全貌。此五要素版本不包含额外的约束和测量栏目。",
+              "when": "想先明确流程边界与交接，再寻找改进点时。",
+              "example": "报名流程从谁那里接收什么，又把什么交给谁？"
+            }
+          }
+        },
+        {
+          "id": "claim-support-question",
+          "locales": {
+            "ja": {
+              "name": "Claim–Support–Question",
+              "about": "主張と証拠を分け、証拠の出典や条件を補足に残します。反対の証拠にも目を向け、疑問が残ることを失敗と扱わないでください。",
+              "when": "主張の根拠と、残る疑問を確かめる。",
+              "example": "会議を短くすると相談が増えるか"
+            },
+            "en": {
+              "name": "Claim–Support–Question",
+              "about": "Separate claims from evidence and record sources and conditions. Consider contrary evidence; unresolved questions are useful.",
+              "when": "Examine a claim, its evidence, and remaining questions.",
+              "example": "Would shorter meetings increase discussion?"
+            },
+            "zh-Hans": {
+              "name": "Claim–Support–Question",
+              "about": "与证据分开的声明,记录的来源和条件;考虑相反的证据;未解决的问题是有用的。",
+              "when": "审查一项声明、其证据和剩余问题。",
+              "example": "更短的会议会增加讨论吗?"
+            }
+          }
+        },
+        {
+          "id": "five-forces",
+          "locales": {
+            "ja": {
+              "name": "Five Forces",
+              "about": "業界の範囲と時点をそろえ、出典を補足に残します。個別企業の強みの採点ではなく、業界内の価値配分や競争構造を考える道具です。",
+              "when": "業界の競争を、5つの力から見る。",
+              "example": "地域の学習サービス業界を見る"
+            },
+            "en": {
+              "name": "Five Forces",
+              "about": "Define the industry and time period and note your sources. This examines industry structure and value distribution rather than scoring one company’s strengths.",
+              "when": "Examine competition through five industry forces.",
+              "example": "Examine local learning services"
+            },
+            "zh-Hans": {
+              "name": "Five Forces",
+              "about": "定义行业和时间段,并注意您的来源,这研究了行业结构和价值分配,而不是评估一个公司的优势。",
+              "when": "通过五个行业力量进行竞争。",
+              "example": "查看本地学习服务"
+            }
+          }
+        },
+        {
+          "id": "cynefin",
+          "locales": {
+            "ja": {
+              "name": "Cynefin",
+              "about": "人のタイプや優劣ではなく、状況の性質と対応を考えます。5領域の記録用表示で、境界や移行の詳細は省略しています。状況が変われば分類を見直し、Complexの試行は失敗しても影響を抑えられる範囲で行います。",
+              "when": "状況に合う、判断と行動の仕方を探る。",
+              "example": "チームの課題ごとに進め方を変える"
+            },
+            "en": {
+              "name": "Cynefin",
+              "about": "Classify contexts, not people or merit. This five-domain record omits detailed boundaries and transitions. Revisit the category as circumstances change; experiments in Complex should contain the impact of failure.",
+              "when": "Match your approach to the nature of the situation.",
+              "example": "Choose approaches for different team challenges"
+            },
+            "zh-Hans": {
+              "name": "Cynefin",
+              "about": "分类背景,而不是人或功德. 这个五域记录忽略了详细的边界和过渡。 根据情况变化的类别进行审查; 复杂实验应该包含失败的影响。",
+              "when": "与情况的性质相匹配你的态度。",
+              "example": "选择不同团队挑战的方法"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "causes",
+      "name": {
+        "ja": "原因を探る",
+        "en": "Explore causes",
+        "zh-Hans": "探究原因"
+      },
+      "frames": [
+        {
+          "id": "why",
+          "locales": {
+            "ja": {
+              "name": "なぜを重ねる",
+              "about": "問題に「なぜ？」と問い、その答えにまた「なぜ？」と重ねます。目安は5回。症状から、手を打てる原因へと近づきます。",
+              "when": "応急処置をしても、同じ問題がくり返し起きるとき。",
+              "example": "なぜリリースがいつも遅れるのか"
+            },
+            "en": {
+              "name": "Five whys",
+              "about": "Ask “why?” about a problem, then ask it again about the answer, up to five times. Each step moves from the symptom toward a cause you can actually fix.",
+              "when": "When the same problem keeps coming back despite quick fixes.",
+              "example": "Why do our releases keep slipping?"
+            },
+            "zh-Hans": {
+              "name": "五问法",
+              "about": "对问题问“为什么？”，再对答案继续问，大约五次。每一步都从表面症状走向你真正能解决的原因。",
+              "when": "同一个问题反复出现、临时补救也无效时。",
+              "example": "为什么我们的发布总是延期？"
+            }
+          }
+        },
+        {
+          "id": "tree",
+          "locales": {
+            "ja": {
+              "name": "ロジックツリー",
+              "about": "大きな問いを、行動できる大きさになるまで枝分かれさせます。枝どうしが重ならず、合わせると全体になるように分けます。",
+              "when": "問題が大きすぎたり、絡み合っていて手をつけにくいとき。",
+              "example": "毎月の費用を10%減らすにはどうするか"
+            },
+            "en": {
+              "name": "Logic tree",
+              "about": "Break a big question into smaller branches until each one is concrete enough to act on. Branches should not overlap and together should cover the whole.",
+              "when": "When a problem feels too large or tangled to tackle directly.",
+              "example": "How can we cut monthly costs by 10%?"
+            },
+            "zh-Hans": {
+              "name": "逻辑树",
+              "about": "把一个大问题拆成更小的分支，直到每一支都具体到可以行动。分支之间不重叠，合起来覆盖整体。",
+              "when": "问题太大或太复杂，难以直接下手时。",
+              "example": "怎样把每月开支降低10%？"
+            }
+          }
+        },
+        {
+          "id": "fishbone",
+          "locales": {
+            "ja": {
+              "name": "原因の分類ツリー",
+              "about": "問題の原因を、人・方法・道具・環境などの分類に分け、それぞれに候補を挙げます。石川馨の特性要因図（魚の骨）の考え方です。",
+              "when": "原因がいくつもありそうで、ひとつに決めつけたくないとき。",
+              "example": "なぜ顧客からの苦情が増えているのか"
+            },
+            "en": {
+              "name": "Cause classification tree",
+              "about": "Group possible causes of a problem into categories, such as people, methods, tools, and environment, then list candidates under each. Based on the Ishikawa (fishbone) diagram.",
+              "when": "When a problem may have many causes and you want to avoid fixating on one.",
+              "example": "Why are customer complaints rising?"
+            },
+            "zh-Hans": {
+              "name": "原因分类树",
+              "about": "把问题的可能原因按人员、方法、工具、环境等类别归类，再在每类下列出候选原因。源自石川馨的因果图（鱼骨图）。",
+              "when": "问题可能有多个原因，不想过早锁定其中一个时。",
+              "example": "为什么客户投诉在增加？"
+            }
+          }
+        },
+        {
+          "id": "a3",
+          "locales": {
+            "ja": {
+              "name": "A3問題解決",
+              "about": "背景から検証までのつながりを確認する記録用キャンバスです。原因・対策には対応する内容を明記し、結果に応じて前の欄へ戻ります。用紙を埋めるだけで問題解決が完了するわけではありません。",
+              "when": "現状から対策と検証まで、筋道をつなぐ。",
+              "example": "受付の待ち時間を減らす"
+            },
+            "en": {
+              "name": "A3 Problem Solving",
+              "about": "This canvas records the reasoning from background to follow-up. Explicitly connect causes and countermeasures and revise earlier sections as evidence changes. Filling the form is not the same as solving the problem.",
+              "when": "Connect the current condition, causes, countermeasures, and follow-up.",
+              "example": "Reduce registration waiting time"
+            },
+            "zh-Hans": {
+              "name": "A3 Problem Solving",
+              "about": "这个字符串记录了从背景到跟踪的理由,明确连接原因和反测,并审查以前的部分,因为证据变化。",
+              "when": "连接现状、原因、反措施和跟踪。",
+              "example": "减少登记等待时间"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "planning",
+      "name": {
+        "ja": "行動を計画",
+        "en": "Plan action",
+        "zh-Hans": "规划行动"
+      },
+      "frames": [
+        {
+          "id": "pdca",
+          "locales": {
+            "ja": {
+              "name": "PDCA",
+              "about": "計画・実行・確認・改善をくり返します。始める前に結果の見方を決め、小さく試して次をよくします。",
+              "when": "何がうまくいくか分からず、試しながら学べるとき。",
+              "example": "新しい案内メールで登録が増えるか"
+            },
+            "en": {
+              "name": "PDCA",
+              "about": "A loop of Plan, Do, Check, Act. Decide how you will judge the result before you start, then run a small test and improve.",
+              "when": "When you are unsure what works and can afford to learn by trying.",
+              "example": "Will a new onboarding email improve sign-ups?"
+            },
+            "zh-Hans": {
+              "name": "PDCA",
+              "about": "计划、执行、检查、改进的循环。开始前先定好如何判断结果，小规模尝试，然后改进。",
+              "when": "不确定什么有效，并且可以边试边学时。",
+              "example": "新的欢迎邮件能提高注册量吗？"
+            }
+          }
+        },
+        {
+          "id": "project",
+          "locales": {
+            "ja": {
+              "name": "小さな企画キャンバス",
+              "about": "誰のため・困りごと・届ける価値・試すこと・必要なもの・成功の目安を1枚にまとめます。各欄が互いに支え合っているかを確かめます。",
+              "when": "思いつきを、今週から動ける計画にしたいとき。",
+              "example": "地域のワークショップを開く価値はあるか"
+            },
+            "en": {
+              "name": "Small project canvas",
+              "about": "A one-page canvas: who it is for, their problem, the value you offer, what you will try, what you need, and how you will know it worked. Each box should support the others.",
+              "when": "When an idea needs to become a plan you can start this week.",
+              "example": "Is this community workshop idea worth running?"
+            },
+            "zh-Hans": {
+              "name": "小型项目画布",
+              "about": "一页画布：为谁、他们的困扰、你提供的价值、要尝试什么、需要什么、如何判断成功。每一栏都应相互支撑。",
+              "when": "想把一个念头变成本周就能开始的计划时。",
+              "example": "这个社区工作坊值得办吗？"
+            }
+          }
+        },
+        {
+          "id": "4p",
+          "locales": {
+            "ja": {
+              "name": "4P",
+              "about": "提供物・価格・流通（届け方）・販促の4つの選択で企画します。4つがひとつの筋の通った話になっているかを確かめます。",
+              "when": "何かを相手に届ける方法を計画するとき。",
+              "example": "新しいオンライン講座をいくらで、どう売るか"
+            },
+            "en": {
+              "name": "4P",
+              "about": "Design an offer through four choices: Product, Price, Place (how it reaches people), and Promotion. Check that the four tell one consistent story.",
+              "when": "When planning how to bring something to its audience.",
+              "example": "How should we price and sell our new online course?"
+            },
+            "zh-Hans": {
+              "name": "4P",
+              "about": "通过四个选择设计方案：产品、价格、渠道（如何触达人们）和推广。检查四者是否讲述同一个连贯的故事。",
+              "when": "规划如何把某样东西送到目标人群手中时。",
+              "example": "新的在线课程定价多少、怎么卖？"
+            }
+          }
+        },
+        {
+          "id": "grow",
+          "locales": {
+            "ja": {
+              "name": "GROW",
+              "about": "目標（Goal）を定め、現状（Reality）を見て、選択肢（Options）を広げ、やること（Will）を約束します。状況が変われば前の段階に戻ってかまいません。",
+              "when": "自分や支える相手が行き詰まり、前に進む道を探したいとき。",
+              "example": "マネジメント職に近づくには何をするか"
+            },
+            "en": {
+              "name": "GROW",
+              "about": "A coaching sequence: clarify the Goal, describe the current Reality, widen the Options, then commit to what you Will do. Go back a step whenever the picture changes.",
+              "when": "When you or someone you support is stuck and needs a way forward.",
+              "example": "How do I move toward a management role?"
+            },
+            "zh-Hans": {
+              "name": "GROW",
+              "about": "一套教练流程：明确目标（Goal），描述现状（Reality），拓展选项（Options），承诺行动（Will）。情况变化时可以退回上一步。",
+              "when": "你或你支持的人陷入僵局、需要找到前进方向时。",
+              "example": "如何走向管理岗位？"
+            }
+          }
+        },
+        {
+          "id": "5w2h",
+          "locales": {
+            "ja": {
+              "name": "5W2H",
+              "about": "何を・なぜ・誰が・いつ・どこで・どうやって・いくら（いくつ）の7つで計画を確かめます。空欄が抜けを教えてくれます。推測で埋めず「未定」と残します。",
+              "when": "計画を決める前に、大事なことが抜けていないか確かめたいとき。",
+              "example": "新しいルールを発表する準備はできているか"
+            },
+            "en": {
+              "name": "5W2H",
+              "about": "Check a plan against seven questions: What, Why, Who, When, Where, How, and How much. Gaps show up as blanks; mark them as undecided instead of guessing.",
+              "when": "Before committing to a plan, to make sure nothing important is missing.",
+              "example": "Are we ready to announce the new policy?"
+            },
+            "zh-Hans": {
+              "name": "5W2H",
+              "about": "用七个问题检查计划：做什么、为什么、谁、何时、何地、怎么做、多少。空白处就是缺口；标为“待定”，而不是靠猜。",
+              "when": "在确定计划前，确认没有遗漏重要事项时。",
+              "example": "我们准备好公布新规定了吗？"
+            }
+          }
+        },
+        {
+          "id": "gap",
+          "locales": {
+            "ja": {
+              "name": "ギャップ分析",
+              "about": "目指す状態・いまの状態・その隔たり・埋める行動を書きます。2つの状態は同じ指標で比べます。",
+              "when": "目標があり、そこへの具体的な手順を考えたいとき。",
+              "example": "来年までに英語で日常会話ができるには何が必要か"
+            },
+            "en": {
+              "name": "Gap analysis",
+              "about": "Describe where you want to be, where you are now, the gap between them, and the actions that close it. Use the same measures for both states.",
+              "when": "When you have a goal and need to plan the concrete steps to it.",
+              "example": "What would it take to reach conversational English by next year?"
+            },
+            "zh-Hans": {
+              "name": "差距分析",
+              "about": "写下想达到的状态、现在的状态、两者之间的差距，以及弥补差距的行动。两种状态要用同样的指标衡量。",
+              "when": "有了目标，需要规划具体步骤时。",
+              "example": "明年要能用英语日常对话，需要做些什么？"
+            }
+          }
+        },
+        {
+          "id": "wbs",
+          "locales": {
+            "ja": {
+              "name": "WBS",
+              "about": "成果物を部分に分け、さらに扱える大きさまで分解します。作業の全体像が見えるようになります。",
+              "when": "プロジェクトが大きく感じられ、含まれるものを全部見渡したいとき。",
+              "example": "ウェブサイト公開に本当に必要な作業は何か"
+            },
+            "en": {
+              "name": "WBS",
+              "about": "Break a deliverable into smaller parts, then those parts into pieces small enough to manage. It shows the full scope of the work.",
+              "when": "When a project feels big and you need to see everything it includes.",
+              "example": "What is really involved in launching our website?"
+            },
+            "zh-Hans": {
+              "name": "WBS",
+              "about": "把一个交付成果拆成部分，再把各部分拆到可管理的大小。它能呈现工作的完整范围。",
+              "when": "项目显得庞大，需要看清它包含的一切时。",
+              "example": "上线网站究竟要做哪些事？"
+            }
+          }
+        },
+        {
+          "id": "smart",
+          "locales": {
+            "ja": {
+              "name": "SMART",
+              "about": "目標を、具体的・測定できる・達成できる・目的に合う・期限がある、の5つで整えます。最後に、ひとつの分かりやすい文にまとめます。",
+              "when": "目標があいまいで、実行して確かめられる形にしたいとき。",
+              "example": "今期の売上目標を具体的にどう置くか"
+            },
+            "en": {
+              "name": "SMART",
+              "about": "Shape a goal so it is Specific, Measurable, Achievable, Relevant, and Time-bound. Then rewrite it as one clear sentence.",
+              "when": "When a goal is vague and you need one you can act on and check.",
+              "example": "What exactly is our sales target for this quarter?"
+            },
+            "zh-Hans": {
+              "name": "SMART",
+              "about": "把目标打磨得具体、可衡量、可实现、相关且有时限。最后把它改写成一句清晰的话。",
+              "when": "目标模糊，需要一个能执行、能检验的目标时。",
+              "example": "本季度的销售目标具体定为多少？"
+            }
+          }
+        },
+        {
+          "id": "woop",
+          "locales": {
+            "ja": {
+              "name": "WOOP",
+              "about": "願い、望む結果、自分の内側の障害、もし〜ならの計画の順に考えます。結果と障害を具体的に想像する時間も取ります。",
+              "when": "目標はあるのに、いつもの習慣や感情で行動が止まるとき。",
+              "example": "夕食後の読書を続けるには？"
+            },
+            "en": {
+              "name": "WOOP",
+              "about": "Work through Wish, Outcome, Obstacle, and Plan in that order. Take time to imagine the outcome and your inner obstacle, then make an if–then plan.",
+              "when": "When a goal is clear but a habit or feeling keeps getting in the way.",
+              "example": "How can I keep reading after dinner?"
+            },
+            "zh-Hans": {
+              "name": "WOOP",
+              "about": "按愿望、理想结果、内在障碍、计划的顺序思考。花时间具体想象结果和障碍，再制定“如果……就……”的计划。",
+              "when": "已经有目标，却总被习惯或情绪阻碍行动时。",
+              "example": "怎样坚持晚饭后阅读？"
+            }
+          }
+        },
+        {
+          "id": "test-card",
+          "locales": {
+            "ja": {
+              "name": "Test Card",
+              "about": "仮説、試す方法、測定指標、判断基準を実験前に決めます。1ノートで1つの仮説を扱う記録用表示です。",
+              "when": "案を大きく進める前に、小さな実験で確かめたいとき。",
+              "example": "昼の読書会に参加したい人はいる？"
+            },
+            "en": {
+              "name": "Test Card",
+              "about": "Define one hypothesis, a test, a metric, and a decision threshold before experimenting. This note format records one hypothesis at a time.",
+              "when": "When you want to test an idea on a small scale before committing more resources.",
+              "example": "Would people sign up for a lunchtime book club?"
+            },
+            "zh-Hans": {
+              "name": "Test Card",
+              "about": "实验前先确定一个假设、测试方法、测量指标和判断门槛。此记录形式每篇笔记处理一个假设。",
+              "when": "想在投入更多资源前，用小规模实验验证想法时。",
+              "example": "会有人报名午间读书会吗？"
+            }
+          }
+        },
+        {
+          "id": "fifteen-percent",
+          "locales": {
+            "ja": {
+              "name": "15% Solutions",
+              "about": "追加の許可や資源なしで、自分がいま動かせる範囲を探します。15%は比喩です。元の共有・相談の手法を個人の記録用に3欄へ整理しました。",
+              "when": "大きな課題に圧倒され、いま始められる行動を見つけたいとき。",
+              "example": "情報共有をよくするため、自分だけで始められることは？"
+            },
+            "en": {
+              "name": "15% Solutions",
+              "about": "Find actions within your current freedom and resources, without extra permission or resources. The 15% is a metaphor. These three fields adapt a shared consultation method for individual notes.",
+              "when": "When a large challenge feels overwhelming and you want an action you can start now.",
+              "example": "What can I start myself to improve information sharing?"
+            },
+            "zh-Hans": {
+              "name": "15% Solutions",
+              "about": "寻找无需额外许可或资源、在当前自主范围内就能采取的行动。15%是比喻。这三个栏目将共同分享和咨询的方法改为个人记录形式。",
+              "when": "面对大问题感到无从下手，想找到现在就能开始的行动时。",
+              "example": "为了改善信息共享，我自己能先做什么？"
+            }
+          }
+        },
+        {
+          "id": "sora-ame-kasa",
+          "locales": {
+            "ja": {
+              "name": "空・雨・傘",
+              "about": "空は事実、雨は解釈、傘は行動・解決策。確認できたことと自分の見立てを分けて、次の行動につなげます。",
+              "when": "状況を報告したり、問題への対応を考えたりするとき。",
+              "example": "申込が少ないイベントにどう対応する？"
+            },
+            "en": {
+              "name": "Sky, Rain, Umbrella",
+              "about": "Sky is fact, rain is interpretation, and umbrella is action or a solution. Separate what you know from what you infer, then decide what to do.",
+              "when": "When reporting a situation or deciding how to respond to a problem.",
+              "example": "How should we respond to low event registrations?"
+            },
+            "zh-Hans": {
+              "name": "天空·雨·伞",
+              "about": "天空代表事实，雨代表解读，伞代表行动或解决方案。把已确认的事情与自己的推断分开，再决定下一步。",
+              "when": "报告情况或考虑如何应对问题时。",
+              "example": "活动报名人数少，该如何应对？"
+            }
+          }
+        },
+        {
+          "id": "purpose-practice",
+          "locales": {
+            "ja": {
+              "name": "Purpose-to-Practice",
+              "about": "5つの要素を行き来して整えます。個人の準備用メモとして使えますが、チームの合意として扱う前に参加者と対話してください。",
+              "when": "目的から、参加者と運営の形を考える。",
+              "example": "地域の読書会を始める"
+            },
+            "en": {
+              "name": "Purpose-to-Practice",
+              "about": "Revise the five elements together. This can prepare an individual draft, but discuss it with participants before treating it as a shared agreement.",
+              "when": "Connect purpose with people and ways of organizing.",
+              "example": "Start a community book club"
+            },
+            "zh-Hans": {
+              "name": "Purpose-to-Practice",
+              "about": "这可以制定一个个别的草案,但在将其视为共享协议之前与参与者讨论。",
+              "when": "连接目的与人和组织方式。",
+              "example": "开启社区书俱乐部"
+            }
+          }
+        },
+        {
+          "id": "opportunity-tree",
+          "locales": {
+            "ja": {
+              "name": "Opportunity Solution Tree",
+              "about": "成果を根に、機会→解決案→仮定の検証を親子でつなぎます。機会の下に機会を分解できます。未接続の項目は仮置きとして扱い、利用者の具体的な経験を根拠にします。自動採点や検証結果の自動判定はしません。",
+              "when": "成果・機会・解決案・検証をつなぐ。",
+              "example": "初回のノート作成を助ける"
+            },
+            "en": {
+              "name": "Opportunity Solution Tree",
+              "about": "Connect an outcome to opportunities, solutions, and assumption tests using parent links. Opportunities may have sub-opportunities. Unlinked entries are drafts. Use concrete customer experiences as evidence; scoring and conclusions are not automatic.",
+              "when": "Connect outcomes, opportunities, solutions, and assumption tests.",
+              "example": "Help people create their first note"
+            },
+            "zh-Hans": {
+              "name": "Opportunity Solution Tree",
+              "about": "将结果连接到机会、解决方案和假设测试,使用父母链接。 机会可能有潜在的机会. 无链接的输入是草案. 使用具体的客户体验作为证据; 得分和结论不自动。",
+              "when": "连接结果、机会、解决方案和假设测试。",
+              "example": "帮助人们创建自己的第一笔记"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "ideas",
+      "name": {
+        "ja": "発想を広げる",
+        "en": "Expand ideas",
+        "zh-Hans": "拓展创意"
+      },
+      "frames": [
+        {
+          "id": "hats",
+          "locales": {
+            "ja": {
+              "name": "6つの帽子",
+              "about": "エドワード・デ・ボノの「6つの帽子」。事実（白）・感情（赤）・注意（黒）・よさ（黄）・創造（緑）・進行（青）の視点で、ひとつのテーマを見ます。全員が同時に同じ帽子をかぶります。",
+              "when": "議論が堂々めぐりのときや、ひとつの見方ばかりが強いとき。",
+              "example": "チームで週休3日を取り入れるか"
+            },
+            "en": {
+              "name": "Six Thinking Hats",
+              "about": "Edward de Bono’s Six Thinking Hats: look at one topic through facts (white), feelings (red), caution (black), benefits (yellow), creativity (green), and process (blue). Everyone wears the same hat at the same time.",
+              "when": "When a discussion is going in circles or one viewpoint dominates.",
+              "example": "Should our team adopt a four-day week?"
+            },
+            "zh-Hans": {
+              "name": "六顶思考帽",
+              "about": "爱德华·德博诺的“六顶思考帽”：从事实（白）、情感（红）、谨慎（黑）、益处（黄）、创意（绿）和流程（蓝）六个角度看同一个话题。所有人同一时间戴同一顶帽子。",
+              "when": "讨论原地打转，或某一种观点占据主导时。",
+              "example": "团队要不要实行四天工作制？"
+            }
+          }
+        },
+        {
+          "id": "scamper",
+          "locales": {
+            "ja": {
+              "name": "SCAMPER",
+              "about": "代える・組み合わせる・応用する・変える・別の用途・取り除く・逆にする、の7つの問いでアイデアを変形します。まず広げて、評価は後で。",
+              "when": "既存の案から選ぶのではなく、新しい選択肢がほしいとき。",
+              "example": "定番商品のパッケージをどう生まれ変わらせるか"
+            },
+            "en": {
+              "name": "SCAMPER",
+              "about": "Seven prompts to reshape an idea: Substitute, Combine, Adapt, Modify, Put to another use, Eliminate, Reverse. Generate first, judge later.",
+              "when": "When you need fresh options rather than a choice between existing ones.",
+              "example": "How could we reinvent our standard product package?"
+            },
+            "zh-Hans": {
+              "name": "SCAMPER",
+              "about": "用七个问题改造想法：替代、合并、借用、调整、改作他用、去除、颠倒。先发散，后评价。",
+              "when": "需要全新的选项，而不是在现有方案中挑选时。",
+              "example": "如何重新设计招牌产品的包装？"
+            }
+          }
+        },
+        {
+          "id": "double-diamond",
+          "locales": {
+            "ja": {
+              "name": "ダブルダイヤモンド",
+              "about": "広げて絞るを2回くり返します。問題を発見して定義し、解決策を展開してひとつを届けます。学びに応じて前に戻ることも想定します。",
+              "when": "正しい問題を解こうとしているのか、まだ確信がないとき。",
+              "example": "新しいサービスは本当に何を解決すべきか"
+            },
+            "en": {
+              "name": "Double Diamond",
+              "about": "Two rounds of opening up and narrowing down: discover the problem and define it, then develop solutions and deliver one. Expect to loop back as you learn.",
+              "when": "When you are not yet sure you are solving the right problem.",
+              "example": "What should our new service actually solve?"
+            },
+            "zh-Hans": {
+              "name": "双钻模型",
+              "about": "两轮先发散后收敛：发现问题并定义它，再展开方案并交付其一。随着学习，预计会回到前面的阶段。",
+              "when": "还不确定自己是否在解决正确的问题时。",
+              "example": "我们的新服务到底该解决什么？"
+            }
+          }
+        },
+        {
+          "id": "hmw",
+          "locales": {
+            "ja": {
+              "name": "How Might We",
+              "about": "観察から得た気づきを「どうすれば〜できるか？」という問いに変えます。特定の解決策を決めつけず、問いを推敲する記録用の3段階です。",
+              "when": "アイデアを出す前に、誰のどんな困りごとに取り組むかを絞りたいとき。",
+              "example": "読書会の初参加者が話し始めやすくするには？"
+            },
+            "en": {
+              "name": "How Might We",
+              "about": "Turn observations into a “How might we…?” question without prescribing a solution. These three note-taking stages help refine the question.",
+              "when": "Before generating ideas, when you need to focus on whose problem to address and in what setting.",
+              "example": "How might we help newcomers speak at a book club?"
+            },
+            "zh-Hans": {
+              "name": "How Might We",
+              "about": "把观察中的发现转化为“我们如何才能……？”的问题，不预设某个解决方案。这三个记录步骤用于打磨问题。",
+              "when": "提出创意前，需要明确为谁解决什么情境中的问题时。",
+              "example": "如何让读书会的新参与者更容易开口？"
+            }
+          }
+        },
+        {
+          "id": "errc",
+          "locales": {
+            "ja": {
+              "name": "ERRC：4つのアクション",
+              "about": "業界の標準を基準に、取り除く・減らす・増やす・創り出すの4方向で提供価値を考えます。価値曲線の描画は含まない分類用の表示です。",
+              "when": "既存のサービスの当たり前を見直し、価値とコストを一緒に変えたいとき。",
+              "example": "初参加しやすい読書会に変えるには？"
+            },
+            "en": {
+              "name": "ERRC: Four actions",
+              "about": "Use industry norms to consider what to Eliminate, Reduce, Raise, and Create. This four-category view does not draw a value curve.",
+              "when": "When you want to rethink an existing service and change both buyer value and cost.",
+              "example": "How can we make a book club easier to join?"
+            },
+            "zh-Hans": {
+              "name": "ERRC：四项行动",
+              "about": "以行业惯例为基准，从剔除、减少、增加、创造四个方向思考提供的价值。此四分类视图不绘制价值曲线。",
+              "when": "想重新审视既有服务，同时改变客户价值和成本时。",
+              "example": "怎样让读书会更方便新人加入？"
+            }
+          }
+        },
+        {
+          "id": "wicked-questions",
+          "locales": {
+            "ja": {
+              "name": "Wicked Questions",
+              "about": "どちらかを悪いものとせず、同時に真である緊張関係を言葉にします。すぐに一方を捨てたり、無理に解決策を出したりしないための個人用メモです。",
+              "when": "同時に成り立つ、相反する要求を見つめる。",
+              "example": "共通ルールと現場の裁量"
+            },
+            "en": {
+              "name": "Wicked Questions",
+              "about": "Describe a tension between two truths without making either side wrong. This individual note helps resist discarding one side or rushing to a solution.",
+              "when": "Explore two truths that are in tension.",
+              "example": "Shared rules and local autonomy"
+            },
+            "zh-Hans": {
+              "name": "Wicked Questions",
+              "about": "描述两个真理之间的紧张局势,而不让双方都错了,这项个人笔记有助于抵抗一边分离或匆匆走向解决方案。",
+              "when": "探索两种紧张的真相。",
+              "example": "共享规则和地方自治"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "people",
+      "name": {
+        "ja": "相手を理解",
+        "en": "Understand others",
+        "zh-Hans": "理解他人"
+      },
+      "frames": [
+        {
+          "id": "empathy",
+          "locales": {
+            "ja": {
+              "name": "共感マップ",
+              "about": "相手が言うこと・考えること・すること・感じることを書き出します。観察した事実と推測を分けると、自分の見方を相手に押しつけずにすみます。",
+              "when": "相手のニーズを理解することが判断の鍵になるとき。",
+              "example": "次の機能で、顧客が本当に求めているものは何か"
+            },
+            "en": {
+              "name": "Empathy map",
+              "about": "Map what another person says, thinks, does, and feels. Separating observed facts from guesses keeps you from projecting your own view onto them.",
+              "when": "When a decision depends on understanding someone else’s needs.",
+              "example": "What does the customer actually need from our next feature?"
+            },
+            "zh-Hans": {
+              "name": "共情地图",
+              "about": "写下对方说了什么、想什么、做什么、感受到什么。把观察到的事实与推测分开，避免把自己的看法强加于人。",
+              "when": "决定取决于理解他人需求时。",
+              "example": "客户真正需要我们下一个功能做什么？"
+            }
+          }
+        },
+        {
+          "id": "journey",
+          "locales": {
+            "ja": {
+              "name": "カスタマージャーニー",
+              "about": "知る・試す・使い続けるといった段階に沿って、人の行動・気持ち・改善案を書きます。困りごとが流れの中で見えてきます。",
+              "when": "サービスや製品の体験のどこを改善するか決めたいとき。",
+              "example": "新しい利用者はどこでアプリをやめてしまうか"
+            },
+            "en": {
+              "name": "Customer journey",
+              "about": "Follow a person through the stages of an experience — discovering, trying, continuing — and note actions, feelings, and ideas at each step. Pain points become visible in context.",
+              "when": "When deciding where to improve a service or product experience.",
+              "example": "Where do new users give up on our app?"
+            },
+            "zh-Hans": {
+              "name": "客户旅程",
+              "about": "沿着体验的阶段——了解、试用、持续使用——记录一个人的行动、感受和改进想法。痛点会在流程中显现出来。",
+              "when": "决定改进服务或产品体验的哪个环节时。",
+              "example": "新用户在哪一步放弃了我们的应用？"
+            }
+          }
+        },
+        {
+          "id": "stakeholders",
+          "locales": {
+            "ja": {
+              "name": "関係者マップ",
+              "about": "関わる人を、この企画への関心と影響力で配置します。深く巻き込む人、満足してもらう人、情報を届ける人、見守る人が分かります。",
+              "when": "判断が多くの人に影響し、その協力が必要なとき。",
+              "example": "オフィスのレイアウト変更の前に、誰に相談するか"
+            },
+            "en": {
+              "name": "Stakeholder map",
+              "about": "Map the people involved by their interest and influence on your project. It suggests who to involve closely, keep satisfied, keep informed, or monitor.",
+              "when": "When a decision affects many people and needs their support.",
+              "example": "Who must we consult before changing the office layout?"
+            },
+            "zh-Hans": {
+              "name": "利益相关者地图",
+              "about": "按对项目的关注度和影响力来摆放相关人员。它提示谁需要深度参与、保持满意、及时告知或持续关注。",
+              "when": "决定影响许多人、且需要他们支持时。",
+              "example": "调整办公室布局前要先征求谁的意见？"
+            }
+          }
+        },
+        {
+          "id": "circle-viewpoints",
+          "locales": {
+            "ja": {
+              "name": "Circle of Viewpoints",
+              "about": "1項目を1つの立場にし、その人の見方と問いを記録します。想像した内容と実際に聞いた内容を区別し、相手の気持ちを断定しません。",
+              "when": "複数の立場から、同じ出来事を見る。",
+              "example": "図書館の開館時間を変える"
+            },
+            "en": {
+              "name": "Circle of Viewpoints",
+              "about": "Use one entry per perspective, recording a view and a question. Distinguish imagination from what people actually said and do not assume their feelings.",
+              "when": "Explore the same situation from different perspectives.",
+              "example": "Change library opening hours"
+            },
+            "zh-Hans": {
+              "name": "Circle of Viewpoints",
+              "about": "使用一个输入每视野,记录一个观点和一个问题,区分想象力与人们实际说的话,而不是假设他们的感受。",
+              "when": "从不同的角度探索相同的情况。",
+              "example": "修改图书馆开放时间"
+            }
+          }
+        },
+        {
+          "id": "jtbd",
+          "locales": {
+            "ja": {
+              "name": "Jobs to Be Done",
+              "about": "状況と求める進歩を聞き取る記録用キャンバスです。機能の要望だけを集めず、実際の選択の経緯を聞きます。これはJTBD理論全体を再現する標準用紙ではありません。",
+              "when": "その状況で、相手が求める進歩を理解する。",
+              "example": "通勤中に音声で学ぶ理由"
+            },
+            "en": {
+              "name": "Jobs to Be Done",
+              "about": "This is a note-taking canvas for circumstances and desired progress. Ask about actual choices, not only requested features. It is not a standard form covering the whole JTBD theory.",
+              "when": "Understand the progress someone seeks in a specific situation.",
+              "example": "Understand learning through audio on a commute"
+            },
+            "zh-Hans": {
+              "name": "Jobs to Be Done",
+              "about": "這是一個關於情況和所需的進步的筆記本,請問實際選擇,不僅是所要求的功能,這不是整個JTBD理論的標準表格。",
+              "when": "了解某人在特定情况下寻找的进展。",
+              "example": "理解通过音频在一个交换器学习"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "communication",
+      "name": {
+        "ja": "伝える",
+        "en": "Communicate",
+        "zh-Hans": "表达沟通"
+      },
+      "frames": [
+        {
+          "id": "prep",
+          "locales": {
+            "ja": {
+              "name": "PREP",
+              "about": "結論・理由・具体例・結論の順で伝えます。先に結論を言い、根拠で支え、最後にくり返して相手の記憶に残します。",
+              "when": "判断や提案を、短くはっきり説明したいとき。",
+              "example": "上司に予算の増額をどう提案するか"
+            },
+            "en": {
+              "name": "PREP",
+              "about": "Structure a message as Point, Reason, Example, Point. Lead with the conclusion, support it, then restate it so the listener remembers.",
+              "when": "When you need to explain or argue for a decision clearly and quickly.",
+              "example": "How do I propose a budget increase to my manager?"
+            },
+            "zh-Hans": {
+              "name": "PREP",
+              "about": "按观点、理由、例子、观点的顺序组织信息。先说结论，再给支撑，最后重申，让对方记住。",
+              "when": "需要清楚、快速地解释或论证一个决定时。",
+              "example": "如何向上司提议增加预算？"
+            }
+          }
+        },
+        {
+          "id": "star",
+          "locales": {
+            "ja": {
+              "name": "STAR",
+              "about": "状況・課題・行動・結果の順に経験を語ります。自分自身がしたことと、結果の根拠に焦点を当てます。",
+              "when": "自分の力を示すエピソードを選び、準備するとき。",
+              "example": "面接でどの経験を話すか"
+            },
+            "en": {
+              "name": "STAR",
+              "about": "Tell an experience as Situation, Task, Action, Result. Focus on what you yourself did and on evidence for the outcome.",
+              "when": "When choosing and preparing a story that proves what you can do.",
+              "example": "Which experience should I use in my interview?"
+            },
+            "zh-Hans": {
+              "name": "STAR",
+              "about": "按情境、任务、行动、结果讲述一段经历。重点放在你本人做了什么，以及结果的依据。",
+              "when": "挑选并准备一个能证明你能力的故事时。",
+              "example": "面试时讲哪段经历？"
+            }
+          }
+        },
+        {
+          "id": "sbi",
+          "locales": {
+            "ja": {
+              "name": "SBIフィードバック",
+              "about": "具体的な状況、観察した行動、その影響を順に整理するフィードバックの手法です。性格や意図を決めつけずに伝えます。",
+              "when": "感謝や改善の相談を、具体的な出来事に基づいて伝えたいとき。",
+              "example": "会議で助かった行動をどう伝える？"
+            },
+            "en": {
+              "name": "SBI feedback",
+              "about": "Structure feedback around a specific Situation, observed Behavior, and its Impact. Describe what happened without assuming personality or intent.",
+              "when": "When you want to give appreciation or discuss improvement using a concrete event.",
+              "example": "How can I explain what helped during a meeting?"
+            },
+            "zh-Hans": {
+              "name": "SBI反馈",
+              "about": "按具体情境、观察到的行为及其影响来组织反馈。描述发生的事情，不武断判断对方的性格或意图。",
+              "when": "想基于具体事件表达感谢或讨论改进时。",
+              "example": "怎样表达某个行为在会议中帮到了我？"
+            }
+          }
+        },
+        {
+          "id": "message",
+          "locales": {
+            "ja": {
+              "name": "メッセージ",
+              "about": "課題、答え、相手に期待する反応の3つでメッセージを整理します。答えには、何を基準にどう評価し、その結論に至ったかも含めます。",
+              "when": "提案や報告で、何に答え、相手にどう反応してほしいかを明確にしたいとき。",
+              "example": "会議の進め方を変える提案で、何への合意を求める？"
+            },
+            "en": {
+              "name": "Message",
+              "about": "Build a message around the issue, your answer, and the response you want from the recipient. The answer includes how you evaluated the matter and reached your conclusion.",
+              "when": "When a proposal or report needs a clear answer and an explicit response from its audience.",
+              "example": "What agreement do I seek when proposing a change to meetings?"
+            },
+            "zh-Hans": {
+              "name": "信息表达",
+              "about": "从课题、答案、期待对方的反应三个方面组织信息。答案还应说明依据什么标准、如何评价并得出结论。",
+              "when": "提案或汇报时，需要明确回答什么，以及希望对方作出什么反应时。",
+              "example": "提议改变会议方式时，希望对方同意什么？"
+            }
+          }
+        },
+        {
+          "id": "ladder-feedback",
+          "locales": {
+            "ja": {
+              "name": "Ladder of Feedback",
+              "about": "先に不明点を確認してから、価値・懸念・提案を伝えます。人の評価ではなく、作品や案の具体的な内容に注目します。",
+              "when": "案の理解から、改善の提案へ進む。",
+              "example": "企画書にフィードバックする"
+            },
+            "en": {
+              "name": "Ladder of Feedback",
+              "about": "Clarify before giving feedback, then share value, concerns, and suggestions. Focus on the work or idea rather than judging the person.",
+              "when": "Move from understanding an idea to constructive suggestions.",
+              "example": "Give feedback on a proposal"
+            },
+            "zh-Hans": {
+              "name": "Ladder of Feedback",
+              "about": "在提供反馈之前,清晰,然后分享价值、担忧和建议,专注于工作或想法而不是判断人。",
+              "when": "从理解一个想法到建设性的建议。",
+              "example": "回复一项提议"
+            }
+          }
+        },
+        {
+          "id": "negotiation-seven",
+          "locales": {
+            "ja": {
+              "name": "交渉の7要素",
+              "about": "相手の利害や代替案は、推測と確認済みを区別します。BATNAは合意しない場合の実行可能な代替案であり、相手への要求額とは異なります。",
+              "when": "利害と代替案を整理して、話し合いに備える。",
+              "example": "勉強会の会場を相談する"
+            },
+            "en": {
+              "name": "Seven Elements of Negotiation",
+              "about": "Distinguish assumptions about the other party from confirmed facts. BATNA is a feasible alternative if no agreement is reached, not a demand made to the other party.",
+              "when": "Prepare for negotiation using interests and alternatives.",
+              "example": "Discuss a venue for a workshop"
+            },
+            "zh-Hans": {
+              "name": "Seven Elements of Negotiation",
+              "about": "BATNA是可能的替代品,如果没有达成协议,而不是向另一方提出的要求。",
+              "when": "准备谈判,利用利益和替代品。",
+              "example": "讨论一个研讨会的场所"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "self",
+      "name": {
+        "ja": "自分を知る",
+        "en": "Know yourself",
+        "zh-Hans": "认识自己"
+      },
+      "frames": [
+        {
+          "id": "rubber-band",
+          "locales": {
+            "ja": {
+              "name": "ラバーバンド",
+              "about": "自分が2つの力に引っ張られている姿を思い浮かべます。いまの場所に留める力と、新しい道へ引く力。両方を言葉にすると、手放したくないものが見えてきます。",
+              "when": "留まるか変わるかで、心が揺れているとき。",
+              "example": "安定した仕事を辞めて、自分で何かを始めるか"
+            },
+            "en": {
+              "name": "Rubber band",
+              "about": "Picture yourself held between two forces: what keeps you where you are and what pulls you toward something new. Naming both shows what you would not want to lose.",
+              "when": "When you are torn between staying and changing.",
+              "example": "Should I leave a stable job to start something of my own?"
+            },
+            "zh-Hans": {
+              "name": "橡皮筋模型",
+              "about": "想象自己被两股力量拉扯：一股把你留在原地，一股把你拉向新事物。把两者都说出来，就能看清自己不愿失去的是什么。",
+              "when": "在留下与改变之间犹豫不决时。",
+              "example": "要辞去稳定的工作去创业吗？"
+            }
+          }
+        },
+        {
+          "id": "feedback",
+          "locales": {
+            "ja": {
+              "name": "フィードバック分析",
+              "about": "判断するときに、期待する結果を書き留めます。後で実際の結果と比べます。続けるうちに、自分の判断が得意な領域が分かります。ピーター・ドラッカーが紹介した方法です。",
+              "when": "自分の判断の質を、時間をかけて高めたいとき。",
+              "example": "あの人を採用したのは正しかったか"
+            },
+            "en": {
+              "name": "Feedback analysis",
+              "about": "When you make a decision, write down what you expect. Later, compare it with what actually happened. Over time you learn where your judgment is strong — an approach described by Peter Drucker.",
+              "when": "When you want to improve the quality of your own decisions over time.",
+              "example": "Was hiring this candidate the right call?"
+            },
+            "zh-Hans": {
+              "name": "反馈分析",
+              "about": "做决定时写下你的预期，之后与实际结果对比。长期坚持，你会了解自己的判断在哪些领域可靠。这是彼得·德鲁克介绍的方法。",
+              "when": "想随着时间提升自己决策质量时。",
+              "example": "录用这位候选人是对的吗？"
+            }
+          }
+        },
+        {
+          "id": "johari",
+          "locales": {
+            "ja": {
+              "name": "ジョハリの窓",
+              "about": "自分と他人の両方が知る自分、他人だけが知る自分、自分だけが知る自分、まだ誰も知らない自分の4つの窓。フィードバックと自己開示で、共有できる範囲が広がることを示します。",
+              "when": "何を打ち明けるか、どんなフィードバックを求めるかを決めたいとき。",
+              "example": "自分のリーダーシップについて、チームに何を聞くか"
+            },
+            "en": {
+              "name": "Johari window",
+              "about": "Four windows: what both you and others know about you, what only others see, what only you know, and what no one knows yet. It shows how feedback and openness can widen shared understanding.",
+              "when": "When deciding what to share or what feedback to ask for.",
+              "example": "What should I ask my team about how I lead?"
+            },
+            "zh-Hans": {
+              "name": "乔哈里窗",
+              "about": "四扇窗：你和他人都知道的你、只有他人看到的你、只有你知道的你、还没人知道的你。它展示了反馈与坦诚如何扩大彼此共享的认知。",
+              "when": "决定分享什么、或寻求什么反馈时。",
+              "example": "关于我的领导方式，该问团队什么？"
+            }
+          }
+        },
+        {
+          "id": "connect-extend-challenge",
+          "locales": {
+            "ja": {
+              "name": "Connect–Extend–Challenge",
+              "about": "本・講義・体験を受けて記録します。単なる内容の要約ではなく、自分の理解がどう変わったかを言葉にします。",
+              "when": "新しい学びを、知っていることにつなぐ。",
+              "example": "読書から学んだことを整理する"
+            },
+            "en": {
+              "name": "Connect–Extend–Challenge",
+              "about": "Use this after reading, a lesson, or an experience. Record how your understanding changed, rather than only summarizing the content.",
+              "when": "Connect new learning to existing knowledge.",
+              "example": "Reflect on what a book taught you"
+            },
+            "zh-Hans": {
+              "name": "Connect–Extend–Challenge",
+              "about": "阅读,教训或体验后使用此文,记录你的理解如何改变,而不是仅仅总结内容。",
+              "when": "将新学习与现有知识连接起来。",
+              "example": "想象一本书教你什么"
+            }
+          }
+        },
+        {
+          "id": "nine-whys",
+          "locales": {
+            "ja": {
+              "name": "9 Whys",
+              "about": "原因追究ではなく目的を探る問いです。理由の欄に問いと答えを重ね、9回を強制しません。元の対話手法を個人の記録向けに整理しています。",
+              "when": "活動の奥にある、大切な目的を探る。",
+              "example": "なぜ読書会を開くのか"
+            },
+            "en": {
+              "name": "9 Whys",
+              "about": "This explores purpose, not causes of failure. Add successive questions and answers in the reasons section without forcing nine repetitions. This is an individual record of a dialogue method.",
+              "when": "Explore the purpose behind an activity.",
+              "example": "Why organize a book club?"
+            },
+            "zh-Hans": {
+              "name": "9 Whys",
+              "about": "这探索目的,而不是失败的原因。 添加连续问题和答案在理由部分,而不强迫九次重复。",
+              "when": "探索一个活动背后的目的。",
+              "example": "為什麼要安排一本書俱樂部?"
+            }
+          }
+        },
+        {
+          "id": "odyssey",
+          "locales": {
+            "ja": {
+              "name": "Odyssey Plans",
+              "about": "3案を優劣の順位ではなく、異なる可能性として描きます。段階が年、視点が案です。全体像では各案の資源・魅力・自信・一貫性と疑問を補足に記録します。原典の評価ゲージは定性的なメモに置き換えています。",
+              "when": "異なる3つの、5年間の未来を描く。",
+              "example": "これから5年間の働き方"
+            },
+            "en": {
+              "name": "Odyssey Plans",
+              "about": "Explore three different possibilities rather than ranking a first and backup choice. Stages represent years and lanes represent plans. In Overview, note each plan’s resources, appeal, confidence, coherence, and questions. Written assessments replace the original visual gauges.",
+              "when": "Explore three different five-year futures.",
+              "example": "Explore the next five years of work"
+            },
+            "zh-Hans": {
+              "name": "Odyssey Plans",
+              "about": "探索三种不同的可能性,而不是排名第一和备份选项. 阶段代表年份,线路代表计划. 在概述中,注意每个计划的资源,吸引力,信心,一致性,问题。",
+              "when": "探索三个不同的五年未来。",
+              "example": "探索未来五年的工作"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "risks",
+      "name": {
+        "ja": "リスクを考える",
+        "en": "Consider risks",
+        "zh-Hans": "考虑风险"
+      },
+      "frames": [
+        {
+          "id": "premortem",
+          "locales": {
+            "ja": {
+              "name": "プレモーテム",
+              "about": "未来に計画が失敗したと仮定します。その原因、早めに気づける兆候、いまできる備えを書き出します。",
+              "when": "計画を始める前、楽観がリスクを隠していそうなとき。",
+              "example": "製品の発売を失敗させるものは何か"
+            },
+            "en": {
+              "name": "Premortem",
+              "about": "Imagine it is the future and your plan has failed. List why, what early signs would warn you, and what you can do now to prevent it.",
+              "when": "Before launching a plan, when optimism may hide risks.",
+              "example": "What could sink our product launch?"
+            },
+            "zh-Hans": {
+              "name": "事前复盘",
+              "about": "假设来到未来，你的计划已经失败。写下原因、能提前预警的迹象，以及现在就能采取的预防措施。",
+              "when": "在启动计划前，乐观情绪可能掩盖风险时。",
+              "example": "什么可能让产品发布失败？"
+            }
+          }
+        },
+        {
+          "id": "rumsfeld",
+          "locales": {
+            "ja": {
+              "name": "Rumsfeld Matrix",
+              "about": "知っていること、知らないと自覚していること、活用できていない知識、まだ気づいていない未知を整理する4分割です。最後の欄は未知を見つける方法や備えを書く記録用の構成です。",
+              "when": "企画や判断の前に、知識の抜けと次に確かめることを整理したいとき。",
+              "example": "公開前に何が確認済みで、何が未確認？"
+            },
+            "en": {
+              "name": "Rumsfeld Matrix",
+              "about": "Map known knowns, known unknowns, unknown knowns, and unknown unknowns. The final field is adapted for recording ways to discover or prepare for the unexpected, rather than listing unknowable facts.",
+              "when": "Before a project or decision, when you want to identify knowledge gaps and what to investigate next.",
+              "example": "What has been checked before launch, and what remains uncertain?"
+            },
+            "zh-Hans": {
+              "name": "Rumsfeld Matrix",
+              "about": "整理已知的已知、已知的未知、未被意识到或利用的知识，以及未知的未知。最后一栏改为记录发现意外或为其做准备的方法，而不是列举尚无法知晓的事实。",
+              "when": "在规划或决策前，想找出知识缺口及下一步要验证的内容时。",
+              "example": "发布前哪些已经确认，哪些仍不确定？"
+            }
+          }
+        },
+        {
+          "id": "fmea",
+          "locales": {
+            "ja": {
+              "name": "FMEA",
+              "about": "1項目で1つの失敗モードを扱い、影響・原因・現在の管理・優先理由・対策・担当期限・結果を別々に記録します。定性的な記録版です。S/O/Dの採点やRPN・Action Priorityの計算、規格適合の判定は含みません。",
+              "when": "失敗の形と影響を、対策と確認につなぐ。",
+              "example": "イベント受付の失敗を備える"
+            },
+            "en": {
+              "name": "FMEA",
+              "about": "Use one record per failure mode and separate its effects, causes, controls, priority rationale, actions, owner and due date, and results. This is a qualitative record. It does not calculate severity, occurrence, detection, RPN, or Action Priority, or determine standards compliance.",
+              "when": "Connect failure modes and effects with actions and follow-up.",
+              "example": "Prepare for failures in event registration"
+            },
+            "zh-Hans": {
+              "name": "FMEA",
+              "about": "每个条目记录一种失效模式，分别填写影响、原因、现有控制、优先处理的理由、措施、负责人和期限、结果。本版本用于定性记录，不计算严重度、发生度、探测度、RPN或Action Priority，也不判定是否符合标准。",
+              "when": "连接故障模式和效果与行动和跟踪。",
+              "example": "准备在事件登记中失败"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

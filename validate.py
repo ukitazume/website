@@ -18,7 +18,7 @@ for f in root.rglob('*.html'):
  assert len([t for t,a in tags if t=='h1'])==1,f
  if f.name!='404.html':
   assert len([1 for t,a in tags if t=='link' and a.get('rel')=='canonical'])==1,f
-  assert len([1 for t,a in tags if t=='link' and a.get('rel')=='alternate'])==4,f
+  assert len([1 for t,a in tags if t=='link' and a.get('rel')=='alternate' and a.get('hreflang')])==4,f
   assert any(t=='meta' and a.get('name')=='description' and a.get('content') for t,a in tags),f
   assert p.schemas,f
  meta={(a.get('property') or a.get('name')):a.get('content') for t,a in tags if t=='meta'}
