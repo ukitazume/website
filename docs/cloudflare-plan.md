@@ -1,6 +1,6 @@
 # MTK SH Cloudflare公開の引き継ぎ
 
-更新日 2026年10月14日
+更新日 2026年10月19日
 
 ## 現在の公開状態
 
@@ -89,6 +89,31 @@ WIWS（What I Wanted to Say）を審査中として追加。日英中の紹介�
 | `wiws-screen-write.png` | `docs/qa/back-to-write/after-step1-after-back.png` | 日本語で日記を書く |
 | `wiws-screen-correction.png` | `output/annual-ink-127/after-light.png` | 添削と日本語の解説 |
 | `wiws-screen-reflection.png` | `output/pr120/after-end.png` | 学習結果の振り返り |
+
+## WIWSの公開版に合わせた紹介文の更新（2026年10月19日）
+
+Linear Y2-123。App Store提出版に合わせて `data/wiws.mjs` の紹介・サポート・プライバシー本文を日英中で書き直した。参照元はアプリの `origin/main` `fb49c86`（docs/00・05・09・16・17、ADR-0007/0008、`FeatureFlags.swift`）。design-policy.md のとおり抽象的な効果の文言は使わず、できることだけを書く。
+
+- 本番ビルドで既定onの機能だけを掲載する: 5ステップ（日本語で書く → 書き起こし案2つ、または日記をそのまま → 自分で英作文 → 修正箇所・日本語解説・CEFR目安の添削 → 最大3枚のフレーズカード）、iOS標準の読み上げ（端末内）、土曜日の週次振り返り、週1枚の「誰かの日記」、4種類のウィジェット、四季のインク、リマインダー、Face ID／Touch IDロック、iCloud Drive。
+- 掲載しないもの（フラグが既定off、または本番で無効）: Standard ¥300/月（`standardPlan`）、Pro年額 ¥5,800（`proYearlyOffer`）、Free（完全ローカル）（`localFree`）、ElevenLabs音声（本番の既定off。ホームの「聴く」ボタンも出ない）、👎フィードバックの送信（`feedbackUpload`）。アプリ側でこれらを有効にしたら、`data/wiws.mjs` の該当箇所（features・faq・price・support・privacy）を同時に更新する。
+- プランの表記: 無料体験は最初の日記から4日間・1日1本・自動課金なし。Pro ¥680/月（1日1本）、Max ¥1,980/月（1日5本）。税込。
+- プライバシーの表記: 添削・単語ヒント・フレーズは整えた日本語と英文を中継サーバー経由で送る。原文を使う質問・書き起こし・週次振り返りは「日記の原文をAIに送信する」（既定オフ）をオンにしたときだけクラウドへ。Apple Intelligenceが使えない端末では常に送信し、アプリが表示する。👍／👎は端末内のみ。
+- 前回コミット（2bbad8f）の `dist/` は `SITE_ORIGIN` なしでビルドされ、canonical・OG画像がSitesプレビューURLになっていた（`validate.py` が落ちる状態）。今回 `SITE_ORIGIN=https://mtk.sh` で再生成した。`dist/` をコミットする前は必ず `SITE_ORIGIN=https://mtk.sh node build.mjs && python3 validate.py` を通す。
+- `releaseStatus: 'in-review'` のまま。確認日 `checked` は `2026-10-19`。
+
+### プレビューと本番反映の手順
+
+1. ブランチ `wiws-release-copy` のPRをレビューする。Before／Afterのスクリーンショット（`/ja/apps/wiws/`・`/en/apps/wiws/`、390px・1280px）はPRに添付。
+2. プレビュー配信（本番には出ない）: `npx wrangler pages deploy dist --project-name=mtk-sh --branch preview`。URLは `https://preview.mtk-sh.pages.dev` と、デプロイごとのハッシュ付きURL。
+3. 本番反映: PRをmainにマージし、`SITE_ORIGIN=https://mtk.sh node build.mjs && python3 validate.py` のあと `npx wrangler pages deploy dist --project-name=mtk-sh --branch main`。`mtk.sh` は `main` の最新デプロイを配信する。
+
+### App Store承認後に行うこと
+
+1. App Storeのページ（`https://apps.apple.com/jp/app/wiws/id6820287706`）が開けることを確認する。
+2. `data/wiws.mjs` の `releaseStatus:'in-review'` を `releaseStatus:'released'` に変える（1行）。これでダウンロードリンク、無料表示、公開バージョン、構造化データの `downloadUrl`／`offers` が有効になり、審査中の表示が消える。
+3. 同じファイルで次を確認・更新する: `checked` の日付、FAQ「いつダウンロードできますか？」（削除または公開済みの文に）、`price` と FAQ「無料で使えますか？」の価格（App Store Connectの実価格と一致させる。年額やStandardを出すならここも）、`wiwsSupport` の各言語の「App Store審査中です」の節とプライバシーの「審査中」の文、ElevenLabsを本番で有効にしていれば音声の節。
+4. `build.mjs` の `facts` は公開後 `'1.0'` を公開バージョンとして表示する。別のバージョンで公開した場合はここも直す。
+5. `SITE_ORIGIN=https://mtk.sh node build.mjs && python3 validate.py` → コミット → `--branch main` で配信。App Store Connect のサポートURL・プライバシーポリシーURLを `https://mtk.sh/ja/apps/wiws/support/`・`https://mtk.sh/ja/apps/wiws/privacy/` に向ける。
 
 ## 公開後に残っている作業
 
