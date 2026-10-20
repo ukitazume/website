@@ -10,7 +10,7 @@ Website languages: Japanese (ja), English (en), Simplified Chinese (zh-Hans). We
 - [DaySlice](https://mtk.sh/en/apps/dayslice/): See a day as one turn of Earth. A gentle visualization of time, with daily check-ins, widgets, and the weather. Status: released.
 - [V-Type](https://mtk.sh/en/apps/v-type/): One drop of water against a world-spanning fleet. A portrait sci-fi action game of momentum, precision, and the instant you break through. Status: released.
 - [Frames](https://mtk.sh/en/apps/frames/): Organize ideas with 67 thinking frameworks, from SWOT and priorities to reflection. Capture what matters and decide on your next step. Status: in-review.
-- [What I Wanted to Say (WIWS)](https://mtk.sh/en/apps/wiws/): Shape your Japanese diary into the sentences you want to say, write your own English with the words you know, and get corrections with explanations in Japanese and up to three phrase cards. Look back on the week every Saturday, and hear your English with the iOS voice. Status: in-review.
+- [What I Wanted to Say (WIWS)](https://mtk.sh/en/apps/wiws/): Shape your Japanese diary into the sentences you want to say, write your own English with the words you know, and get corrections with explanations in Japanese and up to three phrase cards. Look back on the week every Saturday, and hear your English with ElevenLabs cloud voices (optional, separate consent). Status: in-review.
 
 ## Support and privacy
 
@@ -217,7 +217,7 @@ For questions, contact support@mtk.sh.
 
 ### What I Wanted to Say (WIWS)
 
-Shape your Japanese diary into the sentences you want to say, write your own English with the words you know, and get corrections with explanations in Japanese and up to three phrase cards. Look back on the week every Saturday, and hear your English with the iOS voice.
+Shape your Japanese diary into the sentences you want to say, write your own English with the words you know, and get corrections with explanations in Japanese and up to three phrase cards. Look back on the week every Saturday, and hear your English with ElevenLabs cloud voices (optional, separate consent).
 
 One paper-like screen runs five steps: write, prepare, try it in English, read the correction, see the phrases. The AI never writes your English first, and corrections keep your meaning. Diaries stay on your device, with optional storage in your own iCloud Drive.
 
@@ -232,7 +232,7 @@ Features:
 - Write your own English with the words you know. Open a vocabulary hint only when you need one
 - Read the AI correction with marked changes, explanations in Japanese and a CEFR guide. Your meaning is kept
 - See up to three phrase cards from today’s writing (one or two for short entries); they collect in the phrase book
-- Hear the corrected English, your own English, phrases and examples with the iOS system voice, generated on the device
+- Hear the corrected English, your own English, phrases and examples with ElevenLabs cloud voices. Available only after you accept a separate voice consent shown on first playback, and nothing is sent before that (Free, Pro and Max). Generated audio is stored on your device and excluded from iCloud and backups
 - From Saturday, look back on the past week: a summary of what happened, what you learned, corrections and phrases to revisit, and a next step. Optional Saturday 10:00 notification
 - Once a week, a passage from a real English diary appears on the home screen, with word notes and a question to start writing from
 - Home Screen and Lock Screen widgets: today’s progress, this week’s diary quote, a phrase, and 30-day records
@@ -255,7 +255,7 @@ Which devices does it run on?
 iOS 17 or later. On-device processing with Apple’s AI needs iOS 26 and an Apple Intelligence-capable device; other devices use cloud AI, which needs an internet connection. During the free trial, vocabulary hints are available only on devices with Apple’s AI.
 
 Can I listen to my English?
-The corrected English, your own English, phrases and examples each have a play button that reads them aloud with the iOS system voice. Audio is generated on the device; the text is not sent anywhere.
+Yes. The corrected English, your own English, phrases and examples each have a play button that plays them with ElevenLabs cloud voices. It needs a separate voice consent that appears the first time you play (optional; you can withdraw it any time in settings), and your English is not sent anywhere before you agree. After you agree, only the English or phrase being played is sent to ElevenLabs through the developer’s relay. The relay does not store or log the text or the audio, but ElevenLabs normally keeps the text and generated audio under its own policy (the consent screen explains this). Generated audio is stored only on your device and is excluded from iCloud and backups. It works on the Free, Pro and Max plans.
 
 Support: https://mtk.sh/en/apps/wiws/support/
 Currently under App Store review
@@ -265,7 +265,8 @@ Write in Japanese, prepare Japanese that is easier to translate, write your own 
 Resume your writing
 Save unfinished work and reopen the diary from the home screen. You can also revisit saved diaries and phrase cards.
 Listening
-The play buttons on the corrected English, your own English, phrases and examples use the iOS system voice. Audio is generated on the device and the text is not sent anywhere.
+The play buttons on the corrected English, your own English, phrases and examples, and “Listen” on the home screen, play ElevenLabs cloud voices. A separate voice consent appears the first time you play, and nothing is sent until you agree. You can withdraw consent any time in Settings under “Sending and storing audio” (after that no new audio is generated; saved audio still plays). It works on the Free, Pro and Max plans.
+After you agree, only the English or phrase being played is sent to ElevenLabs through the developer’s relay. The relay does not store or log the text or the audio. ElevenLabs normally keeps the text and generated audio; its retention period is not stated as a fixed number of days, and related information may remain in backups for up to 30 days and in logs after history is deleted. Withdrawing consent or deleting audio on your device does not delete ElevenLabs’ history. Generated audio is stored only on your device and is excluded from iCloud and backups; you can delete it in Settings.
 Weekly reflection
 On Saturday, if the past week (Saturday to Friday) has at least one diary with text, “Look back on this week” appears on the home screen. You can create it until the following Friday; the AI runs only when you tap the create button. The result is saved and can be reread later in a sheet. If enabled in settings, a Saturday notification arrives at 10:00 for weeks with entries.
 Diary quotes and widgets
@@ -280,17 +281,19 @@ Reminders and app lock
 Reminders are optional. Face ID, Touch ID, or passcode locking restricts opening the app; it does not protect diary files stored in iCloud.
 
 Privacy: https://mtk.sh/en/apps/wiws/privacy/
-Updated October 19, 2026. This page describes data handling for WIWS, currently under App Store review.
+Updated October 21, 2026. This page describes data handling for WIWS, currently under App Store review.
 Diary storage
 Diaries, English drafts, corrections, phrases and weekly reflections are stored on your device by default. If enabled, they are also stored and synced in your own iCloud Drive. iCloud processing follows Apple’s services and your settings. Nothing is stored on the developer’s servers.
 AI processing
 Corrections, vocabulary hints and phrases send your prepared Japanese and English through the developer’s relay on Cloudflare to cloud AI (Anthropic, with OpenAI as a fallback). Questions, transcription suggestions and the weekly reflection use the original diary and run on the device with Apple’s AI where available. They go to the cloud only when you turn on “Send the original diary to AI” (off by default). On devices without Apple Intelligence the setting is not shown; the original diary is sent to the cloud for questions and transcription, and the app says so. If you use your diary unchanged as writing material, the text sent for correction includes it. Each step shows where processing happens.
+Voice (ElevenLabs)
+Hearing English or phrases with ElevenLabs voices happens only after you accept the separate voice consent in the app (the same on the Free, Pro and Max plans; you can withdraw it any time in Settings). After you agree, when you play, only the English or phrase being played is sent to ElevenLabs through the developer’s relay on Cloudflare. Your original diary, Japanese summary, dates and purchase information are not sent. The relay does not store or log the text or the audio. ElevenLabs normally keeps the text and generated audio and does not state a fixed retention period; related information may remain in backups for up to 30 days and in debugging or abuse-prevention logs after history is deleted, and depending on ElevenLabs’ settings the content may be used to improve its models. Withdrawing consent or deleting audio on your device does not delete ElevenLabs’ history. Generated audio is stored only on your device, excluded from iCloud and backups, and can be deleted in Settings.
 Operational data
 The relay does not store or log diary or English text. Operational aggregates include task, model, plan, outcome, processing time and estimated cost, without text, IP addresses or device identifiers. External AI providers process requests under their own data terms. Your thumbs up or down on a correction is kept on the device only and is not sent in this version.
 On-device only
-The iOS system voice, widgets, the bundled diary-quote data, records (days written, completion rate) and reminders are processed on the device without network access. Widgets never contain diary text and are excluded from iCloud and backups.
+Widgets, the bundled diary-quote data, records (days written, completion rate) and reminders are processed on the device without network access. Widgets never contain diary text and are excluded from iCloud and backups.
 Purchases and abuse prevention
-Apple processes purchases. The relay handles purchase verification, installation identifiers, and usage counts to verify subscriptions, manage trials and quotas, and prevent abuse. The developer does not receive credit card details.
+Apple processes purchases. The relay handles purchase verification, installation identifiers, usage counts, and the number and length of voice requests (never their text) to verify subscriptions, manage trials and quotas, and prevent abuse. The developer does not receive credit card details.
 Reminders, app lock, and contact
 Reminders are scheduled locally. The operating system handles Face ID and Touch ID; the developer does not receive biometric data. App lock does not protect diary files in iCloud. Support email addresses and message content are used to respond and are also processed by the email service.
 Manage or delete diaries within the app, and review Apple’s settings for iCloud copies and backups. Contact support@mtk.sh with data questions. This page will be updated when practices change.
