@@ -1,0 +1,296 @@
+# MTK SH
+
+> Independent iOS apps by MTK SH. Official app descriptions, support guides, and privacy policies.
+
+Website languages: Japanese (ja), English (en), Simplified Chinese (zh-Hans). Website translations do not imply the app supports those languages. Release availability is stated per app; do not assume an app under review is downloadable. Contact: support@mtk.sh.
+
+## Apps
+
+- [ThreeAims](https://mtk.sh/en/apps/threeaims/): A tiny habit assistant. Choose three daily aims and make a little progress with a 5, 10, or 25-minute focus session. Status: released.
+- [DaySlice](https://mtk.sh/en/apps/dayslice/): See a day as one turn of Earth. A gentle visualization of time, with daily check-ins, widgets, and the weather. Status: released.
+- [V-Type](https://mtk.sh/en/apps/v-type/): One drop of water against a world-spanning fleet. A portrait sci-fi action game of momentum, precision, and the instant you break through. Status: released.
+- [Frames](https://mtk.sh/en/apps/frames/): Organize ideas with 67 thinking frameworks, from SWOT and priorities to reflection. Capture what matters and decide on your next step. Status: in-review.
+- [What I Wanted to Say (WIWS)](https://mtk.sh/en/apps/wiws/): Shape your Japanese diary into the sentences you want to say, write your own English with the words you know, and get corrections with explanations in Japanese and up to three phrase cards. Look back on the week every Saturday, and hear your English with the iOS voice. Status: in-review.
+
+## Support and privacy
+
+- [ThreeAims support](https://mtk.sh/en/apps/threeaims/support/): Usage guides and troubleshooting.
+- [ThreeAims privacy](https://mtk.sh/en/apps/threeaims/privacy/): Data handling and contact information.
+- [DaySlice support](https://mtk.sh/en/apps/dayslice/support/): Usage guides and troubleshooting.
+- [DaySlice privacy](https://mtk.sh/en/apps/dayslice/privacy/): Data handling and contact information.
+- [V-Type support](https://mtk.sh/en/apps/v-type/support/): Usage guides and troubleshooting.
+- [V-Type privacy](https://mtk.sh/en/apps/v-type/privacy/): Data handling and contact information.
+- [Frames support](https://mtk.sh/en/apps/frames/support/): Usage guides and troubleshooting.
+- [Frames privacy](https://mtk.sh/en/apps/frames/privacy/): Data handling and contact information.
+- [What I Wanted to Say (WIWS) support](https://mtk.sh/en/apps/wiws/support/): Usage guides and troubleshooting.
+- [What I Wanted to Say (WIWS) privacy](https://mtk.sh/en/apps/wiws/privacy/): Data handling and contact information.
+
+## Machine-readable resources
+
+- [App catalog](https://mtk.sh/assets/app-catalog.json): Localized descriptions, release status, languages, and official links.
+- [Expanded app information](https://mtk.sh/en/llms-full.txt): Features, FAQs, support, and privacy content.
+
+## Other languages
+
+- [ja](https://mtk.sh/ja/llms.txt): App index in ja.
+- [en](https://mtk.sh/en/llms.txt): App index in en.
+- [zh-Hans](https://mtk.sh/zh-Hans/llms.txt): App index in zh-Hans.
+
+## App information
+
+### ThreeAims
+
+A tiny habit assistant. Choose three daily aims and make a little progress with a 5, 10, or 25-minute focus session.
+
+For days when a long to-do list feels too heavy. Pick one of three small aims and begin. Each completed session leaves a small dot in today’s view and your calendar—a quiet record of progress.
+
+Status: released
+Platform: iOS 17.0+
+App languages: English
+The current public version, 1.0, has an English interface.
+
+Features:
+- Exactly three aims each day
+- 5, 10, and 25-minute focus sessions
+- Remaining time on the Lock Screen and Dynamic Island
+- Midday and evening checkpoints, calendar history, and widgets
+
+FAQ:
+Which languages does the app support?
+The interface in public version 1.0 is English. Store descriptions and this website are available in other languages.
+
+Can I choose the focus duration?
+Choose 5, 10, or 25 minutes. See remaining time on your Lock Screen and on Dynamic Island on compatible devices.
+
+Do I need an account?
+No. Your aims and history stay on your device. There are no ads or analytics.
+
+Support: https://mtk.sh/en/apps/threeaims/support/
+Recording your aims
+Write your three aims on TODAY and tap DONE as you finish them. Use CALENDAR to view your recorded days.
+Reminders
+Midday and night reminders use local notifications. Allow notifications in iOS Settings and open the app each day to schedule that day’s reminders.
+Your records
+Your entries are stored on your device. Deleting the app may remove its records.
+
+Privacy: https://mtk.sh/en/apps/threeaims/privacy/
+Effective September 25, 2026.
+3AIMS stores aim text, completion status, checkpoint status, reminder times and visual state locally on your device using iOS storage. The developer does not collect or receive this app data. The app does not require an account and does not include advertising, analytics or tracking SDKs.
+Notification permission is optional. Reminders are scheduled locally on your device. The app does not access your photo library, camera, microphone, contacts or location. Its included photographs were supplied by the developer.
+Device backups may include app data according to your Apple backup settings. Apple processes such backups under its own policies. If you contact support by email, your email address and the information you choose to send are used to respond to your request and are handled by the email providers involved.
+For privacy questions, contact support@mtk.sh. This policy will be updated if the app's data handling changes.
+
+### DaySlice
+
+See a day as one turn of Earth. A gentle visualization of time, with daily check-ins, widgets, and the weather.
+
+A water clock, a sundial, a 100-square map of the year. DaySlice gives time a visible shape, so you can notice where you are in your day and year. Opening the app checks in automatically, and widgets keep today close.
+
+Status: released
+Platform: iOS 17.0+
+App languages: Japanese, English, Chinese & more
+These are the app languages listed on the App Store. This website has Japanese, English, and Simplified Chinese editions.
+
+Features:
+- Day progress as a water clock, sundial, or balance
+- Automatic check-in on your first launch of the day
+- Monthly calendar and Home Screen widgets
+- Current conditions and hourly forecasts from Apple Weather
+
+FAQ:
+Do I have to share my location?
+No. Tokyo is the default weather location. Permission is requested only if you choose local weather, and location is never stored.
+
+How do daily check-ins work?
+Your first launch each day automatically checks you in. Records stay on your device.
+
+What does the Earth rotation count mean?
+It expresses the civil-day count since January 1, year 1 as Earth rotations. It is a calendar-based visualization, not a measurement of Earth’s physical rotation.
+
+Support: https://mtk.sh/en/apps/dayslice/support/
+Daily check-ins
+Opening the app automatically records the day in the app’s calendar on that device. Records stay on your device. No account is required.
+Weather and location
+DaySlice shows real weather data from Apple Weather. Tokyo is the default. Choosing Current Location retrieves local weather if you grant permission. Without location permission, Tokyo weather and the other features remain available. Weather requires an internet connection.
+Weather is unavailable
+Check your internet connection and tap Retry. To use your current location, allow DaySlice to access location in your device’s Settings.
+
+Privacy: https://mtk.sh/en/apps/dayslice/privacy/
+Updated September 25, 2026
+DaySlice stores the dates on which you open the app locally on your device to display your check-in calendar. These records are not sent to a developer-operated server. The app does not require an account and contains no advertising, tracking, or analytics SDKs.
+Weather is provided by Apple WeatherKit. Tokyo is the default location. Only when you choose the current-location option and grant system permission does the app request your location for weather retrieval through Apple WeatherKit. The app does not store a location history or track you in the background. You may revoke location permission in Settings and continue using Tokyo weather and the other features. See Apple’s Privacy Policy for Apple’s data practices.
+Local check-in records remain on your device until the app and its data are deleted. Offloading the app retains its data. System backups follow your device and iCloud settings.
+If you email support, your email address and message are used to respond to your inquiry. This website does not add analytics or tracking scripts; its hosting provider may process connection information necessary to serve and secure the site.
+For questions, contact support@mtk.sh. We will update this page when the app’s data practices change.
+
+### V-Type
+
+One drop of water against a world-spanning fleet. A portrait sci-fi action game of momentum, precision, and the instant you break through.
+
+Drag to guide the droplet. Read the beams, find the opening, and tap to breach. Travel from fighter armor to cityships and planets, with light and sound synchronized at 128 BPM.
+
+Status: released
+Platform: iOS 18.0+
+App languages: Simplified Chinese + English together
+Chinese commands appear alongside compact English subtitles. This is the game’s visual language, not a language switch. The store language field lists English.
+
+Features:
+- One-thumb relative drag controls
+- Tap the breach to move from hull to interior
+- Retreat one scale to recover ENERGY
+- Three cycles and a shape-shifting final machine guardian
+
+FAQ:
+Can I play offline?
+Yes. After downloading, no internet connection or account is required.
+
+Can I switch the interface language?
+Simplified Chinese commands and compact English subtitles appear simultaneously. There is no language-switching mode.
+
+Are there ads or in-app purchases?
+No. The current store description states there are no ads, in-app purchases, or personal-data collection.
+
+Support: https://mtk.sh/en/apps/v-type/support/
+Basic controls
+Drag anywhere on the screen to move the droplet and read enemy and beam trajectories. After defeating the outer-shell enemies, tap the target to enter the breach.
+Controls do not respond
+Tap 開始 / START on the title screen. During play, you can begin dragging from empty space on the screen; you do not need to touch the droplet itself.
+I defeated the enemies but cannot advance
+When the destruction rate reaches 99.999%, the breach opens briefly. Tap the target in the center.
+Low ENERGY
+Move to the top edge of the screen and hold briefly to retreat. Resume from the previous scale and recover 1 ENERGY.
+No sound
+Check your iPhone’s volume and silent-mode settings, and whether audio is being routed to a Bluetooth device.
+
+Privacy: https://mtk.sh/en/apps/v-type/privacy/
+V-Type does not collect personal information, location, contacts, usage history, or advertising identifiers. There are no accounts, ads, in-app purchases, or third-party analytics SDKs. After downloading, you can play without a network connection.
+Privacy policy effective: September 27, 2026. This policy applies to V-Type for iPhone.
+
+### Frames
+
+Organize ideas with 67 thinking frameworks, from SWOT and priorities to reflection. Capture what matters and decide on your next step.
+
+Start with a question on your mind and choose a framework that fits. Prompts and worked examples help you give ideas a shape, then review them as a diagram or list. Export your note or a blank worksheet as a single-page A4 PDF.
+
+Status: in-review
+Platform: iOS 18.0+
+App languages: 12 languages, including English, Japanese & Chinese
+The submitted version supports 12 languages. It follows your device or app language preference and falls back to English for unsupported languages.
+
+Features:
+- 67 frameworks, including SWOT, importance/urgency, and KPT
+- Explanations, prompts, and worked examples to start a blank or sample note
+- Review diagrams and lists, then record key insights and next steps
+- Export notes or blank worksheets as single-page A4 PDFs, or share text
+
+FAQ:
+Can I download Frames now?
+Frames is currently in App Store review. A release date has not been announced.
+
+What can I use the frameworks for?
+Understand a situation, set priorities, compare options, explore causes, reflect, or plan goals. Each framework includes an explanation, prompts, and a worked example.
+
+Can I use it on paper?
+Export your note and summary as a single-page A4 PDF, or print a blank worksheet to fill in by hand. Dense notes use smaller text to fit the page.
+
+Does it work offline?
+Core features and bundled translations work offline. Reference links and sharing destinations may require an internet connection.
+
+Support: https://mtk.sh/en/apps/frames/support/
+Availability
+Frames is currently in App Store review. A release date has not been announced. These guides describe the submitted version.
+Start with a framework or example
+Choose a framework from the catalog and open its worked example, or create a blank note. Add thoughts using the prompts and record your key insights and next steps.
+Saving your notes
+Notes are saved on your device. No account is required. Device-to-device synchronization is not included. Export important notes before removing the app.
+Exporting a PDF
+Open a note and choose the share button, then the PDF export option. A note and its summary fit onto one A4 page; dense notes use smaller text. You can also export a blank worksheet from a framework’s detail screen.
+Working offline
+Core note features and bundled translations work offline. Reference links and destinations you choose when sharing may use external services.
+
+Privacy: https://mtk.sh/en/apps/frames/privacy/
+Original policy updated October 7, 2026. Published on this site October 15, 2026.
+Frames stores your notes on your device and does not require an account. Notes are not sent to the developer by the app. When you export or share a note, the destination you choose handles that content under its own privacy practices.
+If you contact support, your email and the information you provide are used to respond to your request. Avoid including sensitive information that is not needed to explain the issue.
+The hosting provider may process technical request information to serve this page.
+For questions, contact support@mtk.sh.
+
+### What I Wanted to Say (WIWS)
+
+Shape your Japanese diary into the sentences you want to say, write your own English with the words you know, and get corrections with explanations in Japanese and up to three phrase cards. Look back on the week every Saturday, and hear your English with the iOS voice.
+
+One paper-like screen runs five steps: write, prepare, try it in English, read the correction, see the phrases. The AI never writes your English first, and corrections keep your meaning. Diaries stay on your device, with optional storage in your own iCloud Drive.
+
+Status: in-review
+Platform: iOS 17.0+
+App languages: Japanese interface; English learning
+The app’s guidance and correction explanations are in Japanese. English and Chinese website editions do not indicate in-app language support.
+
+Features:
+- Write today’s diary in Japanese. When you are stuck, the AI asks questions; it never writes English for you
+- The AI offers two Japanese transcriptions that are easier to translate; pick one and edit it, or use the diary as it is
+- Write your own English with the words you know. Open a vocabulary hint only when you need one
+- Read the AI correction with marked changes, explanations in Japanese and a CEFR guide. Your meaning is kept
+- See up to three phrase cards from today’s writing (one or two for short entries); they collect in the phrase book
+- Hear the corrected English, your own English, phrases and examples with the iOS system voice, generated on the device
+- From Saturday, look back on the past week: a summary of what happened, what you learned, corrections and phrases to revisit, and a next step. Optional Saturday 10:00 notification
+- Once a week, a passage from a real English diary appears on the home screen, with word notes and a question to start writing from
+- Home Screen and Lock Screen widgets: today’s progress, this week’s diary quote, a phrase, and 30-day records
+- Your English is shown in an ink colour that changes with the month. Optional reminders, Face ID / Touch ID lock, iCloud Drive storage
+
+FAQ:
+When can I download it?
+WIWS is currently under App Store review. A download link will be added after release.
+
+Does the AI write the English for me?
+No. The AI offers Japanese transcriptions and, when you ask, a vocabulary hint; you write the English yourself. Then it corrects your writing and explains the changes in Japanese. The weekly reflection does not write English for you either.
+
+Is there a free option?
+You can use the app free for four days from your first diary, one diary a day, with no automatic charge. After that, saved diaries and phrases stay readable, but new diaries need a paid plan: Pro is ¥680 a month for one diary a day, Max is ¥1,980 a month for up to five (tax included, auto-renewing). Purchase, restore and cancel through the app’s plan screen and Apple’s subscription settings.
+
+Does my diary leave my device?
+Diaries are stored on your device or in your own iCloud Drive, never on the developer’s servers. Corrections, hints and phrases send your prepared Japanese and English to cloud AI through the developer’s relay. Questions, transcription and the weekly reflection use the original diary and send it to the cloud only when you turn on “Send the original diary to AI” (off by default). Devices without Apple Intelligence always send it, and the app tells you. Each step shows where processing happens.
+
+Which devices does it run on?
+iOS 17 or later. On-device processing with Apple’s AI needs iOS 26 and an Apple Intelligence-capable device; other devices use cloud AI, which needs an internet connection. During the free trial, vocabulary hints are available only on devices with Apple’s AI.
+
+Can I listen to my English?
+The corrected English, your own English, phrases and examples each have a play button that reads them aloud with the iOS system voice. Audio is generated on the device; the text is not sent anywhere.
+
+Support: https://mtk.sh/en/apps/wiws/support/
+Currently under App Store review
+This is a pre-release guide. A download link will be added after launch. Check the app for features and plan terms at release.
+Your five-step learning loop
+Write in Japanese, prepare Japanese that is easier to translate, write your own English, read the AI correction, and see today’s phrases. The AI is used for questions when you are stuck, transcription suggestions, vocabulary hints, corrections and phrase extraction; it never writes your English first. AI feedback may contain errors.
+Resume your writing
+Save unfinished work and reopen the diary from the home screen. You can also revisit saved diaries and phrase cards.
+Listening
+The play buttons on the corrected English, your own English, phrases and examples use the iOS system voice. Audio is generated on the device and the text is not sent anywhere.
+Weekly reflection
+On Saturday, if the past week (Saturday to Friday) has at least one diary with text, “Look back on this week” appears on the home screen. You can create it until the following Friday; the AI runs only when you tap the create button. The result is saved and can be reread later in a sheet. If enabled in settings, a Saturday notification arrives at 10:00 for weeks with entries.
+Diary quotes and widgets
+The “Someone’s diary” card on the home screen is a passage from a real English diary bundled with the app, changing every week. Press and hold to hide it for the week. Four widgets are available from the widget gallery: today’s entry, this week’s diary quote, a phrase, and records. They never show diary text, and the phrase widget is hidden while Face ID lock is on.
+When AI is unavailable
+Check your connection, Apple Intelligence availability, plan, and usage limits. Your existing text is retained. Questions fall back to a bundled set, and transcription falls back to writing it yourself. Cloud AI requires an internet connection.
+Storage and iCloud
+Diaries are stored on your device by default. You may enable iCloud Drive storage and sync in settings. Check that important entries are saved before removing the app or changing storage.
+Trial and subscriptions
+You can use the app free for four days from your first diary, one diary a day, without automatic charging. Pro (¥680 a month, one diary a day) and Max (¥1,980 a month, five diaries a day) are auto-renewing subscriptions. Purchase, restore and manage them from the app’s plan screen and Apple’s subscription settings. The daily diary allowance resets at midnight local time and is not returned when you delete a diary. Saved diaries and phrases remain readable and editable after a trial or subscription ends.
+Reminders and app lock
+Reminders are optional. Face ID, Touch ID, or passcode locking restricts opening the app; it does not protect diary files stored in iCloud.
+
+Privacy: https://mtk.sh/en/apps/wiws/privacy/
+Updated October 19, 2026. This page describes data handling for WIWS, currently under App Store review.
+Diary storage
+Diaries, English drafts, corrections, phrases and weekly reflections are stored on your device by default. If enabled, they are also stored and synced in your own iCloud Drive. iCloud processing follows Apple’s services and your settings. Nothing is stored on the developer’s servers.
+AI processing
+Corrections, vocabulary hints and phrases send your prepared Japanese and English through the developer’s relay on Cloudflare to cloud AI (Anthropic, with OpenAI as a fallback). Questions, transcription suggestions and the weekly reflection use the original diary and run on the device with Apple’s AI where available. They go to the cloud only when you turn on “Send the original diary to AI” (off by default). On devices without Apple Intelligence the setting is not shown; the original diary is sent to the cloud for questions and transcription, and the app says so. If you use your diary unchanged as writing material, the text sent for correction includes it. Each step shows where processing happens.
+Operational data
+The relay does not store or log diary or English text. Operational aggregates include task, model, plan, outcome, processing time and estimated cost, without text, IP addresses or device identifiers. External AI providers process requests under their own data terms. Your thumbs up or down on a correction is kept on the device only and is not sent in this version.
+On-device only
+The iOS system voice, widgets, the bundled diary-quote data, records (days written, completion rate) and reminders are processed on the device without network access. Widgets never contain diary text and are excluded from iCloud and backups.
+Purchases and abuse prevention
+Apple processes purchases. The relay handles purchase verification, installation identifiers, and usage counts to verify subscriptions, manage trials and quotas, and prevent abuse. The developer does not receive credit card details.
+Reminders, app lock, and contact
+Reminders are scheduled locally. The operating system handles Face ID and Touch ID; the developer does not receive biometric data. App lock does not protect diary files in iCloud. Support email addresses and message content are used to respond and are also processed by the email service.
+Manage or delete diaries within the app, and review Apple’s settings for iCloud copies and backups. Contact support@mtk.sh with data questions. This page will be updated when practices change.

@@ -1,0 +1,320 @@
+{
+  "ja": [
+    {
+      "slug": "threeaims",
+      "name": "ThreeAims",
+      "category": "productivity",
+      "description": "今日やることは、ちょうど3つだけ。5分・10分・25分の集中時間で、小さな一歩を積み重ねる習慣アシスタント。",
+      "features": [
+        "毎日の目標を3つに絞る",
+        "5分・10分・25分の集中タイマー",
+        "ロックスクリーンとDynamic Islandに残り時間を表示",
+        "昼と夜の振り返り、カレンダー履歴、ウィジェット"
+      ],
+      "releaseStatus": "released",
+      "operatingSystem": "iOS 17.0+",
+      "appLanguages": "英語",
+      "languageNote": "現在の公開版1.0のアプリ内表示は英語です。この日本語ページはアプリの紹介です。",
+      "url": "https://mtk.sh/ja/apps/threeaims/",
+      "supportUrl": "https://mtk.sh/ja/apps/threeaims/support/",
+      "privacyUrl": "https://mtk.sh/ja/apps/threeaims/privacy/",
+      "appStoreUrl": "https://apps.apple.com/jp/app/threeaims/id6760964181"
+    },
+    {
+      "slug": "dayslice",
+      "name": "DaySlice",
+      "category": "lifestyle",
+      "description": "一日を、地球のひと回りとして眺める。時間の流れ、日々のチェックイン、天気をひとつにまとめた可視化アプリ。",
+      "features": [
+        "水時計・日時計・天秤で一日の進行を可視化",
+        "毎日最初の起動で自動チェックイン",
+        "月間カレンダーとホーム画面ウィジェット",
+        "Apple Weatherの天気・気温・時間ごとの予報"
+      ],
+      "releaseStatus": "released",
+      "operatingSystem": "iOS 17.0+",
+      "appLanguages": "日本語・英語・中国語など",
+      "languageNote": "App Storeに記載されたアプリの対応言語です。サイトの紹介ページは日本語・英語・簡体字中国語に対応しています。",
+      "url": "https://mtk.sh/ja/apps/dayslice/",
+      "supportUrl": "https://mtk.sh/ja/apps/dayslice/support/",
+      "privacyUrl": "https://mtk.sh/ja/apps/dayslice/privacy/",
+      "appStoreUrl": "https://apps.apple.com/jp/app/dayslice/id6760980409"
+    },
+    {
+      "slug": "v-type",
+      "name": "V-Type",
+      "category": "game",
+      "description": "たった一滴の水で、巨大艦隊を突破する。ドラッグとタップで尺度を越えていく、片手縦持ちSFアクション。",
+      "features": [
+        "片手で遊べる相対ドラッグ操作",
+        "突破口をタップして、外殻から内部へ",
+        "ひとつ前の尺度へ撤離してENERGYを回復",
+        "3つの周回と、姿を変える最終機械守衛"
+      ],
+      "releaseStatus": "released",
+      "operatingSystem": "iOS 18.0+",
+      "appLanguages": "簡体字中国語＋英語を同時表示",
+      "languageNote": "中国語のコマンドと短い英語字幕を併記する演出です。言語の切り替え機能ではありません。ストアの言語欄は「英語」と記載されています。",
+      "url": "https://mtk.sh/ja/apps/v-type/",
+      "supportUrl": "https://mtk.sh/ja/apps/v-type/support/",
+      "privacyUrl": "https://mtk.sh/ja/apps/v-type/privacy/",
+      "appStoreUrl": "https://apps.apple.com/jp/app/v-type/id6816557016"
+    },
+    {
+      "slug": "frames",
+      "name": "Frames",
+      "category": "thinking",
+      "description": "SWOT、優先順位、振り返り。67種類のフレームと問いで考えを整理し、次の一歩を残すノートアプリ。",
+      "features": [
+        "SWOT・重要度×緊急度・KPTなど67種類の思考フレーム",
+        "説明・問い・記入例から、白紙またはサンプルで始める",
+        "全体図と一覧で整理し、大切な気づきと次の一歩を記録",
+        "ノート・白紙ワークシートをA4一枚のPDFに出力、テキスト共有にも対応"
+      ],
+      "releaseStatus": "in-review",
+      "operatingSystem": "iOS 18.0+",
+      "appLanguages": "日本語・英語・中国語など12言語",
+      "languageNote": "審査提出版は、日本語・英語を含む12言語に対応しています。端末またはアプリの優先言語を使用し、対応していない言語では英語を表示します。",
+      "url": "https://mtk.sh/ja/apps/frames/",
+      "supportUrl": "https://mtk.sh/ja/apps/frames/support/",
+      "privacyUrl": "https://mtk.sh/ja/apps/frames/privacy/"
+    },
+    {
+      "slug": "wiws",
+      "name": "What I Wanted to Say (WIWS)",
+      "category": "learning",
+      "description": "日本語の日記から英語にしたい文を整え、知っている単語で自分の英文を書く。AIが修正箇所と日本語の解説を返し、今日のフレーズを最大3つのカードにします。土曜日には1週間の振り返り、英文とフレーズはiOSの読み上げで聴けます。",
+      "features": [
+        "今日の出来事を日本語で書く。書けないときはAIが質問で促す（英文は書かない）",
+        "AIが英語にしやすい日本語の書き起こし案を2つ出し、選んで直す。日記をそのまま使うこともできる",
+        "知っている単語で自分の英文を書く。詰まったときだけ単語ヒントを見る",
+        "AIの添削を、修正箇所・日本語の解説・CEFRの目安で読む。意味は変えない",
+        "今日のフレーズを最大3枚のカードで見る（短い英文なら1〜2枚）。フレーズ帳にたまる",
+        "添削後の英文・自分の英文・フレーズ・例文を、iOS標準の読み上げで聴く（端末内で音声化）",
+        "土曜日から1週間を振り返る。出来事のまとめ、学び、見直したい添削とフレーズ、次の一歩。任意で土曜10時の通知",
+        "週に1枚、実在の英語日記の一節をホームに表示。語注を読み、その問いから書き始められる",
+        "ホーム画面・ロック画面のウィジェット：今日の進み具合、今週の誰かの日記、フレーズ、30日の記録",
+        "英文の色は月ごとに変わる四季のインク。任意のリマインダー、Face ID／Touch IDロック、iCloud Drive保存"
+      ],
+      "releaseStatus": "in-review",
+      "operatingSystem": "iOS 17.0+",
+      "appLanguages": "日本語（学習対象は英語）",
+      "languageNote": "アプリの案内と添削の解説は日本語です。英語・中国語の紹介ページは、アプリ内の対応言語を示すものではありません。",
+      "url": "https://mtk.sh/ja/apps/wiws/",
+      "supportUrl": "https://mtk.sh/ja/apps/wiws/support/",
+      "privacyUrl": "https://mtk.sh/ja/apps/wiws/privacy/"
+    }
+  ],
+  "en": [
+    {
+      "slug": "threeaims",
+      "name": "ThreeAims",
+      "category": "productivity",
+      "description": "A tiny habit assistant. Choose three daily aims and make a little progress with a 5, 10, or 25-minute focus session.",
+      "features": [
+        "Exactly three aims each day",
+        "5, 10, and 25-minute focus sessions",
+        "Remaining time on the Lock Screen and Dynamic Island",
+        "Midday and evening checkpoints, calendar history, and widgets"
+      ],
+      "releaseStatus": "released",
+      "operatingSystem": "iOS 17.0+",
+      "appLanguages": "English",
+      "languageNote": "The current public version, 1.0, has an English interface.",
+      "url": "https://mtk.sh/en/apps/threeaims/",
+      "supportUrl": "https://mtk.sh/en/apps/threeaims/support/",
+      "privacyUrl": "https://mtk.sh/en/apps/threeaims/privacy/",
+      "appStoreUrl": "https://apps.apple.com/us/app/threeaims/id6760964181"
+    },
+    {
+      "slug": "dayslice",
+      "name": "DaySlice",
+      "category": "lifestyle",
+      "description": "See a day as one turn of Earth. A gentle visualization of time, with daily check-ins, widgets, and the weather.",
+      "features": [
+        "Day progress as a water clock, sundial, or balance",
+        "Automatic check-in on your first launch of the day",
+        "Monthly calendar and Home Screen widgets",
+        "Current conditions and hourly forecasts from Apple Weather"
+      ],
+      "releaseStatus": "released",
+      "operatingSystem": "iOS 17.0+",
+      "appLanguages": "Japanese, English, Chinese & more",
+      "languageNote": "These are the app languages listed on the App Store. This website has Japanese, English, and Simplified Chinese editions.",
+      "url": "https://mtk.sh/en/apps/dayslice/",
+      "supportUrl": "https://mtk.sh/en/apps/dayslice/support/",
+      "privacyUrl": "https://mtk.sh/en/apps/dayslice/privacy/",
+      "appStoreUrl": "https://apps.apple.com/us/app/dayslice/id6760980409"
+    },
+    {
+      "slug": "v-type",
+      "name": "V-Type",
+      "category": "game",
+      "description": "One drop of water against a world-spanning fleet. A portrait sci-fi action game of momentum, precision, and the instant you break through.",
+      "features": [
+        "One-thumb relative drag controls",
+        "Tap the breach to move from hull to interior",
+        "Retreat one scale to recover ENERGY",
+        "Three cycles and a shape-shifting final machine guardian"
+      ],
+      "releaseStatus": "released",
+      "operatingSystem": "iOS 18.0+",
+      "appLanguages": "Simplified Chinese + English together",
+      "languageNote": "Chinese commands appear alongside compact English subtitles. This is the game’s visual language, not a language switch. The store language field lists English.",
+      "url": "https://mtk.sh/en/apps/v-type/",
+      "supportUrl": "https://mtk.sh/en/apps/v-type/support/",
+      "privacyUrl": "https://mtk.sh/en/apps/v-type/privacy/",
+      "appStoreUrl": "https://apps.apple.com/us/app/v-type/id6816557016"
+    },
+    {
+      "slug": "frames",
+      "name": "Frames",
+      "category": "thinking",
+      "description": "Organize ideas with 67 thinking frameworks, from SWOT and priorities to reflection. Capture what matters and decide on your next step.",
+      "features": [
+        "67 frameworks, including SWOT, importance/urgency, and KPT",
+        "Explanations, prompts, and worked examples to start a blank or sample note",
+        "Review diagrams and lists, then record key insights and next steps",
+        "Export notes or blank worksheets as single-page A4 PDFs, or share text"
+      ],
+      "releaseStatus": "in-review",
+      "operatingSystem": "iOS 18.0+",
+      "appLanguages": "12 languages, including English, Japanese & Chinese",
+      "languageNote": "The submitted version supports 12 languages. It follows your device or app language preference and falls back to English for unsupported languages.",
+      "url": "https://mtk.sh/en/apps/frames/",
+      "supportUrl": "https://mtk.sh/en/apps/frames/support/",
+      "privacyUrl": "https://mtk.sh/en/apps/frames/privacy/"
+    },
+    {
+      "slug": "wiws",
+      "name": "What I Wanted to Say (WIWS)",
+      "category": "learning",
+      "description": "Shape your Japanese diary into the sentences you want to say, write your own English with the words you know, and get corrections with explanations in Japanese and up to three phrase cards. Look back on the week every Saturday, and hear your English with the iOS voice.",
+      "features": [
+        "Write today’s diary in Japanese. When you are stuck, the AI asks questions; it never writes English for you",
+        "The AI offers two Japanese transcriptions that are easier to translate; pick one and edit it, or use the diary as it is",
+        "Write your own English with the words you know. Open a vocabulary hint only when you need one",
+        "Read the AI correction with marked changes, explanations in Japanese and a CEFR guide. Your meaning is kept",
+        "See up to three phrase cards from today’s writing (one or two for short entries); they collect in the phrase book",
+        "Hear the corrected English, your own English, phrases and examples with the iOS system voice, generated on the device",
+        "From Saturday, look back on the past week: a summary of what happened, what you learned, corrections and phrases to revisit, and a next step. Optional Saturday 10:00 notification",
+        "Once a week, a passage from a real English diary appears on the home screen, with word notes and a question to start writing from",
+        "Home Screen and Lock Screen widgets: today’s progress, this week’s diary quote, a phrase, and 30-day records",
+        "Your English is shown in an ink colour that changes with the month. Optional reminders, Face ID / Touch ID lock, iCloud Drive storage"
+      ],
+      "releaseStatus": "in-review",
+      "operatingSystem": "iOS 17.0+",
+      "appLanguages": "Japanese interface; English learning",
+      "languageNote": "The app’s guidance and correction explanations are in Japanese. English and Chinese website editions do not indicate in-app language support.",
+      "url": "https://mtk.sh/en/apps/wiws/",
+      "supportUrl": "https://mtk.sh/en/apps/wiws/support/",
+      "privacyUrl": "https://mtk.sh/en/apps/wiws/privacy/"
+    }
+  ],
+  "zh-Hans": [
+    {
+      "slug": "threeaims",
+      "name": "ThreeAims",
+      "category": "productivity",
+      "description": "一个微习惯助手。每天选择三个小目标，用5、10或25分钟的专注，积累小小的进步。",
+      "features": [
+        "每天恰好三个目标",
+        "5、10或25分钟的专注计时",
+        "锁定屏幕和灵动岛显示剩余时间",
+        "午间与晚间回顾、日历历史和小组件"
+      ],
+      "releaseStatus": "released",
+      "operatingSystem": "iOS 17.0+",
+      "appLanguages": "英语",
+      "languageNote": "当前公开版本1.0的应用内界面为英语。本页为中文介绍。",
+      "url": "https://mtk.sh/zh-Hans/apps/threeaims/",
+      "supportUrl": "https://mtk.sh/zh-Hans/apps/threeaims/support/",
+      "privacyUrl": "https://mtk.sh/zh-Hans/apps/threeaims/privacy/",
+      "appStoreUrl": "https://apps.apple.com/cn/app/threeaims/id6760964181"
+    },
+    {
+      "slug": "dayslice",
+      "name": "DaySlice",
+      "category": "lifestyle",
+      "description": "把一天看作地球的一次转动。用温柔的时间可视化、每日打卡、小组件和天气，感受今天。",
+      "features": [
+        "用水钟、日晷或天平呈现一天进度",
+        "每天首次打开时自动打卡",
+        "月历与主屏幕小组件",
+        "Apple Weather 当前天气与逐小时预报"
+      ],
+      "releaseStatus": "released",
+      "operatingSystem": "iOS 17.0+",
+      "appLanguages": "日语、英语、中文等",
+      "languageNote": "此处列出的是 App Store 标注的应用支持语言。本网站提供日语、英语和简体中文介绍。",
+      "url": "https://mtk.sh/zh-Hans/apps/dayslice/",
+      "supportUrl": "https://mtk.sh/zh-Hans/apps/dayslice/support/",
+      "privacyUrl": "https://mtk.sh/zh-Hans/apps/dayslice/privacy/",
+      "appStoreUrl": "https://apps.apple.com/cn/app/dayslice/id6760980409"
+    },
+    {
+      "slug": "v-type",
+      "name": "V-Type",
+      "category": "game",
+      "description": "以一滴水，突破覆盖世界的巨大舰队。用拖动与点击掌握惯性，抓住转瞬即逝的突破机会。",
+      "features": [
+        "单手即可操作的相对拖动控制",
+        "点击突破口，从外壳深入内部",
+        "撤回上一尺度以恢复 ENERGY",
+        "三个循环与不断变形的最终机械守卫"
+      ],
+      "releaseStatus": "released",
+      "operatingSystem": "iOS 18.0+",
+      "appLanguages": "简体中文与英语同时显示",
+      "languageNote": "中文指令与简短英文字幕同时呈现，这是游戏的视觉风格，并非语言切换功能。商店语言栏标注为英语。中文页面不代表应用在中国大陆商店上架。",
+      "url": "https://mtk.sh/zh-Hans/apps/v-type/",
+      "supportUrl": "https://mtk.sh/zh-Hans/apps/v-type/support/",
+      "privacyUrl": "https://mtk.sh/zh-Hans/apps/v-type/privacy/",
+      "appStoreUrl": "https://apps.apple.com/us/app/v-type/id6816557016"
+    },
+    {
+      "slug": "frames",
+      "name": "Frames",
+      "category": "thinking",
+      "description": "用SWOT、优先级、复盘等67种思考框架与引导问题，整理想法，记录重要发现与下一步行动。",
+      "features": [
+        "67种思考框架，包括SWOT、重要度×紧急度和KPT",
+        "每种框架附带说明、引导问题与填写示例",
+        "用全图与列表整理想法，记录重要发现和下一步",
+        "将笔记或空白练习表导出为A4单页PDF，也可分享文本"
+      ],
+      "releaseStatus": "in-review",
+      "operatingSystem": "iOS 18.0+",
+      "appLanguages": "中文、英语、日语等12种语言",
+      "languageNote": "提交审核的版本支持12种语言。应用使用设备或应用的首选语言；不支持的语言会回退为英语。",
+      "url": "https://mtk.sh/zh-Hans/apps/frames/",
+      "supportUrl": "https://mtk.sh/zh-Hans/apps/frames/support/",
+      "privacyUrl": "https://mtk.sh/zh-Hans/apps/frames/privacy/"
+    },
+    {
+      "slug": "wiws",
+      "name": "What I Wanted to Say (WIWS)",
+      "category": "learning",
+      "description": "把日语日记整理成想表达的句子，用自己知道的单词写英语，由AI标出修改处、用日语讲解，并生成最多3张短语卡片。每周六回顾一周，英文和短语可用iOS语音朗读。",
+      "features": [
+        "用日语写下今天的事。写不出来时AI会提问引导，但不会替你写英语",
+        "AI给出两个便于翻译的日语改写方案，选择后可修改；也可以直接使用原日记",
+        "用自己知道的单词写英语。卡住时才查看单词提示",
+        "阅读AI批改：标出的修改处、日语讲解和CEFR参考。不改变你的原意",
+        "查看今天最多3张短语卡片（英文较短时为1〜2张），自动收进短语本",
+        "用iOS系统语音朗读批改后的英文、自己的英文、短语和例句，语音在设备上生成",
+        "从周六起回顾过去一周：事件小结、学到的内容、值得重看的批改和短语、下一步。可选周六10点的通知",
+        "每周在首页显示一段真实的英语日记，附词汇注释，可从其中的提问开始写作",
+        "主屏幕和锁定屏幕小组件：今天的进度、本周的他人日记、短语、30天记录",
+        "英文颜色随月份变化的四季墨色。可选提醒、Face ID／Touch ID锁定、iCloud Drive保存"
+      ],
+      "releaseStatus": "in-review",
+      "operatingSystem": "iOS 17.0+",
+      "appLanguages": "日语界面，学习目标为英语",
+      "languageNote": "应用内的说明和批改讲解为日语。网站提供英语和中文介绍，并不表示应用支持这些界面语言。",
+      "url": "https://mtk.sh/zh-Hans/apps/wiws/",
+      "supportUrl": "https://mtk.sh/zh-Hans/apps/wiws/support/",
+      "privacyUrl": "https://mtk.sh/zh-Hans/apps/wiws/privacy/"
+    }
+  ]
+}

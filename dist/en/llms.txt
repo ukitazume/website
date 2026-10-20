@@ -1,0 +1,37 @@
+# MTK SH
+
+> Independent iOS apps by MTK SH. Official app descriptions, support guides, and privacy policies.
+
+Website languages: Japanese (ja), English (en), Simplified Chinese (zh-Hans). Website translations do not imply the app supports those languages. Release availability is stated per app; do not assume an app under review is downloadable. Contact: support@mtk.sh.
+
+## Apps
+
+- [ThreeAims](https://mtk.sh/en/apps/threeaims/): A tiny habit assistant. Choose three daily aims and make a little progress with a 5, 10, or 25-minute focus session. Status: released.
+- [DaySlice](https://mtk.sh/en/apps/dayslice/): See a day as one turn of Earth. A gentle visualization of time, with daily check-ins, widgets, and the weather. Status: released.
+- [V-Type](https://mtk.sh/en/apps/v-type/): One drop of water against a world-spanning fleet. A portrait sci-fi action game of momentum, precision, and the instant you break through. Status: released.
+- [Frames](https://mtk.sh/en/apps/frames/): Organize ideas with 67 thinking frameworks, from SWOT and priorities to reflection. Capture what matters and decide on your next step. Status: in-review.
+- [What I Wanted to Say (WIWS)](https://mtk.sh/en/apps/wiws/): Shape your Japanese diary into the sentences you want to say, write your own English with the words you know, and get corrections with explanations in Japanese and up to three phrase cards. Look back on the week every Saturday, and hear your English with the iOS voice. Status: in-review.
+
+## Support and privacy
+
+- [ThreeAims support](https://mtk.sh/en/apps/threeaims/support/): Usage guides and troubleshooting.
+- [ThreeAims privacy](https://mtk.sh/en/apps/threeaims/privacy/): Data handling and contact information.
+- [DaySlice support](https://mtk.sh/en/apps/dayslice/support/): Usage guides and troubleshooting.
+- [DaySlice privacy](https://mtk.sh/en/apps/dayslice/privacy/): Data handling and contact information.
+- [V-Type support](https://mtk.sh/en/apps/v-type/support/): Usage guides and troubleshooting.
+- [V-Type privacy](https://mtk.sh/en/apps/v-type/privacy/): Data handling and contact information.
+- [Frames support](https://mtk.sh/en/apps/frames/support/): Usage guides and troubleshooting.
+- [Frames privacy](https://mtk.sh/en/apps/frames/privacy/): Data handling and contact information.
+- [What I Wanted to Say (WIWS) support](https://mtk.sh/en/apps/wiws/support/): Usage guides and troubleshooting.
+- [What I Wanted to Say (WIWS) privacy](https://mtk.sh/en/apps/wiws/privacy/): Data handling and contact information.
+
+## Machine-readable resources
+
+- [App catalog](https://mtk.sh/assets/app-catalog.json): Localized descriptions, release status, languages, and official links.
+- [Expanded app information](https://mtk.sh/en/llms-full.txt): Features, FAQs, support, and privacy content.
+
+## Other languages
+
+- [ja](https://mtk.sh/ja/llms.txt): App index in ja.
+- [en](https://mtk.sh/en/llms.txt): App index in en.
+- [zh-Hans](https://mtk.sh/zh-Hans/llms.txt): App index in zh-Hans.

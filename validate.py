@@ -18,7 +18,7 @@ for f in root.rglob('*.html'):
  assert len([t for t,a in tags if t=='h1'])==1,f
  if f.name!='404.html':
   assert len([1 for t,a in tags if t=='link' and a.get('rel')=='canonical'])==1,f
-  assert len([1 for t,a in tags if t=='link' and a.get('rel')=='alternate'])==4,f
+  assert len([1 for t,a in tags if t=='link' and a.get('rel')=='alternate' and a.get('hreflang')])==4,f
   assert any(t=='meta' and a.get('name')=='description' and a.get('content') for t,a in tags),f
   assert p.schemas,f
  meta={(a.get('property') or a.get('name')):a.get('content') for t,a in tags if t=='meta'}
@@ -45,3 +45,19 @@ for node in ET.parse(root/'sitemap.xml').getroot():
  url=node.find('{*}loc').text
  assert (root/urlsplit(url).path.lstrip('/')/'index.html').exists(),url
 print(f'PASS: {count} HTML pages, {links} internal links/assets, {len(ET.parse(root/"sitemap.xml").getroot())} sitemap entries, canonical/hreflang and JSON-LD.')
+
+catalog=json.loads((root/'assets/app-catalog.json').read_text())
+for locale,apps in catalog.items():
+ assert len(apps)==5,(locale,len(apps))
+ for app in apps:
+  for key in ['url','supportUrl','privacyUrl']:
+   assert app[key].startswith('https://mtk.sh/'),app[key]
+   assert (root/urlsplit(app[key]).path.lstrip('/')/'index.html').exists(),app[key]
+  if app['releaseStatus']!='released':assert 'appStoreUrl' not in app,app
+for locale in ['',*catalog.keys()]:
+ for name in ['llms.txt','llms-full.txt']:
+  text=(root/locale/name).read_text()
+  assert text.startswith('# MTK SH\n\n> '),(locale,name)
+  assert 'chatgpt.site' not in text,(locale,name)
+  for app in catalog['en']:assert app['name'] in text,(locale,name,app['name'])
+print('PASS: localized LLM indexes, expanded content, catalog links and release status.')
