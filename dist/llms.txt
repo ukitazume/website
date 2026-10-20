@@ -10,7 +10,7 @@ Website languages: Japanese (ja), English (en), Simplified Chinese (zh-Hans). We
 - [DaySlice](https://mtk.sh/en/apps/dayslice/): See a day as one turn of Earth. A gentle visualization of time, with daily check-ins, widgets, and the weather. Status: released.
 - [V-Type](https://mtk.sh/en/apps/v-type/): One drop of water against a world-spanning fleet. A portrait sci-fi action game of momentum, precision, and the instant you break through. Status: released.
 - [Frames](https://mtk.sh/en/apps/frames/): Organize ideas with 67 thinking frameworks, from SWOT and priorities to reflection. Capture what matters and decide on your next step. Status: in-review.
-- [What I Wanted to Say (WIWS)](https://mtk.sh/en/apps/wiws/): Shape your Japanese diary into the sentences you want to say, write your own English with the words you know, and get corrections with explanations in Japanese and up to three phrase cards. Look back on the week every Saturday, and hear your English with the iOS voice. Status: in-review.
+- [What I Wanted to Say (WIWS)](https://mtk.sh/en/apps/wiws/): Shape your Japanese diary into the sentences you want to say, write your own English with the words you know, and get corrections with explanations in Japanese and up to three phrase cards. Look back on the week every Saturday, and hear your English with ElevenLabs cloud voices (optional, separate consent). Status: in-review.
 
 ## Support and privacy
 

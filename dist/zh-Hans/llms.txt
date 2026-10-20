@@ -10,7 +10,7 @@ Website languages: Japanese (ja), English (en), Simplified Chinese (zh-Hans). We
 - [DaySlice](https://mtk.sh/zh-Hans/apps/dayslice/): 把一天看作地球的一次转动。用温柔的时间可视化、每日打卡、小组件和天气，感受今天。 Status: released.
 - [V-Type](https://mtk.sh/zh-Hans/apps/v-type/): 以一滴水，突破覆盖世界的巨大舰队。用拖动与点击掌握惯性，抓住转瞬即逝的突破机会。 Status: released.
 - [Frames](https://mtk.sh/zh-Hans/apps/frames/): 用SWOT、优先级、复盘等67种思考框架与引导问题，整理想法，记录重要发现与下一步行动。 Status: in-review.
-- [What I Wanted to Say (WIWS)](https://mtk.sh/zh-Hans/apps/wiws/): 把日语日记整理成想表达的句子，用自己知道的单词写英语，由AI标出修改处、用日语讲解，并生成最多3张短语卡片。每周六回顾一周，英文和短语可用iOS语音朗读。 Status: in-review.
+- [What I Wanted to Say (WIWS)](https://mtk.sh/zh-Hans/apps/wiws/): 把日语日记整理成想表达的句子，用自己知道的单词写英语，由AI标出修改处、用日语讲解，并生成最多3张短语卡片。每周六回顾一周，英文和短语可用ElevenLabs云端语音朗读（可选，需另行同意）。 Status: in-review.
 
 ## Support and privacy
 

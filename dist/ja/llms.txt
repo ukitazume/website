@@ -10,7 +10,7 @@ Website languages: Japanese (ja), English (en), Simplified Chinese (zh-Hans). We
 - [DaySlice](https://mtk.sh/ja/apps/dayslice/): 一日を、地球のひと回りとして眺める。時間の流れ、日々のチェックイン、天気をひとつにまとめた可視化アプリ。 Status: released.
 - [V-Type](https://mtk.sh/ja/apps/v-type/): たった一滴の水で、巨大艦隊を突破する。ドラッグとタップで尺度を越えていく、片手縦持ちSFアクション。 Status: released.
 - [Frames](https://mtk.sh/ja/apps/frames/): SWOT、優先順位、振り返り。67種類のフレームと問いで考えを整理し、次の一歩を残すノートアプリ。 Status: in-review.
-- [What I Wanted to Say (WIWS)](https://mtk.sh/ja/apps/wiws/): 日本語の日記から英語にしたい文を整え、知っている単語で自分の英文を書く。AIが修正箇所と日本語の解説を返し、今日のフレーズを最大3つのカードにします。土曜日には1週間の振り返り、英文とフレーズはiOSの読み上げで聴けます。 Status: in-review.
+- [What I Wanted to Say (WIWS)](https://mtk.sh/ja/apps/wiws/): 日本語の日記から英語にしたい文を整え、知っている単語で自分の英文を書く。AIが修正箇所と日本語の解説を返し、今日のフレーズを最大3つのカードにします。土曜日には1週間の振り返り、英文とフレーズはElevenLabsのクラウド音声（任意・別の同意が必要）で聴けます。 Status: in-review.
 
 ## Support and privacy
 
